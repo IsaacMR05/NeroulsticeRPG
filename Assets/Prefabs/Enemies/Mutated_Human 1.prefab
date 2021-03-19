@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1544392050510859811
+--- !u!1 &337723012995900324
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,38 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1518776034747457657}
-  - component: {fileID: 6859345371631949206}
-  - component: {fileID: 6951697326989933565}
-  - component: {fileID: 8390908634185215695}
+  - component: {fileID: 337723012995900323}
+  - component: {fileID: 337723012995900322}
+  - component: {fileID: 7527432153126624312}
+  - component: {fileID: 3819543890633399856}
   m_Layer: 0
-  m_Name: Slime
+  m_Name: Mutated_Human 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1518776034747457657
+--- !u!4 &337723012995900323
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1544392050510859811}
+  m_GameObject: {fileID: 337723012995900324}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.46868563, y: -3.3241243, z: 0}
+  m_LocalPosition: {x: -7.9, y: -3.24, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &6859345371631949206
+--- !u!212 &337723012995900322
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1544392050510859811}
+  m_GameObject: {fileID: 337723012995900324}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -72,39 +72,39 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5c0512607bf1c254190a255afcd46771, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c6202bf4b4b535d4ba5279581d974575, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.6, y: 1.6}
+  m_Size: {x: 1.6, y: 3.2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6951697326989933565
+--- !u!114 &7527432153126624312
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1544392050510859811}
+  m_GameObject: {fileID: 337723012995900324}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e2dbe7cf5ee04349b4432df3197e823, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   attributes: {fileID: 0}
-  name: Slime
-  experience: 10
---- !u!60 &8390908634185215695
+  name: Infected Scientist
+  experience: 40
+--- !u!60 &3819543890633399856
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1544392050510859811}
+  m_GameObject: {fileID: 337723012995900324}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -115,43 +115,52 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.6, y: 1.6}
-    newSize: {x: 1.6, y: 1.6}
+    oldSize: {x: 1.6, y: 3.2}
+    newSize: {x: 1.6, y: 3.2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.717007, y: 0.31109342}
-      - {x: 0.5955567, y: 0.313339}
-      - {x: 0.58120936, y: 0.2211392}
-      - {x: 0.52003735, y: 0.21481133}
-      - {x: 0.52503586, y: 0.41598573}
-      - {x: 0.4197818, y: 0.4194517}
-      - {x: 0.42, y: 0.7}
-      - {x: 0.41197133, y: 0.7170071}
-      - {x: 0.2918995, y: 0.7170071}
-      - {x: 0.2863004, y: 0.6162088}
-      - {x: 0.093695186, y: 0.61782897}
-      - {x: 0.0881646, y: 0.5144813}
-      - {x: -0.091745704, y: 0.51627827}
-      - {x: -0.089999996, y: 0.65}
-      - {x: -0.34, y: 0.62}
-      - {x: -0.34, y: 0.48999998}
-      - {x: -0.33435154, y: 0.22268796}
-      - {x: -0.42298812, y: 0.22360873}
-      - {x: -0.43520367, y: 0.03359604}
-      - {x: -0.53, y: 0.01}
-      - {x: -0.5280948, y: -0.18702579}
-      - {x: -0.5862123, y: -0.18061519}
-      - {x: -0.58792734, y: -0.08502436}
-      - {x: -0.71824455, y: -0.07999976}
-      - {x: -0.7184181, y: -0.30736718}
-      - {x: -0.70621884, y: -0.39619088}
-      - {x: -0.70210147, y: -0.5742581}
-      - {x: -0.8170079, y: -0.5728452}
-      - {x: -0.79999995, y: -0.79999995}
-      - {x: 0.79999995, y: -0.79999995}
-      - {x: 0.79999995, y: -0.28381804}
-      - {x: 0.71401846, y: -0.29157066}
+    - - {x: 0.45, y: -1.52}
+      - {x: 0.44, y: -1.39}
+      - {x: 0.32999998, y: -1.36}
+      - {x: 0.32, y: 0.28}
+      - {x: 0.41, y: 0.26}
+      - {x: 0.64, y: 0.48999998}
+      - {x: 0.68, y: 0.74}
+      - {x: 0.71999997, y: 0.9}
+      - {x: 0.71999997, y: 1.2099999}
+      - {x: 0.61, y: 1.3399999}
+      - {x: 0.42999998, y: 1.52}
+      - {x: -0.049999997, y: 1.52}
+      - {x: -0.22999999, y: 1.35}
+      - {x: -0.51, y: 1.24}
+      - {x: -0.62, y: 1.13}
+      - {x: -0.71999997, y: 0.7}
+      - {x: -0.71999997, y: 0.44}
+      - {x: -0.65999997, y: 0.28}
+      - {x: -0.5, y: 0.16}
+      - {x: -0.32, y: 0.17999999}
+      - {x: -0.55, y: -1.52}
+      - {x: -0.17999999, y: -1.52}
+      - {x: -0.07, y: -0.72999996}
+      - {x: 0.07, y: -0.55}
+      - {x: 0.08, y: -1.52}
+    - - {x: 0.39999998, y: -0.28}
+      - {x: 0.38, y: -0.29999998}
+      - {x: 0.38, y: -0.5}
+      - {x: 0.39999998, y: -0.52}
+      - {x: 0.59999996, y: -0.52}
+      - {x: 0.62, y: -0.5}
+      - {x: 0.62, y: -0.29999998}
+      - {x: 0.59999996, y: -0.28}
+    - - {x: -0.59999996, y: -0.17999999}
+      - {x: -0.62, y: -0.19999999}
+      - {x: -0.62, y: -0.39999998}
+      - {x: -0.59999996, y: -0.42}
+      - {x: -0.39999998, y: -0.42}
+      - {x: -0.38, y: -0.39999998}
+      - {x: -0.38, y: -0.19999999}
+      - {x: -0.39999998, y: -0.17999999}
