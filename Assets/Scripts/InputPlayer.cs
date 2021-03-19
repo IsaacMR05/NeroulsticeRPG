@@ -32,6 +32,6 @@ public class InputPlayer : MonoBehaviour {
         //Definir ejes de movimiento
         horizontalAxis = Input.GetAxis("Horizontal");
         verticalAxis = Input.GetAxis("Vertical");
-        Debug.Log("El eje horizontal es "+ horizontalAxis + "el eje vertical es "+ verticalAxis);
+        //Debug.Log("El eje horizontal es "+ horizontalAxis + "el eje vertical es "+ verticalAxis);
     }
 }
