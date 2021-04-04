@@ -30,8 +30,8 @@ public class InputPlayer : MonoBehaviour {
         interact = Input.GetButtonDown("Interact");
 
         //Definir ejes de movimiento
-        horizontalAxis = Input.GetAxis("Horizontal");
-        verticalAxis = Input.GetAxis("Vertical");
+        horizontalAxis = Input.GetAxisRaw("Horizontal");
+        verticalAxis = Input.GetAxisRaw("Vertical");
         //Debug.Log("El eje horizontal es "+ horizontalAxis + "el eje vertical es "+ verticalAxis);
     }
 }
