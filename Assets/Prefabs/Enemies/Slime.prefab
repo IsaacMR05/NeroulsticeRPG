@@ -12,6 +12,12 @@ GameObject:
   - component: {fileID: 6859345371631949206}
   - component: {fileID: 6951697326989933565}
   - component: {fileID: 8390908634185215695}
+  - component: {fileID: 6278057907233571687}
+  - component: {fileID: 3067920910853905312}
+  - component: {fileID: -6735949011316446978}
+  - component: {fileID: 7159248343364668174}
+  - component: {fileID: 8432402185171822801}
+  - component: {fileID: -8900331118322363415}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Untagged
@@ -155,3 +161,110 @@ PolygonCollider2D:
       - {x: 0.79999995, y: -0.79999995}
       - {x: 0.79999995, y: -0.28381804}
       - {x: 0.71401846, y: -0.29157066}
+--- !u!50 &6278057907233571687
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544392050510859811}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &3067920910853905312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544392050510859811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cbd87fe78fe7c045a360dc680dae968, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 3596578697831683063, guid: 586b93c63a7625f499eccff8b3ff5694, type: 3}
+  speed: 250
+  nextWayPointDistance: 1.5
+--- !u!114 &-6735949011316446978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544392050510859811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df3c00ea0ace46a4086ab6b7328da431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wait_to_hurt: 2
+  damageToGive: 10
+--- !u!114 &7159248343364668174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544392050510859811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1
+--- !u!114 &8432402185171822801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544392050510859811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205669cc51745fc418d15f98594bc7d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1.5
+  startWiatTime: 1
+  moveSpots: []
+--- !u!114 &-8900331118322363415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544392050510859811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e582477d54cffd4ca70ffe10b694a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDistance: 6
+  player: {fileID: 3596578697831683063, guid: 586b93c63a7625f499eccff8b3ff5694, type: 3}
