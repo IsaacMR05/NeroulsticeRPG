@@ -12,9 +12,12 @@ GameObject:
   - component: {fileID: 337723012995900322}
   - component: {fileID: 7527432153126624312}
   - component: {fileID: 3819543890633399856}
+  - component: {fileID: -5400952953907123455}
+  - component: {fileID: -1932365000609157565}
+  - component: {fileID: -5816728711538614624}
   m_Layer: 0
   m_Name: Mutated_Human 1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -164,3 +167,49 @@ PolygonCollider2D:
       - {x: -0.38, y: -0.39999998}
       - {x: -0.38, y: -0.19999999}
       - {x: -0.39999998, y: -0.17999999}
+--- !u!114 &-5400952953907123455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337723012995900324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96217dea1dee0fd41a6bcc80d8c9f096, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stoppingDistance: 2.5
+  retreatDistance: 4
+  speed: 100
+  startTimeBtwShots: 2
+  projectile: {fileID: 0}
+--- !u!114 &-1932365000609157565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337723012995900324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205669cc51745fc418d15f98594bc7d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  startWiatTime: 2
+  moveSpots: []
+--- !u!114 &-5816728711538614624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337723012995900324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e582477d54cffd4ca70ffe10b694a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDistance: 8
+  player: {fileID: 3596578697831683063, guid: 586b93c63a7625f499eccff8b3ff5694, type: 3}
