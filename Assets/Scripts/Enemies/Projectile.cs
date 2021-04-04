@@ -9,10 +9,14 @@ public class Projectile : MonoBehaviour
 
     private Transform player;
     private Vector2 target;
+    private Health_Manager healthMan;
+    private int damageToGive = 15;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        healthMan = FindObjectOfType<Health_Manager>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
         target = new Vector2(player.position.x, player.position.y);
     }
@@ -33,6 +37,7 @@ public class Projectile : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            healthMan.HurtPlayer(damageToGive);
             DestroyProjectile();
         }
     }
