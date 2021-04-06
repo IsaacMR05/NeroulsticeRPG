@@ -68,11 +68,19 @@ public class Hurt_Player : MonoBehaviour
     }
     private void OnCollisionStay2D(Collision2D collision) // necesito explicarlo( tornar a mirar el video
     {
-        isTouching = true;
+        if (collision.collider.tag == "Player")
+        {
+            isTouching = true;
+
+        }
 
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        isTouching = false;
+        if (collision.collider.tag == "Player")
+        {
+            isTouching = false;
+
+        }
     }
 }
