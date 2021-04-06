@@ -906,6 +906,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3596578697831683063}
   - component: {fileID: 3596578697831683062}
+  - component: {fileID: -5168439497038876662}
   - component: {fileID: 3596578697831683049}
   - component: {fileID: 3596578697831683061}
   - component: {fileID: 3596578697831683060}
@@ -988,6 +989,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-5168439497038876662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3596578697831683057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fc0410d24f7cac458d7d7c3fb6add8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level:
+    experience: 0
+    currentLevel: 0
+    MAX_EXP: 0
+    maxLevel: 0
 --- !u!114 &3596578697831683049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1914,6 +1932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51c7c5980d0d7a34492f2539befbdb8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageToGive: 5
 --- !u!1 &4886053929528671891
 GameObject:
   m_ObjectHideFlags: 0
@@ -1989,6 +2008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51c7c5980d0d7a34492f2539befbdb8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageToGive: 5
 --- !u!1 &4972290760904260424
 GameObject:
   m_ObjectHideFlags: 0
@@ -2146,6 +2166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51c7c5980d0d7a34492f2539befbdb8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageToGive: 5
 --- !u!1 &6378851577022633929
 GameObject:
   m_ObjectHideFlags: 0
@@ -2303,6 +2324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51c7c5980d0d7a34492f2539befbdb8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageToGive: 5
 --- !u!1 &6927353132037909264
 GameObject:
   m_ObjectHideFlags: 0
