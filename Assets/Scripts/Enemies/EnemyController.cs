@@ -5,9 +5,9 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
 
-    private Wandering wandering;
-    private EnemyAI ai;
-    private AlternativeEnemyAI alternativeAi;
+    public Wandering wandering;
+    public EnemyAI ai;
+    public AlternativeEnemyAI alternativeAi;
 
     public float attackDistance;
     public Transform player;
@@ -29,17 +29,29 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(Vector2.Distance(transform.position, player.position));
+
         if (Vector2.Distance(transform.position, player.position) < attackDistance) 
         {
+            if(wandering != null)
             wandering.enabled = false;
-            ai.enabled = true;
-            alternativeAi.enabled = true;
+
+            if (ai != null)
+                ai.enabled = true;
+
+            if (alternativeAi != null)
+                alternativeAi.enabled = true;
         }
         else
         {
-            wandering.enabled = true;
-            ai.enabled = false;
-            alternativeAi.enabled = false;
+            if (wandering != null)
+                wandering.enabled = true;
+
+            if (ai != null)
+                ai.enabled = false;
+
+            if (alternativeAi != null)
+                alternativeAi.enabled = false;
 
         }
     }
