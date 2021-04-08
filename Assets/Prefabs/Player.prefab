@@ -910,7 +910,6 @@ GameObject:
   - component: {fileID: 3596578697831683049}
   - component: {fileID: 3596578697831683061}
   - component: {fileID: 3596578697831683060}
-  - component: {fileID: 3596578697831683048}
   - component: {fileID: 3596578697831683059}
   - component: {fileID: 3596578697831683058}
   - component: {fileID: 3596578697831683050}
@@ -1056,20 +1055,6 @@ MonoBehaviour:
   rb: {fileID: 3596578697831683059}
   maxSpeed: 5
   linearDrag: 6
---- !u!114 &3596578697831683048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3596578697831683057}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df3c00ea0ace46a4086ab6b7328da431, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wait_to_hurt: 2
-  damageToGive: 10
 --- !u!50 &3596578697831683059
 Rigidbody2D:
   serializedVersion: 4
