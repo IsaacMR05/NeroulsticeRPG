@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHealthManager : Enemy
+public class EnemyHealthManager : MonoBehaviour
 {
     public int currentHealth;
     public int maxHealth;
-    public Player playerLevel; 
+    public Player playerLevel;
+    public Enemy enemy;
     private int playerExp;
-
 
     // Start is called before the first frame update
     void Start()
@@ -27,8 +27,7 @@ public class EnemyHealthManager : Enemy
         currentHealth -= damageToGive;
         if(currentHealth <= 0)
         {
-           playerLevel.level.AddExp(experience); //Call function to give XP for the player
-
+           playerLevel.level.AddExp(enemy.experience); //Call function to give XP for the player
             Destroy(gameObject);
         }
     }
