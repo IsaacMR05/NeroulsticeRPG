@@ -5,9 +5,9 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
 
-    public Wandering wandering;
-    public EnemyAI ai;
-    public AlternativeEnemyAI alternativeAi;
+    private Wandering wandering;
+    private EnemyAI ai;
+    private AlternativeEnemyAI alternativeAi;
 
     public float attackDistance;
     public Transform player;
@@ -21,9 +21,14 @@ public class EnemyController : MonoBehaviour
 
         player = GameObject.FindGameObjectWithTag("Player").transform;
 
-        wandering.enabled = true;
-        ai.enabled = false;
-        alternativeAi.enabled = false;
+        if (wandering != null)
+            wandering.enabled = true;
+
+        if (ai != null)
+            ai.enabled = false;
+
+        if (alternativeAi != null)
+            alternativeAi.enabled = false;
     }
 
     // Update is called once per frame
