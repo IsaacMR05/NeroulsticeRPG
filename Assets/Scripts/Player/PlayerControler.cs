@@ -62,7 +62,7 @@ public class PlayerControler : MonoBehaviour
         // Vector2 newPosition = transformada.position + new Vector3(speed * horizontal*Time.deltaTime, speed * vertical*Time.deltaTime, 0);//Quitar el frame rate
         // transformada.position = newPosition;
 
-        rb.velocity = new Vector2(horizontal, vertical)*speed * Time.deltaTime;
+        rb.velocity = new Vector2(horizontal, vertical)* speed * Time.deltaTime;
 
 
         myAnimator.SetFloat("moveX", rb.velocity.x);

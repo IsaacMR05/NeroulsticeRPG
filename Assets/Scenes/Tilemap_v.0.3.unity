@@ -272,11 +272,6 @@ PrefabInstance:
       propertyPath: attackDistance
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 5296156211795368432, guid: f7270d313492de14e9c125a733d62298,
-        type: 3}
-      propertyPath: playerLevel
-      value: 
-      objectReference: {fileID: 1786818834}
     - target: {fileID: 8272699592480547824, guid: f7270d313492de14e9c125a733d62298,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -403,7 +398,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &389872954
 GameObject:
@@ -1671,11 +1666,6 @@ PrefabInstance:
       propertyPath: playerLevel
       value: 
       objectReference: {fileID: 1161220271}
-    - target: {fileID: -4557879074267176397, guid: 1c4e6d43c9be2e842983602e0230cc2a,
-        type: 3}
-      propertyPath: playerLevel
-      value: 
-      objectReference: {fileID: 1786818834}
     - target: {fileID: 1518776034747457657, guid: 1c4e6d43c9be2e842983602e0230cc2a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1970,11 +1960,6 @@ PrefabInstance:
       propertyPath: playerLevel
       value: 
       objectReference: {fileID: 1161220271}
-    - target: {fileID: -4557879074267176397, guid: 1c4e6d43c9be2e842983602e0230cc2a,
-        type: 3}
-      propertyPath: playerLevel
-      value: 
-      objectReference: {fileID: 1786818834}
     - target: {fileID: 1518776034747457657, guid: 1c4e6d43c9be2e842983602e0230cc2a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -34199,6 +34184,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5816728711538614624, guid: eac40a2783707314fa8ba0e612a6f399,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 755058051}
+    - target: {fileID: -3086300000082771917, guid: eac40a2783707314fa8ba0e612a6f399,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 755058051}
     - target: {fileID: -1932365000609157565, guid: eac40a2783707314fa8ba0e612a6f399,
         type: 3}
       propertyPath: moveSpots.Array.size
@@ -34274,6 +34269,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mutated_Human 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5956845343047665908, guid: eac40a2783707314fa8ba0e612a6f399,
+        type: 3}
+      propertyPath: playerLevel
+      value: 
+      objectReference: {fileID: 1161220271}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eac40a2783707314fa8ba0e612a6f399, type: 3}
 --- !u!1 &1210380679
@@ -36874,11 +36874,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 3596578697831683060, guid: 586b93c63a7625f499eccff8b3ff5694,
-        type: 3}
-      propertyPath: speed
-      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 3596578697831683063, guid: 586b93c63a7625f499eccff8b3ff5694,
         type: 3}
@@ -46003,15 +45998,30 @@ PrefabInstance:
       propertyPath: moveSpots.Array.data[1]
       value: 
       objectReference: {fileID: 577688919}
+    - target: {fileID: 5296156211795368432, guid: f7270d313492de14e9c125a733d62298,
+        type: 3}
+      propertyPath: playerLevel
+      value: 
+      objectReference: {fileID: 1161220271}
+    - target: {fileID: 7259399355181078525, guid: f7270d313492de14e9c125a733d62298,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 755058051}
+    - target: {fileID: 7323765229189265482, guid: f7270d313492de14e9c125a733d62298,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 755058051}
     - target: {fileID: 8272699592480547824, guid: f7270d313492de14e9c125a733d62298,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.85
+      value: -1.77
       objectReference: {fileID: 0}
     - target: {fileID: 8272699592480547824, guid: f7270d313492de14e9c125a733d62298,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -14.14
+      value: -14.43
       objectReference: {fileID: 0}
     - target: {fileID: 8272699592480547824, guid: f7270d313492de14e9c125a733d62298,
         type: 3}
@@ -46614,20 +46624,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1786818834 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: -5168439497038876662, guid: 586b93c63a7625f499eccff8b3ff5694,
-    type: 3}
-  m_PrefabInstance: {fileID: 1353044888}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fc0410d24f7cac458d7d7c3fb6add8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1815572079
 GameObject:
   m_ObjectHideFlags: 0
@@ -46662,7 +46660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1414243192}
   hpText: {fileID: 1916723924}
-  player: {fileID: 1786818834}
+  player: {fileID: 1161220271}
   expBar: {fileID: 877107618}
   expText: {fileID: 1273946848}
 --- !u!114 &1815572081
@@ -46741,7 +46739,7 @@ RectTransform:
   - {fileID: 877107619}
   - {fileID: 1273946850}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -65008,11 +65006,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mutated_Human 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5956845343047665908, guid: eac40a2783707314fa8ba0e612a6f399,
-        type: 3}
-      propertyPath: playerLevel
-      value: 
-      objectReference: {fileID: 1786818834}
     - target: {fileID: 5956845343047665908, guid: eac40a2783707314fa8ba0e612a6f399,
         type: 3}
       propertyPath: playerLevel
