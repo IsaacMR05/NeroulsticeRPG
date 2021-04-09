@@ -9,6 +9,11 @@ public class UI_Manager : MonoBehaviour
     public Slider healthBar;
     public Text hpText;
 
+    public Player player;
+
+    private Level levelMan;
+    public Slider expBar;
+    public Text expText;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,5 +26,13 @@ public class UI_Manager : MonoBehaviour
         healthBar.maxValue = healthMan.maxHealth;
         healthBar.value = healthMan.currentHealth;
         hpText.text = healthMan.currentHealth + "/" + healthMan.maxHealth;
+
+
+        expBar.maxValue = player.level.GetXPForLevel(player.level.currentLevel + 1) - player.level.GetXPForLevel(player.level.currentLevel);
+        expBar.value = player.level.experience - player.level.GetXPForLevel(player.level.currentLevel);
+        expText.text = "Lvl: "+ player.level.currentLevel;
+
+        // (experience - GetXPForLevel(currentLevel)) / (GetXPForLevel(currentLevel + 1) - GetXPForLevel(currentLevel)
+
     }
 }
