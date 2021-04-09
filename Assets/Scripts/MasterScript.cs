@@ -5,7 +5,6 @@ using UnityEngine;
 
 //Respawn d'enemics aleatori
 
-
 public class MasterScript : MonoBehaviour
 {
     public int numberOfEnemies = 0;
@@ -18,7 +17,7 @@ public class MasterScript : MonoBehaviour
     {
         if(enemies != null)
         {
-            for(int i =0; i < numberOfEnemies; i++)
+            for(int i = 0; i < numberOfEnemies; i++)
             {
                 Vector2 enemiesPosition = new Vector2(Random.Range(-halfWidth, halfWidth), Random.Range(-halfHeight, halfHeight));
 
