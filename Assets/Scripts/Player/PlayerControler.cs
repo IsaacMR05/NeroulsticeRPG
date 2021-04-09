@@ -43,7 +43,7 @@ public class PlayerControler : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
 
         //variables de los ejes
@@ -74,9 +74,6 @@ public class PlayerControler : MonoBehaviour
             myAnimator.SetFloat("lastMoveY", vertical);
         }
 
-
-        Debug.Log("Atacando usando player controller" + inputJugador.attack);
-        Debug.Log("velocity:" + speed);
 
 
         if (attacking)
