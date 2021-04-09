@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerControler : MonoBehaviour
 {
+    //Inventory part:
+    public Transform hand;
+    public Transform body;
 
     //Public 
     [Header("Horizontal Movement")]
