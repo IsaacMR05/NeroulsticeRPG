@@ -23,8 +23,6 @@ public class InputPlayer : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        //atacar = Input.GetKeyDown(KeyCode.A);//no recomendada
-        attack = Input.GetButtonDown("Atacar");
         spell = Input.GetButtonDown("Spell");
         //inventory = Input.GetButtonDown("Invent");
         interact = Input.GetButtonDown("Interact");
