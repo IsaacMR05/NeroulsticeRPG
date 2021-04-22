@@ -27,7 +27,7 @@ public class EnemyHealthManager : MonoBehaviour
         if(currentHealth <= 0)
         {
            playerLevel.level.AddExp(enemy.experience); //Call function to give XP for the player
-            Destroy(gameObject);
+           Destroy(gameObject);
         }
     }
 }
