@@ -68,13 +68,13 @@ public class PlayerControler : MonoBehaviour
         rb.velocity = new Vector2(horizontal, vertical)* speed * Time.deltaTime;
 
 
-        myAnimator.SetFloat("moveX", rb.velocity.x);
-        myAnimator.SetFloat("moveY", rb.velocity.y);
+        myAnimator.SetFloat("moveX", (int)rb.velocity.x);
+        myAnimator.SetFloat("moveY", (int)rb.velocity.y);
 
         if (horizontal == 1 || horizontal == -1|| vertical == 1 || vertical == -1)
         {
-            myAnimator.SetFloat("lastMoveX", horizontal);
-            myAnimator.SetFloat("lastMoveY", vertical);
+            myAnimator.SetFloat("lastMoveX", (int)horizontal);
+            myAnimator.SetFloat("lastMoveY", (int)vertical);
         }
 
 
