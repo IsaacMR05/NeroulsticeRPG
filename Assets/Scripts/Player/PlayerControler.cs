@@ -31,7 +31,7 @@ public class PlayerControler : MonoBehaviour
     private float vertical;
 
     //Attack
-    private float attackTime = 0.25f;
+    private float attackTime = 0.44f;
     private float attackCounter = 0.25f;
     private bool attacking;
 
@@ -65,20 +65,24 @@ public class PlayerControler : MonoBehaviour
         // Vector2 newPosition = transformada.position + new Vector3(speed * horizontal*Time.deltaTime, speed * vertical*Time.deltaTime, 0);//Quitar el frame rate
         // transformada.position = newPosition;
 
-        rb.velocity = new Vector2(horizontal, vertical)* speed * Time.deltaTime;
+        rb.velocity = new Vector2(horizontal, vertical) * speed * Time.deltaTime;
 
 
         myAnimator.SetFloat("moveX", (int)rb.velocity.x);
         myAnimator.SetFloat("moveY", (int)rb.velocity.y);
 
-        if (horizontal == 1 || horizontal == -1|| vertical == 1 || vertical == -1)
+        if (horizontal >= 0.1 || horizontal <= -0.1 || vertical >= 0.1 || vertical <= -0.1)
         {
-            myAnimator.SetFloat("lastMoveX", (int)horizontal);
-            myAnimator.SetFloat("lastMoveY", (int)vertical);
+            myAnimator.SetFloat("lastMoveX", horizontal);
+            myAnimator.SetFloat("lastMoveY", vertical);
         }
 
 
 
+    }
+
+    void Update()
+    {
         if (attacking)
         {
             //Si volem fer que pari de moure's quan ataqui
@@ -86,7 +90,7 @@ public class PlayerControler : MonoBehaviour
 
 
             attackCounter -= Time.deltaTime;
-            if(attackCounter <= 0)
+            if (attackCounter <= 0)
             {
                 myAnimator.SetBool("attacking", false);
                 attacking = false;
@@ -95,13 +99,12 @@ public class PlayerControler : MonoBehaviour
 
 
 
-        if (Input.GetKeyDown(KeyCode.T))
+        if (Input.GetKeyDown(KeyCode.T) && !attacking)
         {
             attackCounter = attackTime;
             myAnimator.SetBool("attacking", true);
             attacking = true;
         }
-
     }
 
 
