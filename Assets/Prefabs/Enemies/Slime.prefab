@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 8432402185171822801}
   - component: {fileID: -8900331118322363415}
   - component: {fileID: -4557879074267176397}
+  - component: {fileID: 8926366609692445179}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Enemy
@@ -112,7 +113,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544392050510859811}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -286,3 +287,19 @@ MonoBehaviour:
   playerLevel: {fileID: -5168439497038876662, guid: 586b93c63a7625f499eccff8b3ff5694,
     type: 3}
   enemy: {fileID: 6951697326989933565}
+--- !u!58 &8926366609692445179
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544392050510859811}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.03, y: -0.12}
+  serializedVersion: 2
+  m_Radius: 0.36

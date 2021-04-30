@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: -5816728711538614624}
   - component: {fileID: 5956845343047665908}
   - component: {fileID: 5582955503199370712}
+  - component: {fileID: 6750632284115571817}
   m_Layer: 0
   m_Name: Mutated_Human 1
   m_TagString: Enemy
@@ -110,7 +111,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 337723012995900324}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -131,16 +132,19 @@ PolygonCollider2D:
     - - {x: 0.45, y: -1.52}
       - {x: 0.44, y: -1.39}
       - {x: 0.32999998, y: -1.36}
+      - {x: 0.3208022, y: 0.1484487}
       - {x: 0.32, y: 0.28}
-      - {x: 0.41, y: 0.26}
-      - {x: 0.64, y: 0.48999998}
-      - {x: 0.68, y: 0.74}
-      - {x: 0.71999997, y: 0.9}
-      - {x: 0.71999997, y: 1.2099999}
-      - {x: 0.61, y: 1.3399999}
-      - {x: 0.42999998, y: 1.52}
-      - {x: -0.049999997, y: 1.52}
-      - {x: -0.22999999, y: 1.35}
+      - {x: 0.43038574, y: 0.29566574}
+      - {x: 0.4208523, y: 0.37790725}
+      - {x: 0.38950318, y: 0.4393885}
+      - {x: 0.4345991, y: 0.52296126}
+      - {x: 0.5518181, y: 0.58330095}
+      - {x: 0.5794214, y: 0.75915694}
+      - {x: 0.8377148, y: 0.7761136}
+      - {x: 0.88644934, y: 1.0140913}
+      - {x: 0.7552363, y: 1.2295786}
+      - {x: 0.2541614, y: 1.4569972}
+      - {x: -0.12554407, y: 1.4254758}
       - {x: -0.51, y: 1.24}
       - {x: -0.62, y: 1.13}
       - {x: -0.71999997, y: 0.7}
@@ -255,3 +259,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!70 &6750632284115571817
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337723012995900324}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.18}
+  m_Size: {x: 0.56, y: 1.09}
+  m_Direction: 0
