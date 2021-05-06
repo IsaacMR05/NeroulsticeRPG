@@ -65,6 +65,14 @@ public class PlayerControler : MonoBehaviour
         // Vector2 newPosition = transformada.position + new Vector3(speed * horizontal*Time.deltaTime, speed * vertical*Time.deltaTime, 0);//Quitar el frame rate
         // transformada.position = newPosition;
 
+    
+
+
+
+    }
+
+    void Update()
+    {
         rb.velocity = new Vector2(horizontal, vertical) * speed * Time.deltaTime;
 
 
@@ -78,13 +86,8 @@ public class PlayerControler : MonoBehaviour
         }
 
 
-
-    }
-
-    void Update()
-    {
         if (attacking)
-        {
+         {
             //Si volem fer que pari de moure's quan ataqui
             rb.velocity = Vector2.zero;
 
