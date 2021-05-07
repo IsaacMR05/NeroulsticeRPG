@@ -49,45 +49,34 @@ public class PlayerControler : MonoBehaviour
     void FixedUpdate()
     {
 
-        //variables de los ejes
-
         horizontal = inputJugador.horizontalAxis;
         vertical = inputJugador.verticalAxis;
-
-        direction = new Vector2(horizontal, vertical);
-
-
-
-
-        //Moveremos modificando la transformada
-        //Vector2 y Vector3 son structs!!!!
-
-        // Vector2 newPosition = transformada.position + new Vector3(speed * horizontal*Time.deltaTime, speed * vertical*Time.deltaTime, 0);//Quitar el frame rate
-        // transformada.position = newPosition;
-
     
-
+        direction = new Vector2(horizontal, vertical);
 
 
     }
 
     void Update()
-    {
+    {      
+     
         rb.velocity = new Vector2(horizontal, vertical) * speed * Time.deltaTime;
 
+        if (!attacking) 
+        { 
+            myAnimator.SetFloat("moveX", (int)rb.velocity.x);
+            myAnimator.SetFloat("moveY", (int)rb.velocity.y);
 
-        myAnimator.SetFloat("moveX", (int)rb.velocity.x);
-        myAnimator.SetFloat("moveY", (int)rb.velocity.y);
 
-        if (horizontal >= 0.1 || horizontal <= -0.1 || vertical >= 0.1 || vertical <= -0.1)
-        {
-            myAnimator.SetFloat("lastMoveX", horizontal);
-            myAnimator.SetFloat("lastMoveY", vertical);
+            if (horizontal >= 0.1 || horizontal <= -0.1 || vertical >= 0.1 || vertical <= -0.1) 
+            { 
+                myAnimator.SetFloat("lastMoveX", horizontal);  
+                myAnimator.SetFloat("lastMoveY", vertical);
+            }
         }
 
-
         if (attacking)
-         {
+        {
             //Si volem fer que pari de moure's quan ataqui
             rb.velocity = Vector2.zero;
 
