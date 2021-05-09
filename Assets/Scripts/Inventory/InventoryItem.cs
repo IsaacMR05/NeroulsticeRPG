@@ -14,7 +14,7 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IEndDragHandler, 
     public bool inArmourSlot = false;
     public bool inWeaponSlot = false;
     public int itemID;
-    public int equipType = 0; // 0 = None | 1 = Weapon | 2 = Armour //
+    public int equipType = 0; // 0 = None | 1 = Weapon | 2 = Consumable //
 
     void Awake()
     {
@@ -30,20 +30,20 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IEndDragHandler, 
     public void OnBeginDrag(PointerEventData eventData)
     {
         canvasGroup.blocksRaycasts = false;
-        rectTransform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
+        rectTransform.localScale += new Vector3(1.1f, 1.1f, 1.1f);
         originalSlot = transform.parent.transform;
     }
     public void OnEndDrag(PointerEventData eventData)
     {
         // Revert State //
         canvasGroup.blocksRaycasts = true;
-        rectTransform.localScale -= new Vector3(0.5f, 0.5f, 0.5f);
+        rectTransform.localScale -= new Vector3(1.1f, 1.1f, 1.1f);
         if (transform.parent == Game_Manager.Instance.draggables)
         {
             transform.SetParent(originalSlot);
         }
     }
-    public void OnPointerClick(PointerEventData eventData)
+    public void OnPointerClick(PointerEventData eventData) //Click dret
     {
         if (eventData.button == PointerEventData.InputButton.Right && !eventData.dragging)
         {
@@ -75,6 +75,7 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IEndDragHandler, 
                         break;
                     }
                 }
+                Game_Manager.Instance.weaponID = -1;
             }
             // If this item is in the armour slot
             if (currentSlot.armourSlot)
@@ -102,6 +103,7 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IEndDragHandler, 
                         break;
                     }
                 }
+                Game_Manager.Instance.armourID = -1;
             }
             // If this item is NOT in the weapon slot and Equip Type == Weapon
             else if (!currentSlot.weaponSlot && equipType == 1)

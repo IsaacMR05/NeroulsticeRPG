@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Hm... aquest script està posat a dins la carpeta <Inventory> i crec que és d'<Enemies/Enemy>
 
 //Respawn d'enemics aleatori
 

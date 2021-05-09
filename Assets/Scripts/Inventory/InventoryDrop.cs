@@ -5,14 +5,14 @@ using UnityEngine.EventSystems;
 
 public class InventoryDrop : MonoBehaviour, IDropHandler
 {
-    public void OnDrop(PointerEventData eventData)
+    public void OnDrop(PointerEventData eventData) //Item Drop function
     {
         if (eventData.pointerDrag != null)
         {
             InventoryItem newItem = eventData.pointerDrag.GetComponent<InventoryItem>();
             InventorySlot OriginalSlot = newItem.originalSlot.GetComponent<InventorySlot>();
 
-            // Revert OnDrag Changes
+            //Revert OnDrag Changes
             newItem.canvasGroup.blocksRaycasts = true;
 
             if (newItem.inWeaponSlot)
