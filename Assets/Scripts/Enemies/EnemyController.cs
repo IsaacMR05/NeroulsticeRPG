@@ -7,7 +7,7 @@ public class EnemyController : MonoBehaviour
 
     private Wandering wandering;
     private EnemyAI ai;
-    private AlternativeEnemyAI alternativeAi;
+    //private AlternativeEnemyAI alternativeAi;
 
     public float attackDistance;
     public Transform player;
@@ -17,7 +17,7 @@ public class EnemyController : MonoBehaviour
     {
         wandering = GetComponent<Wandering>();
         ai = GetComponent<EnemyAI>();
-        alternativeAi = GetComponent<AlternativeEnemyAI>();
+        //alternativeAi = GetComponent<AlternativeEnemyAI>();
 
         player = GameObject.FindGameObjectWithTag("Player").transform;
 
@@ -27,8 +27,8 @@ public class EnemyController : MonoBehaviour
         if (ai != null)
             ai.enabled = false;
 
-        if (alternativeAi != null)
-            alternativeAi.enabled = false;
+        /*if (alternativeAi != null)
+            alternativeAi.enabled = false;*/
     }
 
     // Update is called once per frame
@@ -44,8 +44,8 @@ public class EnemyController : MonoBehaviour
             if (ai != null)
                 ai.enabled = true;
 
-            if (alternativeAi != null)
-                alternativeAi.enabled = true;
+            /*if (alternativeAi != null)
+                alternativeAi.enabled = true;*/
         }
         else
         {
@@ -55,8 +55,8 @@ public class EnemyController : MonoBehaviour
             if (ai != null)
                 ai.enabled = false;
 
-            if (alternativeAi != null)
-                alternativeAi.enabled = false;
+            /*if (alternativeAi != null)
+                alternativeAi.enabled = false;*/
 
         }
     }
