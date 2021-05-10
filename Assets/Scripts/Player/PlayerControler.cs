@@ -27,13 +27,17 @@ public class PlayerControler : MonoBehaviour
     //private Transform transformada;
     private Animator myAnimator;
 
+    private Game_Manager weapon;
+
     private float horizontal;
     private float vertical;
+    public int weaponID;
 
     //Attack
     private float attackTime = 0.44f;
     private float attackCounter = 0.25f;
-    private bool attacking;
+    private bool swordAttacking;
+    private bool scalpelAttacking;
 
 
     // Start is called before the first frame update
@@ -43,6 +47,7 @@ public class PlayerControler : MonoBehaviour
         //transformada = GetComponent<Transform>(); // transformara el valor de la variable que queramos en el valor que queramos
         myAnimator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        weapon = GetComponent<Game_Manager>();
     }
 
     // Update is called once per frame
@@ -54,6 +59,7 @@ public class PlayerControler : MonoBehaviour
     
         direction = new Vector2(horizontal, vertical);
 
+        weaponID = weapon.weaponID;
 
     }
 
@@ -62,7 +68,7 @@ public class PlayerControler : MonoBehaviour
      
         rb.velocity = new Vector2(horizontal, vertical) * speed * Time.deltaTime;
 
-        if (!attacking) 
+        if (!swordAttacking && !scalpelAttacking) 
         { 
             myAnimator.SetFloat("moveX", (int)rb.velocity.x);
             myAnimator.SetFloat("moveY", (int)rb.velocity.y);
@@ -74,7 +80,58 @@ public class PlayerControler : MonoBehaviour
                 myAnimator.SetFloat("lastMoveY", vertical);
             }
         }
+        
+        switch (weaponID)
+        {
+            case 0:
+                if (scalpelAttacking)
+                {
+                    //Si volem fer que pari de moure's quan ataqui
+                    rb.velocity = Vector2.zero;
 
+
+                    attackCounter -= Time.deltaTime;
+                    if (attackCounter <= 0)
+                    {
+                        myAnimator.SetBool("scalpelAttacking", false);
+                        scalpelAttacking = false;
+                    }
+
+                    if (Input.GetKeyDown(KeyCode.T) && !scalpelAttacking)
+                    {
+                        attackCounter = attackTime;
+                        myAnimator.SetBool("scalpelAttacking", true);
+                        scalpelAttacking = true;
+                    }
+
+                }
+                return;
+
+            case 1:
+                if (swordAttacking)
+                {
+                    //Si volem fer que pari de moure's quan ataqui
+                    rb.velocity = Vector2.zero;
+
+
+                    attackCounter -= Time.deltaTime;
+                    if (attackCounter <= 0)
+                    {
+                        myAnimator.SetBool("swordAttacking", false);
+                        swordAttacking = false;
+                    }
+
+                    if (Input.GetKeyDown(KeyCode.T) && !swordAttacking)
+                    {
+                        attackCounter = attackTime;
+                        myAnimator.SetBool("swordAttacking", true);
+                        swordAttacking = true;
+                    }
+                }
+                return;
+        }
+     /*
+        
         if (attacking)
         {
             //Si volem fer que pari de moure's quan ataqui
@@ -84,11 +141,11 @@ public class PlayerControler : MonoBehaviour
             attackCounter -= Time.deltaTime;
             if (attackCounter <= 0)
             {
-                myAnimator.SetBool("attacking", false);
+                myAnimator.SetBool("swordAttacking", false);
                 attacking = false;
             }
         }
-
+   
 
 
         if (Input.GetKeyDown(KeyCode.T) && !attacking)
@@ -97,6 +154,7 @@ public class PlayerControler : MonoBehaviour
             myAnimator.SetBool("attacking", true);
             attacking = true;
         }
+        */
     }
 
 
