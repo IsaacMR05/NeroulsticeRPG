@@ -104,7 +104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attributes: {fileID: 0}
   name: Mutated Robot
-  experience: 100
+  experience: 75
 --- !u!50 &-768913601017693582
 Rigidbody2D:
   serializedVersion: 4
