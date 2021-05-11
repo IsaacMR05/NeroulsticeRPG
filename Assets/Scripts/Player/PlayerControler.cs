@@ -11,7 +11,7 @@ public class PlayerControler : MonoBehaviour
     //Public 
     [Header("Horizontal Movement")]
     public float speed = 1f;  // unidades de coordenadas globales por segundo m/s m= 3 s= deltaTime,
-    public Vector2 direction;                            // no serà manipoulada por otras clasese, pero la podremos editar desde el inspector
+    public Vector2 direction; // no serà manipoulada por otras clasese, pero la podremos editar desde el inspector
 
    
 
@@ -69,7 +69,7 @@ public class PlayerControler : MonoBehaviour
     void Update()
     {
        
-
+        
         rb.velocity = new Vector2(horizontal, vertical) * speed * Time.deltaTime;
 
         if (!swordAttacking && !scalpelAttacking) 
