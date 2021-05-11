@@ -13,6 +13,7 @@ public class Level
 
     public int MAX_EXP;
     public int maxLevel = 20;
+    public int biomass = 0;
 
    public Level(int level, Action OnLvlUp)
     {
@@ -84,7 +85,7 @@ public class Level
             if (currentLevel < GetLevelForXP(experience))
             {
                 currentLevel = GetLevelForXP(experience);
-
+                biomass++;
                 if (OnLevelUp != null)
                     OnLevelUp.Invoke();
                 return true;

@@ -11,13 +11,24 @@ public class SkillButton : MonoBehaviour
 
     public int skillButtonId;
 
+    public Skill skill;
 
+    void Awake()
+    {
+        skillButtonId = skill.skillID;
+    }
     public void PressSkillButton()
     {
-
-        SkillManager.instance.activateSkill = transform.GetComponent<Skill>();
+        /*
+        SkillManager.instance.activateSkill = skill;
         skillImage.sprite = SkillManager.instance.skills[skillButtonId].skillSprite;
         skillNameText.text = SkillManager.instance.skills[skillButtonId].skillName;
         skillDesText.text = SkillManager.instance.skills[skillButtonId].skillDes;
+        */
+
+        SkillManager.instance.activateSkill = skill;
+        skillImage.sprite = skill.skillSprite;
+        skillNameText.text = skill.skillName;
+        skillDesText.text = skill.skillDes;
     }
 }

@@ -1,5 +1,149 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &584612526697090476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2007692376460675549}
+  - component: {fileID: 3057512590748181516}
+  - component: {fileID: 502673091035830176}
+  - component: {fileID: 1411781418138088747}
+  - component: {fileID: 1792738909747254977}
+  m_Layer: 5
+  m_Name: UnlockButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &2007692376460675549
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584612526697090476}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.906134, y: 0.45003, z: 1}
+  m_Children:
+  - {fileID: 7551972574052111882}
+  m_Father: {fileID: 2991265356554269264}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 32, y: -395}
+  m_SizeDelta: {x: 68.551636, y: 68.551636}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3057512590748181516
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584612526697090476}
+  m_CullTransparentMesh: 0
+--- !u!114 &502673091035830176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584612526697090476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.6509804, g: 0.72156864, b: 0.7490196, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1411781418138088747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584612526697090476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a66572db3bfc444409509a0463b79774, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillManager: {fileID: 0}
+--- !u!114 &1792738909747254977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584612526697090476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 502673091035830176}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: PressSkillButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2918998681327964517
 GameObject:
   m_ObjectHideFlags: 0
@@ -196,7 +340,6 @@ GameObject:
   - component: {fileID: 2991265355358994040}
   - component: {fileID: 2991265355358994055}
   - component: {fileID: 2991265355358994054}
-  - component: {fileID: 2991265355358994041}
   - component: {fileID: 2991265355358994053}
   - component: {fileID: 2991265355358994052}
   m_Layer: 5
@@ -263,22 +406,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2991265355358994041
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2991265355358994043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3381264b720a664a93ba5057f986e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skillName: 'Coming Soon! '
-  skillSprite: {fileID: 21300000, guid: 52be072351eef364aad8049ebcd7aaca, type: 3}
-  skillDes: Coming Soon!
-  isUpgrade: 0
 --- !u!114 &2991265355358994053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295,6 +422,7 @@ MonoBehaviour:
   skillNameText: {fileID: 2991265355324950188}
   skillDesText: {fileID: 2991265356758785436}
   skillButtonId: 8
+  skill: {fileID: 0}
 --- !u!114 &2991265355358994052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -508,7 +636,6 @@ GameObject:
   - component: {fileID: 2991265355590677893}
   - component: {fileID: 2991265355590677888}
   - component: {fileID: 2991265355590677891}
-  - component: {fileID: 2991265355590677890}
   - component: {fileID: 2991265355590677902}
   - component: {fileID: 2991265355590677889}
   m_Layer: 5
@@ -575,23 +702,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2991265355590677890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2991265355590677892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3381264b720a664a93ba5057f986e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skillName: Speed +
-  skillSprite: {fileID: 21300000, guid: 52be072351eef364aad8049ebcd7aaca, type: 3}
-  skillDes: More movement speed! Take it easy, it will be easier to evade the enemies
-    and their attacks, but watchout not to brake your ankle ; )
-  isUpgrade: 0
 --- !u!114 &2991265355590677902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -608,6 +718,7 @@ MonoBehaviour:
   skillNameText: {fileID: 2991265355324950188}
   skillDesText: {fileID: 2991265356758785436}
   skillButtonId: 1
+  skill: {fileID: 0}
 --- !u!114 &2991265355590677889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -673,7 +784,6 @@ GameObject:
   - component: {fileID: 2991265355773120871}
   - component: {fileID: 2991265355773120866}
   - component: {fileID: 2991265355773120869}
-  - component: {fileID: 2991265355773120868}
   - component: {fileID: 2991265355773120867}
   - component: {fileID: 2991265355773120864}
   m_Layer: 5
@@ -740,22 +850,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2991265355773120868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2991265355773120870}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3381264b720a664a93ba5057f986e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skillName: 'Coming Soon! '
-  skillSprite: {fileID: 21300000, guid: 52be072351eef364aad8049ebcd7aaca, type: 3}
-  skillDes: Coming Soon!
-  isUpgrade: 0
 --- !u!114 &2991265355773120867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -772,6 +866,7 @@ MonoBehaviour:
   skillNameText: {fileID: 2991265355324950188}
   skillDesText: {fileID: 2991265356758785436}
   skillButtonId: 9
+  skill: {fileID: 0}
 --- !u!114 &2991265355773120864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -996,7 +1091,6 @@ GameObject:
   - component: {fileID: 2991265355873987848}
   - component: {fileID: 2991265355873987863}
   - component: {fileID: 2991265355873987862}
-  - component: {fileID: 2991265355873987849}
   - component: {fileID: 2991265355873987861}
   - component: {fileID: 2991265355873987860}
   m_Layer: 5
@@ -1063,22 +1157,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2991265355873987849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2991265355873987851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3381264b720a664a93ba5057f986e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skillName: 'Coming Soon! '
-  skillSprite: {fileID: 21300000, guid: 52be072351eef364aad8049ebcd7aaca, type: 3}
-  skillDes: Coming Soon!
-  isUpgrade: 0
 --- !u!114 &2991265355873987861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1095,6 +1173,7 @@ MonoBehaviour:
   skillNameText: {fileID: 2991265355324950188}
   skillDesText: {fileID: 2991265356758785436}
   skillButtonId: 7
+  skill: {fileID: 0}
 --- !u!114 &2991265355873987860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1160,7 +1239,6 @@ GameObject:
   - component: {fileID: 2991265355949496748}
   - component: {fileID: 2991265355949496747}
   - component: {fileID: 2991265355949496746}
-  - component: {fileID: 2991265355949496749}
   - component: {fileID: 2991265355949496745}
   - component: {fileID: 2991265355949496744}
   m_Layer: 5
@@ -1227,22 +1305,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2991265355949496749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2991265355949496751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3381264b720a664a93ba5057f986e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skillName: 'Coming Soon! '
-  skillSprite: {fileID: 21300000, guid: 52be072351eef364aad8049ebcd7aaca, type: 3}
-  skillDes: Coming Soon!
-  isUpgrade: 0
 --- !u!114 &2991265355949496745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1259,6 +1321,7 @@ MonoBehaviour:
   skillNameText: {fileID: 2991265355324950188}
   skillDesText: {fileID: 2991265356758785436}
   skillButtonId: 5
+  skill: {fileID: 0}
 --- !u!114 &2991265355949496744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1509,7 +1572,6 @@ GameObject:
   - component: {fileID: 2991265356196554408}
   - component: {fileID: 2991265356196554423}
   - component: {fileID: 2991265356196554422}
-  - component: {fileID: 2991265356196554409}
   - component: {fileID: 2991265356196554421}
   - component: {fileID: 2991265356196554420}
   m_Layer: 5
@@ -1576,22 +1638,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2991265356196554409
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2991265356196554411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3381264b720a664a93ba5057f986e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skillName: Life +
-  skillSprite: {fileID: 21300000, guid: 52be072351eef364aad8049ebcd7aaca, type: 3}
-  skillDes: Gives the player 25 more of maximum health
-  isUpgrade: 0
 --- !u!114 &2991265356196554421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1608,6 +1654,7 @@ MonoBehaviour:
   skillNameText: {fileID: 2991265355324950188}
   skillDesText: {fileID: 2991265356758785436}
   skillButtonId: 0
+  skill: {fileID: 0}
 --- !u!114 &2991265356196554420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1821,8 +1868,6 @@ GameObject:
   - component: {fileID: 2991265356300443997}
   - component: {fileID: 2991265356300443993}
   - component: {fileID: 2991265356300443992}
-  - component: {fileID: 2991265356300443995}
-  - component: {fileID: 2991265356300443994}
   - component: {fileID: 2991265356300444007}
   - component: {fileID: 2991265356300444006}
   m_Layer: 5
@@ -1889,38 +1934,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2991265356300443995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2991265356300443996}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3381264b720a664a93ba5057f986e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skillName: Coming Soon!
-  skillSprite: {fileID: 21300000, guid: 52be072351eef364aad8049ebcd7aaca, type: 3}
-  skillDes: Coming Soon!
-  isUpgrade: 0
---- !u!114 &2991265356300443994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2991265356300443996}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3381264b720a664a93ba5057f986e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skillName: 
-  skillSprite: {fileID: 0}
-  skillDes: 
-  isUpgrade: 0
 --- !u!114 &2991265356300444007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1937,6 +1950,7 @@ MonoBehaviour:
   skillNameText: {fileID: 2991265355324950188}
   skillDesText: {fileID: 2991265356758785436}
   skillButtonId: 4
+  skill: {fileID: 0}
 --- !u!114 &2991265356300444006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2150,7 +2164,6 @@ GameObject:
   - component: {fileID: 2991265356429214588}
   - component: {fileID: 2991265356429214587}
   - component: {fileID: 2991265356429214586}
-  - component: {fileID: 2991265356429214589}
   - component: {fileID: 2991265356429214585}
   - component: {fileID: 2991265356429214584}
   m_Layer: 5
@@ -2217,22 +2230,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2991265356429214589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2991265356429214591}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3381264b720a664a93ba5057f986e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skillName: Coming Soon
-  skillSprite: {fileID: 21300000, guid: 52be072351eef364aad8049ebcd7aaca, type: 3}
-  skillDes: Coming Soon
-  isUpgrade: 0
 --- !u!114 &2991265356429214585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2249,6 +2246,7 @@ MonoBehaviour:
   skillNameText: {fileID: 2991265355324950188}
   skillDesText: {fileID: 2991265356758785436}
   skillButtonId: 3
+  skill: {fileID: 0}
 --- !u!114 &2991265356429214584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2314,7 +2312,6 @@ GameObject:
   - component: {fileID: 2991265356512268029}
   - component: {fileID: 2991265356512268024}
   - component: {fileID: 2991265356512268027}
-  - component: {fileID: 2991265356512268026}
   - component: {fileID: 2991265356512266502}
   - component: {fileID: 2991265356512268025}
   m_Layer: 5
@@ -2381,22 +2378,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2991265356512268026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2991265356512268028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3381264b720a664a93ba5057f986e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skillName: 'Coming Soon! '
-  skillSprite: {fileID: 21300000, guid: 52be072351eef364aad8049ebcd7aaca, type: 3}
-  skillDes: Coming Soon!
-  isUpgrade: 0
 --- !u!114 &2991265356512266502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2413,6 +2394,7 @@ MonoBehaviour:
   skillNameText: {fileID: 2991265355324950188}
   skillDesText: {fileID: 2991265356758785436}
   skillButtonId: 6
+  skill: {fileID: 0}
 --- !u!114 &2991265356512268025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2498,6 +2480,8 @@ RectTransform:
   m_Children:
   - {fileID: 2991265355865492383}
   - {fileID: 2991265356087370965}
+  - {fileID: 2007692376460675549}
+  - {fileID: 1903554243104917003}
   m_Father: {fileID: 2991265356588098831}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2653,7 +2637,6 @@ GameObject:
   - component: {fileID: 2991265356733031443}
   - component: {fileID: 2991265356733031454}
   - component: {fileID: 2991265356733031441}
-  - component: {fileID: 2991265356733031440}
   - component: {fileID: 2991265356733031452}
   - component: {fileID: 2991265356733031455}
   m_Layer: 5
@@ -2720,22 +2703,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2991265356733031440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2991265356733031442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3381264b720a664a93ba5057f986e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skillName: Coming Soon
-  skillSprite: {fileID: 21300000, guid: 52be072351eef364aad8049ebcd7aaca, type: 3}
-  skillDes: Coming Soon!
-  isUpgrade: 0
 --- !u!114 &2991265356733031452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2752,6 +2719,7 @@ MonoBehaviour:
   skillNameText: {fileID: 2991265355324950188}
   skillDesText: {fileID: 2991265356758785436}
   skillButtonId: 2
+  skill: {fileID: 0}
 --- !u!114 &2991265356733031455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3079,16 +3047,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skills:
-  - {fileID: 2991265356196554409}
-  - {fileID: 2991265355590677890}
-  - {fileID: 2991265356733031440}
-  - {fileID: 2991265356429214589}
-  - {fileID: 2991265356300443995}
-  - {fileID: 2991265355949496749}
-  - {fileID: 2991265356512268026}
-  - {fileID: 2991265355873987849}
-  - {fileID: 2991265355358994041}
-  - {fileID: 2991265355773120868}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   skillButtons:
   - {fileID: 2991265356196554421}
   - {fileID: 2991265355590677902}
@@ -3100,6 +3068,11 @@ MonoBehaviour:
   - {fileID: 2991265355873987861}
   - {fileID: 2991265355358994053}
   - {fileID: 2991265355773120867}
+  unlockButton: {fileID: 584612526697090476}
+  lockedButton: {fileID: 0}
+  player: {fileID: 0}
+  playerHealth: {fileID: 0}
+  playerSpeed: {fileID: 0}
   activateSkill: {fileID: 0}
 --- !u!114 &2991265356826133254
 MonoBehaviour:
@@ -3340,3 +3313,289 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &5555992937734833845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1903554243104917003}
+  - component: {fileID: 4405887353833034763}
+  - component: {fileID: 4179204077063495261}
+  - component: {fileID: 5108038608955998650}
+  m_Layer: 5
+  m_Name: LockedButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1903554243104917003
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5555992937734833845}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.906134, y: 0.45003, z: 1}
+  m_Children:
+  - {fileID: 158280530574430944}
+  m_Father: {fileID: 2991265356554269264}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 32, y: -395}
+  m_SizeDelta: {x: 68.551636, y: 68.551636}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4405887353833034763
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5555992937734833845}
+  m_CullTransparentMesh: 0
+--- !u!114 &4179204077063495261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5555992937734833845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.6509804, g: 0.72156864, b: 0.7490196, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5108038608955998650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5555992937734833845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 4179204077063495261}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: PressSkillButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &7575571624472905129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 158280530574430944}
+  - component: {fileID: 2903562303777624037}
+  - component: {fileID: 241469173962646710}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &158280530574430944
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7575571624472905129}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.34409976, y: 2.2220743, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1903554243104917003}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.2, y: -4}
+  m_SizeDelta: {x: 157.05624, y: 35.621758}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2903562303777624037
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7575571624472905129}
+  m_CullTransparentMesh: 0
+--- !u!114 &241469173962646710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7575571624472905129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 12
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Locked!
+--- !u!1 &8102239378934729621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7551972574052111882}
+  - component: {fileID: 3614129765838981293}
+  - component: {fileID: 2831935265123361531}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7551972574052111882
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102239378934729621}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.34409976, y: 2.2220743, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2007692376460675549}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.2, y: -4}
+  m_SizeDelta: {x: 157.05624, y: 35.621758}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3614129765838981293
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102239378934729621}
+  m_CullTransparentMesh: 0
+--- !u!114 &2831935265123361531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102239378934729621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 12
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Unlock
