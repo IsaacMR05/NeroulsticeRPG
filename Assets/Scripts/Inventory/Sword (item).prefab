@@ -60,13 +60,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.88235295, b: 0.37254903, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d65e3dcdc1c35724bbfb89e1bb00d380, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c191653286348134985e726f2ab5a108, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -104,5 +104,5 @@ MonoBehaviour:
   originalSlot: {fileID: 0}
   inArmourSlot: 0
   inWeaponSlot: 0
-  itemID: 1
+  itemID: 2
   equipType: 1
