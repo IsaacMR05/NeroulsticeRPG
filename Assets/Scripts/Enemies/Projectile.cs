@@ -10,7 +10,7 @@ public class Projectile : MonoBehaviour
     private Transform player;
     private Vector2 target;
     private Health_Manager healthMan;
-    private int damageToGive = 15;
+    public int damageToGive;
 
 
     // Start is called before the first frame update

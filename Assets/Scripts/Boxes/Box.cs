@@ -15,9 +15,9 @@ public class Box : MonoBehaviour
     {
         boxHealth = GetComponent<Health_Manager>();
         rend = GetComponent<SpriteRenderer>();
-        boxSprite = Resources.Load<Sprite>("Boxes_0");
-        damagedBoxSprite = Resources.Load<Sprite>("Boxes_1");
-        tooDamagedBoxSprite = Resources.Load<Sprite>("Boxes_2");
+        boxSprite = Resources.Load<Sprite>("Boxes_3");
+        damagedBoxSprite = Resources.Load<Sprite>("Boxes_4");
+        tooDamagedBoxSprite = Resources.Load<Sprite>("Boxes_5");
     }
 
     // Update is called once per frame
