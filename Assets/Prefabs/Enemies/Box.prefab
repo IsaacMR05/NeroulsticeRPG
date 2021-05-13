@@ -131,6 +131,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   box: {fileID: 7110395889735203553}
+  boxSprite: {fileID: 7616711153819495923, guid: 18722e4753a053f47b0dd3299993e609,
+    type: 3}
+  damagedBoxSprite: {fileID: -8137899222468004320, guid: 18722e4753a053f47b0dd3299993e609,
+    type: 3}
+  tooDamagedBoxSprite: {fileID: 6755594561522053818, guid: 18722e4753a053f47b0dd3299993e609,
+    type: 3}
 --- !u!50 &7110395889735203556
 Rigidbody2D:
   serializedVersion: 4

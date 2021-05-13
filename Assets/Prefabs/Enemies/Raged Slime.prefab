@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1518776034747457657}
   - component: {fileID: 6859345371631949206}
   - component: {fileID: 6951697326989933565}
-  - component: {fileID: 8390908634185215695}
   - component: {fileID: 6278057907233571687}
   - component: {fileID: 3067920910853905312}
   - component: {fileID: -6735949011316446978}
@@ -21,7 +20,7 @@ GameObject:
   - component: {fileID: -4557879074267176397}
   - component: {fileID: 8926366609692445179}
   m_Layer: 0
-  m_Name: Ranged Slime
+  m_Name: Raged Slime
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,63 +105,6 @@ MonoBehaviour:
   attributes: {fileID: 0}
   name: Slime
   experience: 15
---- !u!60 &8390908634185215695
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1544392050510859811}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.717007, y: 0.31109342}
-      - {x: 0.5955567, y: 0.313339}
-      - {x: 0.58120936, y: 0.2211392}
-      - {x: 0.52003735, y: 0.21481133}
-      - {x: 0.52503586, y: 0.41598573}
-      - {x: 0.4197818, y: 0.4194517}
-      - {x: 0.42, y: 0.7}
-      - {x: 0.41197133, y: 0.7170071}
-      - {x: 0.2918995, y: 0.7170071}
-      - {x: 0.2863004, y: 0.6162088}
-      - {x: 0.093695186, y: 0.61782897}
-      - {x: 0.0881646, y: 0.5144813}
-      - {x: -0.091745704, y: 0.51627827}
-      - {x: -0.089999996, y: 0.65}
-      - {x: -0.34, y: 0.62}
-      - {x: -0.34, y: 0.48999998}
-      - {x: -0.33435154, y: 0.22268796}
-      - {x: -0.42298812, y: 0.22360873}
-      - {x: -0.43520367, y: 0.03359604}
-      - {x: -0.53, y: 0.01}
-      - {x: -0.5280948, y: -0.18702579}
-      - {x: -0.5862123, y: -0.18061519}
-      - {x: -0.58792734, y: -0.08502436}
-      - {x: -0.71824455, y: -0.07999976}
-      - {x: -0.7184181, y: -0.30736718}
-      - {x: -0.70621884, y: -0.39619088}
-      - {x: -0.70210147, y: -0.5742581}
-      - {x: -0.8170079, y: -0.5728452}
-      - {x: -0.79999995, y: -0.79999995}
-      - {x: 0.79999995, y: -0.79999995}
-      - {x: 0.79999995, y: -0.28381804}
-      - {x: 0.71401846, y: -0.29157066}
 --- !u!50 &6278057907233571687
 Rigidbody2D:
   serializedVersion: 4
