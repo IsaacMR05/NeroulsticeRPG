@@ -7,6 +7,9 @@ public class InputPlayer : MonoBehaviour {
 // Usamos un atributo para decirlo a Unity como ha de tratar la variable,HideInInspector, hace que ya no la veamos en Unity
    [HideInInspector] public float horizontalAxis; 
    [HideInInspector] public float verticalAxis;
+   [HideInInspector] public float horizontalAxisRaw;
+   [HideInInspector] public float verticalAxisRaw;
+
    [HideInInspector] public bool attack;
    [HideInInspector] public bool spell;
    [HideInInspector] public bool inventory;
@@ -30,6 +33,9 @@ public class InputPlayer : MonoBehaviour {
         //Definir ejes de movimiento
         horizontalAxis = Input.GetAxis("Horizontal");
         verticalAxis = Input.GetAxis("Vertical");
+        horizontalAxisRaw = Input.GetAxisRaw("Horizontal");
+        verticalAxisRaw = Input.GetAxisRaw("Vertical");
+
         //Debug.Log("El eje horizontal es "+ horizontalAxis + "el eje vertical es "+ verticalAxis);
     }
 }

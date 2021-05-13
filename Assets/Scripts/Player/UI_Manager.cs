@@ -14,11 +14,13 @@ public class UI_Manager : MonoBehaviour
     private Level levelMan;
     public Slider expBar;
     public Text expText;
+
+
     // Start is called before the first frame update
-    void Start()
-    {
-        healthMan = FindObjectOfType<Health_Manager>();
-    }
+     void Start()
+        {
+            healthMan = FindObjectOfType<Health_Manager>();
+        }
 
     // Update is called once per frame
     void Update()

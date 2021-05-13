@@ -10,9 +10,12 @@ public class PlayerControler : MonoBehaviour
 
     //Public 
     [Header("Horizontal Movement")]
-    public float speed = 1f;  // unidades de coordenadas globales por segundo m/s m= 3 s= deltaTime,
-    public Vector2 direction;                            // no serà manipoulada por otras clasese, pero la podremos editar desde el inspector
-
+    
+    public float speed;  // unidades de coordenadas globales por segundo m/s m= 3 s= deltaTime,
+    public float sprintingSpeed;
+    public float walkingSpeed;
+    public Vector2 direction; // no serà manipoulada por otras clasese, pero la podremos editar desde el inspector
+    public bool isSprinting;
    
 
     [Header("Components")]
@@ -31,13 +34,17 @@ public class PlayerControler : MonoBehaviour
 
     private float horizontal;
     private float vertical;
+    private float horizontalRaw;
+    private float verticalRaw;
     public int weaponID;
 
     //Attack
     private float attackTime = 0.44f;
-    private float attackCounter = 0.25f;
-    private bool swordAttacking;
+    private float attackCounter = 1.0f;
     private bool scalpelAttacking;
+    private bool wrenchAttacking;
+    private bool swordAttacking;
+    
 
 
     // Start is called before the first frame update
@@ -47,7 +54,10 @@ public class PlayerControler : MonoBehaviour
         //transformada = GetComponent<Transform>(); // transformara el valor de la variable que queramos en el valor que queramos
         myAnimator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        weapon = GetComponent<Game_Manager>();
+        weapon = FindObjectOfType<Game_Manager>();
+        myAnimator.SetFloat("lastMoveY", -0.1f);
+        
+      
     }
 
     // Update is called once per frame
@@ -56,34 +66,61 @@ public class PlayerControler : MonoBehaviour
 
         horizontal = inputJugador.horizontalAxis;
         vertical = inputJugador.verticalAxis;
+        horizontalRaw = inputJugador.horizontalAxisRaw;
+        verticalRaw = inputJugador.verticalAxisRaw;
     
         direction = new Vector2(horizontal, vertical);
-
         weaponID = weapon.weaponID;
-
+        
     }
 
     void Update()
-    {      
-     
+    {
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            isSprinting = true;
+        }
+        else
+        {
+            isSprinting = false;
+        }
+
+        if (isSprinting)
+        {
+            speed = sprintingSpeed;
+        }
+        else
+        {
+            speed = walkingSpeed;
+        }
+
+
+
         rb.velocity = new Vector2(horizontal, vertical) * speed * Time.deltaTime;
 
-        if (!swordAttacking && !scalpelAttacking) 
+        if (!swordAttacking && !scalpelAttacking && !wrenchAttacking) 
         { 
             myAnimator.SetFloat("moveX", (int)rb.velocity.x);
             myAnimator.SetFloat("moveY", (int)rb.velocity.y);
 
 
-            if (horizontal >= 0.1 || horizontal <= -0.1 || vertical >= 0.1 || vertical <= -0.1) 
+            if (horizontalRaw >= 1.0f || horizontalRaw <= -1.0f || verticalRaw >= 1.0f || verticalRaw <= -1.0f) 
             { 
-                myAnimator.SetFloat("lastMoveX", horizontal);  
-                myAnimator.SetFloat("lastMoveY", vertical);
+                myAnimator.SetFloat("lastMoveX", horizontalRaw);  
+                myAnimator.SetFloat("lastMoveY", verticalRaw);
             }
         }
         
         switch (weaponID)
         {
             case 0:
+                if (Input.GetKeyDown(KeyCode.T) && !scalpelAttacking)
+                {
+                        attackCounter = attackTime;
+                        myAnimator.SetBool("scalpelAttacking", true);
+                        scalpelAttacking = true;
+                }
+
                 if (scalpelAttacking)
                 {
                     //Si volem fer que pari de moure's quan ataqui
@@ -97,17 +134,46 @@ public class PlayerControler : MonoBehaviour
                         scalpelAttacking = false;
                     }
 
-                    if (Input.GetKeyDown(KeyCode.T) && !scalpelAttacking)
-                    {
-                        attackCounter = attackTime;
-                        myAnimator.SetBool("scalpelAttacking", true);
-                        scalpelAttacking = true;
-                    }
+                    
 
                 }
-                return;
+                break;
 
-            case 1:
+            case 1:      
+                if (Input.GetKeyDown(KeyCode.T) && !wrenchAttacking)
+                {
+                        attackCounter = attackTime;
+                        myAnimator.SetBool("wrenchAttacking", true);
+                        wrenchAttacking = true;
+                }
+
+                if (wrenchAttacking)
+                {
+                    //Si volem fer que pari de moure's quan ataqui
+                    rb.velocity = Vector2.zero;
+
+
+                    attackCounter -= Time.deltaTime;
+                    if (attackCounter <= 0)
+                    {
+                        myAnimator.SetBool("wrenchAttacking", false);
+                        wrenchAttacking = false;
+                    }
+
+              
+                }
+
+                break;
+
+            case 2:
+                if (Input.GetKeyDown(KeyCode.T) && !swordAttacking)
+                {
+                    attackCounter = attackTime;
+                    myAnimator.SetBool("swordAttacking", true);
+                    swordAttacking = true;
+                    //AudioManager.instance.PlaySFX(3);      i aixi faria sonar el so 
+                }
+
                 if (swordAttacking)
                 {
                     //Si volem fer que pari de moure's quan ataqui
@@ -121,14 +187,13 @@ public class PlayerControler : MonoBehaviour
                         swordAttacking = false;
                     }
 
-                    if (Input.GetKeyDown(KeyCode.T) && !swordAttacking)
-                    {
-                        attackCounter = attackTime;
-                        myAnimator.SetBool("swordAttacking", true);
-                        swordAttacking = true;
-                    }
+
                 }
-                return;
+
+                break;
+
+
+            default: break;
         }
      /*
         

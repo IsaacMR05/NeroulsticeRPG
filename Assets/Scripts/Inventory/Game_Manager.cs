@@ -87,12 +87,12 @@ public class Game_Manager : MonoBehaviour
 
         if (foundSlot == false)
         {
-            Instantiate(equipment[itemID].worldItem, PC.transform.position + new Vector3(0, 1, 0), Quaternion.identity); //CHANGE vector3
+            Instantiate(equipment[itemID].worldItem, PC.transform.position + new Vector3(0, 0, 0), Quaternion.identity); //CHANGE vector3
         }
     }
     public void DropItem(InventoryItem item)
     {
-        Instantiate(equipment[item.itemID].worldItem, PC.transform.position + new Vector3(0, 1, 0), Quaternion.identity);
+        Instantiate(equipment[item.itemID].worldItem, PC.transform.position + new Vector3(0, 0, 0), Quaternion.identity);
         Destroy(item.gameObject);
     }
 }
