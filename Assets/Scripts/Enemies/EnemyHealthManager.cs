@@ -10,7 +10,7 @@ public class EnemyHealthManager : MonoBehaviour
     public Player playerLevel;
     public Enemy enemy;
     private int playerExp;
-    public HealthBarBehaviour healthBar;
+    //public HealthBarBehaviour healthBar;
 
     
 
@@ -18,7 +18,7 @@ public class EnemyHealthManager : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        healthBar.SetHealth(currentHealth, maxHealth);
+        //healthBar.SetHealth(currentHealth, maxHealth);
     }
     
     // Update is called once per frame
