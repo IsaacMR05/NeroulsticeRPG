@@ -19,7 +19,7 @@ MonoBehaviour:
   previousSkillID2: 1
   skillSprite: {fileID: 21300000, guid: 52be072351eef364aad8049ebcd7aaca, type: 3}
   skillDes: Coming Soon
-  isUpgrade: 0
+  isUpgrade: 1
   extraLife: 0
   extraSpeed: 0
   extraDamage: 0

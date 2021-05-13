@@ -49,19 +49,26 @@ public class SkillManager : MonoBehaviour
             if (activateSkill.previousSkillID == -1 && activateSkill.previousSkillID2 == -1)
             {
                 unlocked = true;
+                Debug.Log("true");
+
             }
             else if (skills[activateSkill.previousSkillID].isUpgrade || skills[activateSkill.previousSkillID2].isUpgrade)
             {
                 unlocked = true;
+                Debug.Log("true 2");
             }
             else
             {
                 unlocked = false;
+                Debug.Log("false");
+
             }
         }
         else
         {
             unlocked = false;
+            Debug.Log("false 2");
+
         }
 
         unlockButton.SetActive(unlocked);

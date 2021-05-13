@@ -34,7 +34,7 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(Vector2.Distance(transform.position, player.position));
+       // Debug.Log(Vector2.Distance(transform.position, player.position));
 
         if (Vector2.Distance(transform.position, player.position) < attackDistance) 
         {
