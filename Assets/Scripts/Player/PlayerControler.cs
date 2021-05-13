@@ -54,7 +54,8 @@ public class PlayerControler : MonoBehaviour
         //transformada = GetComponent<Transform>(); // transformara el valor de la variable que queramos en el valor que queramos
         myAnimator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        weapon = FindObjectOfType<Game_Manager>(); 
+        weapon = FindObjectOfType<Game_Manager>();
+        myAnimator.SetFloat("lastMoveY", -0.1f);
         
       
     }
