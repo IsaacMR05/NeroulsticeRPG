@@ -5,6 +5,10 @@ using UnityEngine;
 public class Camera_Controller : MonoBehaviour
 {
     public Transform target;
+
+    public int musicToPlay;
+    private bool musicStarted;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -12,8 +16,14 @@ public class Camera_Controller : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         transform.position = new Vector3(target.transform.position.x, target.position.y, target.transform.position.z-3);
+
+        if (!musicStarted)
+        {
+            musicStarted = true;
+            AudioManager.instance.PlayBGM(musicToPlay);
+        }
     }
 }

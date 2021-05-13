@@ -3,13 +3,26 @@ using System.Collections.Generic;
 using System.Diagnostics.Tracing;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class InventorySlot : MonoBehaviour, IDropHandler
 {
+    public Image slot;
+
+    public Sprite fullSlot;
+    public Sprite emptySlot;
+
     public InventoryItem currentItem;
     public bool weaponSlot = false;
     public bool armourSlot = false;
     public bool isFull = false;
+
+    void Update()
+    {
+        if (isFull) { slot.sprite = fullSlot; }
+
+        else { slot.sprite = emptySlot; }
+    }
 
     public void OnDrop(PointerEventData eventData)
     {
@@ -257,5 +270,6 @@ public class InventorySlot : MonoBehaviour, IDropHandler
                 }
             }
         }
+        else { slot.sprite = emptySlot; }
     }
 }
