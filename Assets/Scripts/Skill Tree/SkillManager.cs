@@ -44,7 +44,6 @@ public class SkillManager : MonoBehaviour
 
     private void ShowUnlockButton()
     {
-        Debug.Log(activateSkill.name);
         if (player.level.biomass >= activateSkill.pointsToUpgrade && !activateSkill.isUpgrade)
         {
             if (activateSkill.previousSkillID == -1 && activateSkill.previousSkillID2 == -1)
@@ -84,7 +83,9 @@ public class SkillManager : MonoBehaviour
 
         player.level.biomass -= activateSkill.pointsToUpgrade;
         playerHealth.maxHealth += activateSkill.extraLife;
-        playerSpeed.maxSpeed += activateSkill.extraSpeed;
+        playerHealth.healYouself += activateSkill.healYouself;
+        playerSpeed.sprintingSpeed += activateSkill.extraSpeed;
+        playerSpeed.walkingSpeed += activateSkill.extraSpeed;
     }
 
 }

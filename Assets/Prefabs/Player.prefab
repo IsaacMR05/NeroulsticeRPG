@@ -3935,7 +3935,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -614738261
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: df3940abc05c127489c2160e9c0d56af, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3964,6 +3964,7 @@ MonoBehaviour:
     currentLevel: 0
     MAX_EXP: 0
     maxLevel: 0
+    biomass: 0
 --- !u!114 &3596578697831683049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3978,6 +3979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealth: 100
   maxHealth: 100
+  healYouself: 0
   flashLength: 0.5
 --- !u!114 &3596578697831683061
 MonoBehaviour:
@@ -4056,7 +4058,7 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.5}
   m_Size: {x: 0.6, y: 1}
   m_Direction: 0
 --- !u!95 &3596578697831683050

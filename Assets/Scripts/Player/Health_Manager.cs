@@ -6,6 +6,8 @@ public class Health_Manager : MonoBehaviour
 {
     public int currentHealth;
     public int maxHealth;
+    public int healYouself = 0;
+
 
     private bool flashActive;
     [SerializeField]//per poder-ho cambiar desde Unity
@@ -23,6 +25,11 @@ public class Health_Manager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(currentHealth > maxHealth) 
+        {
+            currentHealth = maxHealth; 
+        }
+
         if (flashActive)
         {
             /*for (float i = 0f; i < flashLength; i += Time.deltaTime)

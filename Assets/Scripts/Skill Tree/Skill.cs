@@ -21,11 +21,13 @@ public class Skill : ScriptableObject
     public int extraLife;
     public int extraSpeed;
     public int extraDamage;
+    public int healYouself;
 
     void Awake()
     {
         isUpgrade = false;
     }
+
 
     /*
     public void UnlockSkill()
