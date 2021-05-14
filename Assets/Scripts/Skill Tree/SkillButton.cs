@@ -25,7 +25,7 @@ public class SkillButton : MonoBehaviour
         skillNameText.text = SkillManager.instance.skills[skillButtonId].skillName;
         skillDesText.text = SkillManager.instance.skills[skillButtonId].skillDes;
         */
-
+        Debug.Log(skill.name);
         SkillManager.instance.activateSkill = skill;
         skillImage.sprite = skill.skillSprite;
         skillNameText.text = skill.skillName;
