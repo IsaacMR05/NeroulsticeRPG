@@ -98,6 +98,7 @@ MonoBehaviour:
   components:
   - {fileID: -8528650539855442252}
   - {fileID: -2569694414054065995}
+  - {fileID: 680168619172904292}
 --- !u!114 &680168619172904292
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -113,11 +114,11 @@ MonoBehaviour:
   active: 1
   m_AdvancedMode: 0
   lift:
-    m_OverrideState: 0
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_OverrideState: 1
+    m_Value: {x: 0.8994838, y: 0.9720245, z: 1, w: 0}
   gamma:
-    m_OverrideState: 0
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 0.85039973, z: 0.98654866, w: 0}
   gain:
-    m_OverrideState: 0
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 0.8867903, z: 0.8590123, w: 0}
