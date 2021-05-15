@@ -10,7 +10,8 @@ public class EnemyHealthManager : MonoBehaviour
     public Player playerLevel;
     public Enemy enemy;
     private int playerExp;
-    //public HealthBarBehaviour healthBar;
+    public HealthBar healthBar;
+    
 
     
 
@@ -18,19 +19,14 @@ public class EnemyHealthManager : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        //healthBar.SetHealth(currentHealth, maxHealth);
+        healthBar.SetMaxHealth(maxHealth);
     }
     
-    // Update is called once per frame
-    void Update()
-    {
 
-    }
-
-    
     public void HurtEnemy (int damageToGive)
     {
         currentHealth -= damageToGive;
+        healthBar.SetHealth(currentHealth);
         if(currentHealth <= 0)
         {
            playerLevel.level.AddExp(enemy.experience); //Call function to give XP for the player

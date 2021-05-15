@@ -8625,6 +8625,7 @@ GameObject:
   - component: {fileID: 3596578697831683049}
   - component: {fileID: 3596578697831683061}
   - component: {fileID: 3596578697831683060}
+  - component: {fileID: 6115487554779984787}
   - component: {fileID: 3596578697831683059}
   - component: {fileID: 3596578697831683058}
   - component: {fileID: 3596578697831683050}
@@ -8778,6 +8779,19 @@ MonoBehaviour:
   maxSpeed: 5
   linearDrag: 6
   weaponID: 0
+  particle: {fileID: 0}
+--- !u!114 &6115487554779984787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3596578697831683057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2a15109d8d93741aac3207e407b9b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!50 &3596578697831683059
 Rigidbody2D:
   serializedVersion: 4
