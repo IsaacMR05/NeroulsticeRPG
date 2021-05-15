@@ -66,19 +66,21 @@ public class PlayerControler : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-
-        horizontal = inputJugador.horizontalAxis;
-        vertical = inputJugador.verticalAxis;
-        horizontalRaw = inputJugador.horizontalAxisRaw;
-        verticalRaw = inputJugador.verticalAxisRaw;
-    
-        direction = new Vector2(horizontal, vertical);
-        weaponID = weapon.weaponID;
+        rb.velocity = new Vector2(horizontal, vertical) * speed * Time.deltaTime;
+     
         
     }
 
     void Update()
     {
+        horizontal = inputJugador.horizontalAxis;
+        vertical = inputJugador.verticalAxis;
+        horizontalRaw = inputJugador.horizontalAxisRaw;
+        verticalRaw = inputJugador.verticalAxisRaw;
+
+        direction = new Vector2(horizontal, vertical);
+        weaponID = weapon.weaponID;
+
         if (Input.GetKey(KeyCode.LeftShift))
         {
             isSprinting = true;
@@ -101,7 +103,7 @@ public class PlayerControler : MonoBehaviour
 
 
 
-        rb.velocity = new Vector2(horizontal, vertical) * speed * Time.deltaTime;
+       
 
         if (!swordAttacking && !scalpelAttacking && !wrenchAttacking) 
         { 
@@ -138,8 +140,6 @@ public class PlayerControler : MonoBehaviour
                         myAnimator.SetBool("scalpelAttacking", false);
                         scalpelAttacking = false;
                     }
-
-                    
 
                 }
                 break;
