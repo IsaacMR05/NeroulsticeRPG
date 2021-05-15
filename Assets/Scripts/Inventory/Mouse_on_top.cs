@@ -32,13 +32,20 @@ public class Mouse_on_top : MonoBehaviour
         EventSystem.current.RaycastAll(pointerEventData, raycastResultList);
         for (int i = 0; i < raycastResultList.Count; i++)
         {
-            if (raycastResultList[i].gameObject.GetComponent<MouseUIClickthrough>() != null)
+            if (raycastResultList[i].gameObject.name == this.gameObject.name)
             {
-                raycastResultList.RemoveAt(i);
-                i--;
+                Debug.Log(raycastResultList[i].gameObject.name);
+
+                return true;
             }
+
+            //if (raycastResultList[i].gameObject.GetComponent<MouseUIClickthrough>() != null)
+            //{
+            //    raycastResultList.RemoveAt(i);
+            //    i--;
+            //}
         }
 
-        return raycastResultList.Count > 0;
+        return false;
     }
 }

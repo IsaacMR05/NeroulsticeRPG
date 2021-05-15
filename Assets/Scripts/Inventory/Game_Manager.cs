@@ -71,6 +71,36 @@ public class Game_Manager : MonoBehaviour
     }
     public void PickupItem(int itemID)
     {
+        if (itemID == 20) //Orange doors
+        {
+            //player.Key0 = true;
+            //return;
+        }
+
+        if (itemID == 21) //Green doors
+        {
+            //player.Key1 = true;
+            //return;
+        }
+
+        if (itemID == 22) //Blue doors
+        {
+            //player.Key2 = true;
+            //return;
+        }
+
+        if (itemID == 23) //Purple doors
+        {
+            //player.Key3 = true;
+            //return;
+        }
+
+        if (itemID == 24) //Boss door
+        {
+            //player.Key4 = true;
+            //return;
+        }
+
         bool foundSlot = false;
 
         for (int i = 2; i < inventorySlots.Length; i++)
@@ -90,6 +120,7 @@ public class Game_Manager : MonoBehaviour
             Instantiate(equipment[itemID].worldItem, PC.transform.position + new Vector3(0, 0, 0), Quaternion.identity); //CHANGE vector3
         }
     }
+
     public void DropItem(InventoryItem item)
     {
         Instantiate(equipment[item.itemID].worldItem, PC.transform.position + new Vector3(0, 0, 0), Quaternion.identity);

@@ -9,8 +9,7 @@ public class AudioManager : MonoBehaviour
 
     public static AudioManager instance;
 
-    private static bool keepFadingIn;
-    private static bool keepFadingOut;
+    Coroutine fadeIn = null;
 
     // Start is called before the first frame update
     void Start()
@@ -40,69 +39,73 @@ public class AudioManager : MonoBehaviour
     {
         if (!bgm[musicToPlay].isPlaying)
         {
-            StopMusic();
+            StopMusic(musicToPlay);
 
             if (musicToPlay < bgm.Length)
             {
-                bgm[musicToPlay].Play(); //1st Option.
-                //FadeIn(musicToPlay, 0.1f, 1.0f); //2nd Option.
+                //bgm[musicToPlay].Play(); //1st Option.
+                fadeIn = StartCoroutine(FadeIn(musicToPlay, 0.01f, 1.0f)); //2nd Option.
             }
         }
     }
 
-    public void StopMusic()
+    public void StopMusic(int musicToPlay)
     {
+        if (fadeIn != null)
+        {
+            StopCoroutine(fadeIn);
+        } 
+
         for (int i = 0; i < bgm.Length; i++) 
         {
-            bgm[i].Stop(); //1st Option.
-            //FadeOut(i, 0.1f); //2nd Option.
+            if (i != musicToPlay)
+            {
+                StartCoroutine(FadeOut(i, 0.01f)); //2nd Option.
+            }
         }
     }
 
     IEnumerator FadeIn (int track, float speed, float maxVolume)
     {
-        keepFadingIn = true;
-        keepFadingOut = false;
-
         bgm[track].volume = 0.0f;
         bgm[track].Play(); //I don't know if this sould go here.
 
         float audioVolume = bgm[track].volume;
 
-        while ((bgm[track].volume <= maxVolume) && keepFadingIn)
+        while (bgm[track].volume <= maxVolume)
         {
             audioVolume += speed;
             bgm[track].volume = audioVolume;
 
             if (bgm[track].volume >= maxVolume)
             {
-                keepFadingIn = false;
                 bgm[track].volume = maxVolume;
 
-                yield return new WaitForSeconds(0.1f);
+                break;
             }
+
+            yield return new WaitForSeconds(0.1f);
         }
     }
 
     IEnumerator FadeOut(int track, float speed)
     {
-        keepFadingIn = false;
-        keepFadingOut = true;
-
         float audioVolume = bgm[track].volume;
 
-        while ((bgm[track].volume >= speed) && keepFadingOut)
+        while (bgm[track].volume >= 0.0f)
         {
             audioVolume -= speed;
             bgm[track].volume = audioVolume;
 
             if (bgm[track].volume <= 0.0f)
             {
-                keepFadingOut = false;
                 bgm[track].volume = 0.0f;
+                bgm[track].Stop();
 
-                yield return new WaitForSeconds(0.1f);
+                break;
             }
+
+            yield return new WaitForSeconds(0.1f);
         }
     }
 }
