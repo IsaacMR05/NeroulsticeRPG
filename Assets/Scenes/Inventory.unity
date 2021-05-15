@@ -1393,7 +1393,7 @@ MonoBehaviour:
     m_HighlightedSprite: {fileID: 21300000, guid: 94fae8f1e361763449a04e5716b495ff,
       type: 3}
     m_PressedSprite: {fileID: 21300000, guid: cb7e7db6a1c519f4f9a732a5726e90ed, type: 3}
-    m_SelectedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 21300000, guid: 13afc92e9045cea4e8bc69769abdc3f3, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -2626,6 +2626,16 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 3596578697831683060, guid: 586b93c63a7625f499eccff8b3ff5694,
+        type: 3}
+      propertyPath: walkingSpeed
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 3596578697831683060, guid: 586b93c63a7625f499eccff8b3ff5694,
+        type: 3}
+      propertyPath: sprintingSpeed
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 3596578697831683063, guid: 586b93c63a7625f499eccff8b3ff5694,
         type: 3}
