@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class InGameMenuManager : MonoBehaviour
 {
@@ -27,11 +29,11 @@ public class InGameMenuManager : MonoBehaviour
     {
         inGameMenuState = menuManager.menuState;
     }
-
     public void Exit()
     {
-        Application.Quit();
+        SceneManager.LoadScene("MainMenu");
     }
+
 
     public void ExitOptionsMenu()
     {
