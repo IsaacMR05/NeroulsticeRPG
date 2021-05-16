@@ -13,7 +13,7 @@ public class Checkpoint : MonoBehaviour
     }
     void Update()
     {
-        if (health.lifes <= 0)
+        if (health.lifes <= 0 && health != null && firstSpawn != null)
         {
 
             gm.lastCheckPointPos = firstSpawn.transform.position;
