@@ -13,6 +13,11 @@ public class HurtEnemy : MonoBehaviour
 
     private Game_Manager weapon;
     public int weaponID;
+
+    //Damage Number
+
+    public DamageNumber theDamageNumber;
+    public GameObject enemy;
     
     // Start is called before the first frame update
     void Start()
@@ -50,6 +55,7 @@ public class HurtEnemy : MonoBehaviour
                     EnemyHealthManager eHealth;
                     eHealth = other.gameObject.GetComponent<EnemyHealthManager>();
                     eHealth.HurtEnemy(damageToGive);
+                    Instantiate(theDamageNumber, other.GetComponent<Transform>().position, other.GetComponent<Transform>().rotation).SetDamage(damageToGive);
                 }
                 break;
 
