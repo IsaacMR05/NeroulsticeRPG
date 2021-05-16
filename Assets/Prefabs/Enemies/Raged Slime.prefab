@@ -232,8 +232,6 @@ MonoBehaviour:
     type: 3}
   enemy: {fileID: 6951697326989933565}
   healthBar: {fileID: 0}
---- !u!58 &8926366609692445179
-CircleCollider2D:
 --- !u!70 &6371413353661442453
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -247,9 +245,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.03, y: -0.12}
-  serializedVersion: 2
-  m_Radius: 0.36
+  m_Offset: {x: 0.03, y: -0.3}
+  m_Size: {x: 0.75, y: 0.4}
+  m_Direction: 1
 --- !u!1001 &6827722649031045532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -425,6 +423,3 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 6827722649031045532}
   m_PrefabAsset: {fileID: 0}
-  m_Offset: {x: 0.06, y: -0.24}
-  m_Size: {x: 0.74, y: 0.51}
-  m_Direction: 1

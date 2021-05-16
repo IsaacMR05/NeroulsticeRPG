@@ -232,8 +232,6 @@ MonoBehaviour:
     type: 3}
   enemy: {fileID: 6951697326989933565}
   healthBar: {fileID: 9181786479003228510}
---- !u!58 &8926366609692445179
-CircleCollider2D:
 --- !u!70 &5008532102103446671
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -247,9 +245,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.03, y: -0.12}
-  serializedVersion: 2
-  m_Radius: 0.36
+  m_Offset: {x: 0.03, y: -0.3}
+  m_Size: {x: 0.75, y: 0.4}
+  m_Direction: 1
 --- !u!1001 &6086720105613864655
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -442,6 +440,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b16600d8a2283cb4397563e7d78c11d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Offset: {x: 0.06, y: -0.24}
-  m_Size: {x: 0.74, y: 0.51}
-  m_Direction: 1

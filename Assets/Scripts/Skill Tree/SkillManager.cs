@@ -44,37 +44,35 @@ public class SkillManager : MonoBehaviour
 
     private void ShowUnlockButton()
     {
-        if (player.level.biomass >= activateSkill.pointsToUpgrade && !activateSkill.isUpgrade)
+        if (activateSkill != null)
         {
-            if (activateSkill.previousSkillID == -1 && activateSkill.previousSkillID2 == -1)
-            {
-                unlocked = true;
-                Debug.Log("true");
 
-            }
-            else if (skills[activateSkill.previousSkillID].isUpgrade || skills[activateSkill.previousSkillID2].isUpgrade)
+            if (player.level.biomass >= activateSkill.pointsToUpgrade && !activateSkill.isUpgrade)
             {
-                unlocked = true;
-                Debug.Log("true 2");
+                if (activateSkill.previousSkillID == -1 && activateSkill.previousSkillID2 == -1)
+                {
+                    unlocked = true;
+
+                }
+                else if (skills[activateSkill.previousSkillID].isUpgrade || skills[activateSkill.previousSkillID2].isUpgrade)
+                {
+                    unlocked = true;
+                }
+                else
+                {
+                    unlocked = false;
+
+                }
             }
             else
             {
                 unlocked = false;
-                Debug.Log("false");
 
             }
+
+            unlockButton.SetActive(unlocked);
+            lockedButton.SetActive(!unlocked);
         }
-        else
-        {
-            unlocked = false;
-            Debug.Log("false 2");
-
-        }
-        Debug.Log("ShowUnlockButton");
-
-        unlockButton.SetActive(unlocked);
-        lockedButton.SetActive(!unlocked);
-
     }
 
     public void UnlockSkill()

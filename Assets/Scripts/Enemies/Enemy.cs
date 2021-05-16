@@ -16,13 +16,16 @@ public class Enemy : MonoBehaviour
     }
     void Update()
     {
-        if(player.transform.position.y > this.transform.position.y)
+        if (player != null)
         {
-            sprite.sortingOrder = 2;
-        }
-        else
-        {
-            sprite.sortingOrder = 0;
+            if (player.transform.position.y > this.transform.position.y)
+            {
+                sprite.sortingOrder = 2;
+            }
+            else
+            {
+                sprite.sortingOrder = 0;
+            }
         }
     }
 }
