@@ -10,7 +10,6 @@ public class Checkpoint : MonoBehaviour
     void Start()
     {
         gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
-        health = FindObjectOfType<Health_Manager>();
     }
     void Update()
     {

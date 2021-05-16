@@ -8,7 +8,7 @@ public class HurtEnemy : MonoBehaviour
     private float percentage = 1;
     private int wrenchBaseDamage = 4;
     private int knifeBaseDamage = 5;
-    private int swordBaseDamage = 12;
+    private int swordBaseDamage = 7;
     public bool isCritic = false;
 
     private Game_Manager weapon;
@@ -46,7 +46,7 @@ public class HurtEnemy : MonoBehaviour
                 if (other.tag == "Enemy") //només te el tag el slime
                 {
 
-                    damageToGive = (int)((knifeBaseDamage + Random.Range(0,3))*percentage);
+                    damageToGive = (int)((knifeBaseDamage + Random.Range(0,1))*percentage);
                     EnemyHealthManager eHealth;
                     eHealth = other.gameObject.GetComponent<EnemyHealthManager>();
                     eHealth.HurtEnemy(damageToGive);
