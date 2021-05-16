@@ -50,9 +50,15 @@ public class PlayerControler : MonoBehaviour
     public GameObject particle;
     
 
+    public bool canMove = true;
+
+    public static PlayerControler instance;
+
     // Start is called before the first frame update
     void Start()
     {
+        instance = this;
+
         inputJugador = GetComponent<InputPlayer>();   //Buscara dentro de game object, mi player, una variable tipo inputPlayer
         //transformada = GetComponent<Transform>(); // transformara el valor de la variable que queramos en el valor que queramos
         myAnimator = GetComponent<Animator>();
@@ -101,22 +107,32 @@ public class PlayerControler : MonoBehaviour
             speed = walkingSpeed;
         }
 
+        if (canMove)
+        {
+            rb.velocity = new Vector2(horizontal, vertical) * speed * Time.deltaTime;
+        }
+        else
+        {
+            rb.velocity = Vector2.zero;
+        }
 
+        if (canMove)
+        {
+            if (!swordAttacking && !scalpelAttacking && !wrenchAttacking)
+            {
+                myAnimator.SetFloat("moveX", (int)rb.velocity.x);
+                myAnimator.SetFloat("moveY", (int)rb.velocity.y);
 
        
 
-        if (!swordAttacking && !scalpelAttacking && !wrenchAttacking) 
-        { 
-            myAnimator.SetFloat("moveX", (int)rb.velocity.x);
-            myAnimator.SetFloat("moveY", (int)rb.velocity.y);
-
-
-            if (horizontalRaw >= 1.0f || horizontalRaw <= -1.0f || verticalRaw >= 1.0f || verticalRaw <= -1.0f) 
-            { 
-                myAnimator.SetFloat("lastMoveX", horizontalRaw);  
-                myAnimator.SetFloat("lastMoveY", verticalRaw);
+                if (horizontalRaw >= 1.0f || horizontalRaw <= -1.0f || verticalRaw >= 1.0f || verticalRaw <= -1.0f)
+                {
+                    myAnimator.SetFloat("lastMoveX", horizontalRaw);
+                    myAnimator.SetFloat("lastMoveY", verticalRaw);
+                }
             }
         }
+        
         
         switch (weaponID)
         {
@@ -200,8 +216,8 @@ public class PlayerControler : MonoBehaviour
 
             default: break;
         }
-     /*
-        
+
+        /*
         if (attacking)
         {
             //Si volem fer que pari de moure's quan ataqui
