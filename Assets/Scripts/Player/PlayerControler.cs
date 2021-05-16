@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerControler : MonoBehaviour
 {
     //Inventory part:
@@ -44,8 +45,10 @@ public class PlayerControler : MonoBehaviour
     private bool scalpelAttacking;
     private bool wrenchAttacking;
     private bool swordAttacking;
-    
 
+    //Particles
+    public GameObject particle;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -55,27 +58,29 @@ public class PlayerControler : MonoBehaviour
         myAnimator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         weapon = FindObjectOfType<Game_Manager>();
-        myAnimator.SetFloat("lastMoveY", -0.1f);
+        particle.SetActive(false);
         
-      
+        myAnimator.SetFloat("lastMoveY", -0.1f);
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-
-        horizontal = inputJugador.horizontalAxis;
-        vertical = inputJugador.verticalAxis;
-        horizontalRaw = inputJugador.horizontalAxisRaw;
-        verticalRaw = inputJugador.verticalAxisRaw;
-    
-        direction = new Vector2(horizontal, vertical);
-        weaponID = weapon.weaponID;
+        rb.velocity = new Vector2(horizontal, vertical) * speed * Time.deltaTime;
+     
         
     }
 
     void Update()
     {
+        horizontal = inputJugador.horizontalAxis;
+        vertical = inputJugador.verticalAxis;
+        horizontalRaw = inputJugador.horizontalAxisRaw;
+        verticalRaw = inputJugador.verticalAxisRaw;
+
+        direction = new Vector2(horizontal, vertical);
+        weaponID = weapon.weaponID;
+
         if (Input.GetKey(KeyCode.LeftShift))
         {
             isSprinting = true;
@@ -87,16 +92,18 @@ public class PlayerControler : MonoBehaviour
 
         if (isSprinting)
         {
+            particle.SetActive(true);
             speed = sprintingSpeed;
         }
         else
         {
+            particle.SetActive(false);
             speed = walkingSpeed;
         }
 
 
 
-        rb.velocity = new Vector2(horizontal, vertical) * speed * Time.deltaTime;
+       
 
         if (!swordAttacking && !scalpelAttacking && !wrenchAttacking) 
         { 
@@ -114,7 +121,7 @@ public class PlayerControler : MonoBehaviour
         switch (weaponID)
         {
             case 0:
-                if (Input.GetKeyDown(KeyCode.T) && !scalpelAttacking)
+                if (Input.GetKeyDown(KeyCode.Space) && !scalpelAttacking)
                 {
                         attackCounter = attackTime;
                         myAnimator.SetBool("scalpelAttacking", true);
@@ -134,13 +141,11 @@ public class PlayerControler : MonoBehaviour
                         scalpelAttacking = false;
                     }
 
-                    
-
                 }
                 break;
 
             case 1:      
-                if (Input.GetKeyDown(KeyCode.T) && !wrenchAttacking)
+                if (Input.GetKeyDown(KeyCode.Space) && !wrenchAttacking)
                 {
                         attackCounter = attackTime;
                         myAnimator.SetBool("wrenchAttacking", true);
@@ -166,7 +171,7 @@ public class PlayerControler : MonoBehaviour
                 break;
 
             case 2:
-                if (Input.GetKeyDown(KeyCode.T) && !swordAttacking)
+                if (Input.GetKeyDown(KeyCode.Space) && !swordAttacking)
                 {
                     attackCounter = attackTime;
                     myAnimator.SetBool("swordAttacking", true);
