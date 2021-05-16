@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6052385280235894023}
   - component: {fileID: 6052385280235894020}
+  - component: {fileID: 211786868764666349}
   m_Layer: 0
   m_Name: Freeform Light 2D
   m_TagString: Untagged
@@ -78,3 +79,15 @@ MonoBehaviour:
   - {x: 3.0401268, y: 8.341748, z: 0}
   - {x: -2.7530975, y: 2.6816685, z: 0}
   - {x: -2.8060055, y: -0.74240494, z: 0}
+--- !u!114 &211786868764666349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6052385280235894021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9377802e4ee7ed54799a76f50cfcac23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

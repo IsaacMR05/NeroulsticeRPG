@@ -36,6 +36,10 @@ public class HurtEnemy : MonoBehaviour
             percentage = 1.5f;
             isCritic = false; 
         }
+        else
+        {
+            percentage = 1;
+        }
         switch (weaponID)
         {
             case 0:

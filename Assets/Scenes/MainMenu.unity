@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -961,8 +961,8 @@ Camera:
   m_GameObject: {fileID: 812576994}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1488,6 +1488,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6052385280235894020, guid: 1dd400ab43f8f6b419bcd81c3a996c35,
+        type: 3}
+      propertyPath: m_FalloffIntensity
+      value: 0.198
+      objectReference: {fileID: 0}
     - target: {fileID: 6052385280235894021, guid: 1dd400ab43f8f6b419bcd81c3a996c35,
         type: 3}
       propertyPath: m_Name
@@ -2273,7 +2278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c35de195ed47b4c97c1417e06ba592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameScene: Game Isaac
+  gameScene: "Zone 0 (Lab) Adri\xE0"
   demo: Tilemap_v.0.3
   twitter: https://twitter.com/TheXIncident
 --- !u!114 &1926239338

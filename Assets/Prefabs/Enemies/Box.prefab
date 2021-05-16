@@ -54,7 +54,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2dbe7cf5ee04349b4432df3197e823, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   attributes: {fileID: 0}
   name: Box
   experience: 0
@@ -118,6 +119,7 @@ MonoBehaviour:
   maxHealth: 15
   playerLevel: {fileID: 0}
   enemy: {fileID: 2382317506163837624}
+  healthBar: {fileID: 0}
 --- !u!114 &6412312459366797144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,7 +132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4370fdae945dc314387a04ce5c43b5ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  box: {fileID: 7110395889735203553}
+  boxHealth: {fileID: 0}
   boxSprite: {fileID: 7616711153819495923, guid: 18722e4753a053f47b0dd3299993e609,
     type: 3}
   damagedBoxSprite: {fileID: -8137899222468004320, guid: 18722e4753a053f47b0dd3299993e609,

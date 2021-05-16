@@ -15,7 +15,7 @@ public class Healer : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (!healed)
+        if (!healed && health.currentHealth != health.maxHealth)
         {
             if (other.CompareTag("Player"))
             {

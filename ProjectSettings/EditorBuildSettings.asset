@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game Isaac.unity
     guid: e34722be312965049a5e30462e3f1311
+  - enabled: 1
+    path: "Assets/Scenes/Zone 0 (Lab) Adri\xE0.unity"
+    guid: 28ed27ae52b5b8c459fb2257421fbc7a
   m_configObjects: {}

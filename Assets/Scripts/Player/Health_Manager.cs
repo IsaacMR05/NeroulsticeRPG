@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Health_Manager : MonoBehaviour
 {
     public int currentHealth;
     public int maxHealth;
     public int healYouself = 0;
+    public int lifes = 3;
 
 
     private bool flashActive;
@@ -93,11 +95,14 @@ public class Health_Manager : MonoBehaviour
         flashActive = true;
         flashCounter = flashLength;
 
-        //if(currentHealth <= 0)
-        //{
-        //    gameObject.SetActive(false);
-        //    currentHealth = 0;
+        if(currentHealth <= 0)
+        {
+            lifes--;
+            if(lifes <= 0)
+            {
+                SceneManager.LoadScene("MainMenu");
+            }
             
-        //}
+        }
     }
 }
