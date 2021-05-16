@@ -44,7 +44,7 @@ public class AudioManager : MonoBehaviour
             if (musicToPlay < bgm.Length)
             {
                 //bgm[musicToPlay].Play(); //1st Option.
-                fadeIn = StartCoroutine(FadeIn(musicToPlay, 0.01f, 1.0f)); //2nd Option.
+                fadeIn = StartCoroutine(FadeIn(musicToPlay, 0.05f, 0.5f)); //2nd Option.
             }
         }
     }
@@ -60,7 +60,7 @@ public class AudioManager : MonoBehaviour
         {
             if (i != musicToPlay)
             {
-                StartCoroutine(FadeOut(i, 0.01f)); //2nd Option.
+                StartCoroutine(FadeOut(i, 0.05f)); //2nd Option.
             }
         }
     }
