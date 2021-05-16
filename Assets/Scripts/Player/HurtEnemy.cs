@@ -55,7 +55,7 @@ public class HurtEnemy : MonoBehaviour
                     EnemyHealthManager eHealth;
                     eHealth = other.gameObject.GetComponent<EnemyHealthManager>();
                     eHealth.HurtEnemy(damageToGive);
-                    Instantiate(theDamageNumber, other.GetComponent<Transform>().position, other.GetComponent<Transform>().rotation).SetDamage(damageToGive);
+                   // Instantiate(theDamageNumber, other.GetComponent<Transform>().position, other.GetComponent<Transform>().rotation).SetDamage(damageToGive);
                 }
                 break;
 
