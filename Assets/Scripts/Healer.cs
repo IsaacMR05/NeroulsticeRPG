@@ -13,7 +13,7 @@ public class Healer : MonoBehaviour
         health = FindObjectOfType<Health_Manager>();
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(BoxCollider2D other)
     {
         if (!healed && health.currentHealth != health.maxHealth)
         {

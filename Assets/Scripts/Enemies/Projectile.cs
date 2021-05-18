@@ -40,7 +40,12 @@ public class Projectile : MonoBehaviour
             healthMan.HurtPlayer(damageToGive);
             DestroyProjectile();
         }
+        else if (other.CompareTag("Enemy")) //|| other.CompareTag("Walls")
+        {
+            DestroyProjectile();
+        }
     }
+
 
     void DestroyProjectile()
     {
