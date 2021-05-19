@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Weapon
   - GM
+  - RangedEnemy
   layers:
   - Default
   - TransparentFX
