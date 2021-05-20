@@ -8,6 +8,7 @@ TagManager:
   - Weapon
   - GM
   - RangedEnemy
+  - WallCollider
   layers:
   - Default
   - TransparentFX
