@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3381264b720a664a93ba5057f986e8c, type: 3}
   m_Name: Healing
   m_EditorClassIdentifier: 
-  skillName: Healing
+  skillName: 'Healing              Biosmass: 1'
   pointsToUpgrade: 1
   skillID: 2
   previousSkillID: 1
@@ -22,7 +22,7 @@ MonoBehaviour:
 
     It
     seems magic right? Well... it isn''t at all.'
-  isUpgrade: 0
+  isUpgrade: 1
   extraLife: 0
   extraSpeed: 0
   extraDamage: 0
