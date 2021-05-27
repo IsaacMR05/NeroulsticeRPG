@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3381264b720a664a93ba5057f986e8c, type: 3}
   m_Name: Life ++
   m_EditorClassIdentifier: 
-  skillName: Life ++
+  skillName: 'Life ++               Biomass: 1'
   pointsToUpgrade: 1
   skillID: 3
   previousSkillID: 1
