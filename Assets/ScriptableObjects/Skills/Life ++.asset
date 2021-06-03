@@ -17,7 +17,7 @@ MonoBehaviour:
   skillID: 3
   previousSkillID: 1
   previousSkillID2: 1
-  skillSprite: {fileID: 21300000, guid: 32173392caf8016489560d7edee54aa1, type: 3}
+  skillSprite: {fileID: 21300000, guid: e78ec3e4bb0c2a244a57c2d5fcfd061e, type: 3}
   skillDes: "More health? \nYeah, it's never enough"
   isUpgrade: 0
   extraLife: 25

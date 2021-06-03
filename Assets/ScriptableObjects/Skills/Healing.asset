@@ -17,7 +17,7 @@ MonoBehaviour:
   skillID: 2
   previousSkillID: 1
   previousSkillID2: 1
-  skillSprite: {fileID: 21300000, guid: 32173392caf8016489560d7edee54aa1, type: 3}
+  skillSprite: {fileID: 21300000, guid: 9aa034e9644e05b4ea7e419fdd29e70f, type: 3}
   skillDes: 'From now on you will be able to heal yourelf when you level up!
 
     It
