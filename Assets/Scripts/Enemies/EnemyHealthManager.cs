@@ -11,6 +11,7 @@ public class EnemyHealthManager : MonoBehaviour
     public Enemy enemy;
     private int playerExp;
     public HealthBar healthBar;
+    private Animator myAnimator;
 
 
 
@@ -18,6 +19,7 @@ public class EnemyHealthManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        myAnimator = GetComponent<Animator>();
         currentHealth = maxHealth;
         if(healthBar != null)
         {
@@ -25,19 +27,48 @@ public class EnemyHealthManager : MonoBehaviour
         }
     }
     
-
+    
     public void HurtEnemy (int damageToGive)
     {
+        if (myAnimator != null)
+        {
+           myAnimator.SetBool("hit", true);
+        }
         currentHealth -= damageToGive;
         if (healthBar != null)
         {
           healthBar.SetHealth(currentHealth);
 
         }
+
+       
+
         if (currentHealth <= 0)
         {
-           playerLevel.level.AddExp(enemy.experience); //Call function to give XP for the player
-           Destroy(gameObject);
+            if (myAnimator != null)
+            {
+               myAnimator.SetBool("dead",true);
+            }
+            playerLevel.level.AddExp(enemy.experience); //Call function to give XP for the player
+           if(myAnimator == null)
+            {
+                Destroy(gameObject);
+            }
         }
+    }
+
+
+
+    public void StopHitAnimation()
+    {
+        if(myAnimator != null)
+        {
+            myAnimator.SetBool("hit", false);
+        }
+    }
+
+    public void Dead()
+    {
+        Destroy(gameObject);
     }
 }

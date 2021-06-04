@@ -19,7 +19,7 @@ MonoBehaviour:
   previousSkillID2: 0
   skillSprite: {fileID: 21300000, guid: 5948f0861e6a5974cb0e934062278a78, type: 3}
   skillDes: "More Speed! \nTake it easy, you're not Flash"
-  isUpgrade: 0
+  isUpgrade: 1
   extraLife: 0
   extraSpeed: 25
   extraDamage: 0

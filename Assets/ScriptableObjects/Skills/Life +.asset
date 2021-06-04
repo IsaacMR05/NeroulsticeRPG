@@ -19,7 +19,7 @@ MonoBehaviour:
   previousSkillID2: -1
   skillSprite: {fileID: 21300000, guid: c8d1f547849dbdc4f835f6e64b599f36, type: 3}
   skillDes: Once you unlock it, you will get +25 max Health!
-  isUpgrade: 0
+  isUpgrade: 1
   extraLife: 25
   extraSpeed: 0
   extraDamage: 0

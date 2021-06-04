@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 5956845343047665908}
   - component: {fileID: 5582955503199370712}
   - component: {fileID: 6750632284115571817}
+  - component: {fileID: 5756045498644031237}
   m_Layer: 0
   m_Name: Mutated_Human 1
   m_TagString: RangedEnemy
@@ -208,6 +209,25 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.53}
   m_Size: {x: 0.56, y: 0.81}
   m_Direction: 0
+--- !u!95 &5756045498644031237
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337723012995900324}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 207510dd749d89047a2b8653ad521660, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &8499482055008819243
 PrefabInstance:
   m_ObjectHideFlags: 0
