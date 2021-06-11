@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
 {
     public Level level;
     private Health_Manager playerHealth;
+    public ParticleSystem onLevelUp;
 
     // Start is called before the first frame update
     void Start()
@@ -17,11 +18,17 @@ public class Player : MonoBehaviour
 
     private void leveledUp()
     {
-            playerHealth.currentHealth += playerHealth.healYouself; 
+        LevelUpAnimation();
+        playerHealth.currentHealth += playerHealth.healYouself; 
     }
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void LevelUpAnimation()
+    {
+        onLevelUp.Play();
     }
 }

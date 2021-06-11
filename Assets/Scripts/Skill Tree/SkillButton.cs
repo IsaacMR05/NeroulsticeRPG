@@ -8,23 +8,36 @@ public class SkillButton : MonoBehaviour
     public Image skillImage;
     public Text skillNameText;
     public Text skillDesText;
+    private Image buttonImage;
+
 
     public int skillButtonId;
 
     public Skill skill;
+    void Start()
+    {
+        buttonImage = GetComponent<Image>();
+    }
 
     void Awake()
     {
         skillButtonId = skill.skillID;
     }
+
+    void Update()
+    {
+        if (!skill.isUpgrade)
+        {
+            buttonImage.color = Color.gray;
+        }
+        else
+        {
+            buttonImage.color = Color.white;
+        }
+    }
     public void PressSkillButton()
     {
-        /*
-        SkillManager.instance.activateSkill = skill;
-        skillImage.sprite = SkillManager.instance.skills[skillButtonId].skillSprite;
-        skillNameText.text = SkillManager.instance.skills[skillButtonId].skillName;
-        skillDesText.text = SkillManager.instance.skills[skillButtonId].skillDes;
-        */
+
         Debug.Log(skill.name);
         SkillManager.instance.activateSkill = skill;
         skillImage.sprite = skill.skillSprite;

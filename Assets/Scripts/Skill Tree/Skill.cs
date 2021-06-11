@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "NewSkill", menuName = "TheXIncident/Skills/NewSkill", order = 1)]
 public class Skill : ScriptableObject
@@ -28,11 +29,4 @@ public class Skill : ScriptableObject
         isUpgrade = false;
     }
 
-
-    /*
-    public void UnlockSkill()
-    {
-        isUpgrade = true;
-    }
-   */
 }

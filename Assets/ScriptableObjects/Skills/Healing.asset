@@ -22,7 +22,7 @@ MonoBehaviour:
 
     It
     seems magic right? Well... it isn''t at all.'
-  isUpgrade: 0
+  isUpgrade: 1
   extraLife: 0
   extraSpeed: 0
   extraDamage: 0

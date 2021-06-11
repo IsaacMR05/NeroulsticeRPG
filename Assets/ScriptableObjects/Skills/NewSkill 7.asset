@@ -17,7 +17,7 @@ MonoBehaviour:
   skillID: 7
   previousSkillID: 3
   previousSkillID2: 3
-  skillSprite: {fileID: 21300000, guid: 32173392caf8016489560d7edee54aa1, type: 3}
+  skillSprite: {fileID: 21300000, guid: 092f82e332814674bb49632983ea71f3, type: 3}
   skillDes: Coming Soon
   isUpgrade: 0
   extraLife: 0
