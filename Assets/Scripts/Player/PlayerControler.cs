@@ -123,13 +123,37 @@ public class PlayerControler : MonoBehaviour
                 myAnimator.SetFloat("moveX", (int)rb.velocity.x);
                 myAnimator.SetFloat("moveY", (int)rb.velocity.y);
 
-       
 
-                if (horizontalRaw >= 1.0f || horizontalRaw <= -1.0f || verticalRaw >= 1.0f || verticalRaw <= -1.0f)
+
+                //if (horizontalRaw >= 1.0f || horizontalRaw <= -1.0f || verticalRaw >= 1.0f || verticalRaw <= -1.0f)
+                //{
+                //    myAnimator.SetFloat("lastMoveX", horizontalRaw);
+                //    myAnimator.SetFloat("lastMoveY", verticalRaw);
+                //}
+                if (Input.GetKeyDown(KeyCode.LeftArrow))
                 {
-                    myAnimator.SetFloat("lastMoveX", horizontalRaw);
-                    myAnimator.SetFloat("lastMoveY", verticalRaw);
+                    myAnimator.SetFloat("lastMoveX", -1f);
+                    myAnimator.SetFloat("lastMoveY", 0);
                 }
+
+                else if (Input.GetKeyDown(KeyCode.RightArrow))
+                {
+                    myAnimator.SetFloat("lastMoveX", 1f);
+                    myAnimator.SetFloat("lastMoveY", 0);
+                }
+
+                else if (Input.GetKeyDown(KeyCode.UpArrow))
+                {
+                    myAnimator.SetFloat("lastMoveX", 0);
+                    myAnimator.SetFloat("lastMoveY", 1f);
+                }
+
+                else if (Input.GetKeyDown(KeyCode.DownArrow))
+                {
+                    myAnimator.SetFloat("lastMoveX", 0);
+                    myAnimator.SetFloat("lastMoveY", -1f);
+                }
+
             }
         }
         
@@ -137,12 +161,35 @@ public class PlayerControler : MonoBehaviour
         switch (weaponID)
         {
             case 0:
-                if (Input.GetKeyDown(KeyCode.Space) && !scalpelAttacking)
+
+                if (Input.GetKeyDown(KeyCode.LeftArrow) && !scalpelAttacking)
                 {
-                        attackCounter = attackTime;
-                        myAnimator.SetBool("scalpelAttacking", true);
-                        scalpelAttacking = true;
+                    attackCounter = attackTime;
+                    myAnimator.SetBool("scalpelAttacking", true);
+                    scalpelAttacking = true;
                 }
+
+                else if (Input.GetKeyDown(KeyCode.RightArrow) && !scalpelAttacking)
+                {
+                    attackCounter = attackTime;
+                    myAnimator.SetBool("scalpelAttacking", true);
+                    scalpelAttacking = true;
+                }
+
+                else if (Input.GetKeyDown(KeyCode.UpArrow) && !scalpelAttacking)
+                {
+                    attackCounter = attackTime;
+                    myAnimator.SetBool("scalpelAttacking", true);
+                    scalpelAttacking = true;
+                }
+
+                else if (Input.GetKeyDown(KeyCode.DownArrow) && !scalpelAttacking)
+                {
+                    attackCounter = attackTime;
+                    myAnimator.SetBool("scalpelAttacking", true);
+                    scalpelAttacking = true;
+                }
+
 
                 if (scalpelAttacking)
                 {
@@ -160,12 +207,33 @@ public class PlayerControler : MonoBehaviour
                 }
                 break;
 
-            case 1:      
-                if (Input.GetKeyDown(KeyCode.Space) && !wrenchAttacking)
+            case 1:
+                if (Input.GetKeyDown(KeyCode.LeftArrow) && !wrenchAttacking)
                 {
-                        attackCounter = attackTime;
-                        myAnimator.SetBool("wrenchAttacking", true);
-                        wrenchAttacking = true;
+                    attackCounter = attackTime;
+                    myAnimator.SetBool("wrenchAttacking", true);
+                    wrenchAttacking = true;
+                }
+
+                else if (Input.GetKeyDown(KeyCode.RightArrow) && !wrenchAttacking)
+                {
+                    attackCounter = attackTime;
+                    myAnimator.SetBool("wrenchAttacking", true);
+                    wrenchAttacking = true;
+                }
+
+                else if (Input.GetKeyDown(KeyCode.UpArrow) && !wrenchAttacking)
+                {
+                    attackCounter = attackTime;
+                    myAnimator.SetBool("wrenchAttacking", true);
+                    wrenchAttacking = true;
+                }
+
+                else if (Input.GetKeyDown(KeyCode.DownArrow) && !wrenchAttacking)
+                {
+                    attackCounter = attackTime;
+                    myAnimator.SetBool("wrenchAttacking", true);
+                    wrenchAttacking = true;
                 }
 
                 if (wrenchAttacking)
@@ -187,7 +255,7 @@ public class PlayerControler : MonoBehaviour
                 break;
 
             case 2:
-                if (Input.GetKeyDown(KeyCode.Space) && !swordAttacking)
+                if ((Input.GetKeyDown(KeyCode.LeftArrow) || (Input.GetKeyDown(KeyCode.RightArrow)) || (Input.GetKeyDown(KeyCode.UpArrow)) || (Input.GetKeyDown(KeyCode.DownArrow)))  && !swordAttacking)
                 {
                     attackCounter = attackTime;
                     myAnimator.SetBool("swordAttacking", true);
