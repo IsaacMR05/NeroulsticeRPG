@@ -79,25 +79,19 @@ public class Game_Manager : MonoBehaviour
 
         if (itemID == 21) //Green doors
         {
-            //player.Key1 = true;
+            //player.Key = 2;
             //return;
         }
 
         if (itemID == 22) //Blue doors
         {
-            //player.Key2 = true;
+            //player.Key = 3;
             //return;
         }
 
         if (itemID == 23) //Purple doors
         {
-            //player.Key3 = true;
-            //return;
-        }
-
-        if (itemID == 24) //Boss door
-        {
-            //player.Key4 = true;
+            //player.Key = 4;
             //return;
         }
 
