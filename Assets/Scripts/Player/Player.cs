@@ -8,10 +8,12 @@ public class Player : MonoBehaviour
     public Level level;
     private Health_Manager playerHealth;
     public ParticleSystem onLevelUp;
+    public int currentID;
 
     // Start is called before the first frame update
     void Start()
     {
+        currentID = 0;
         level = new Level(1, leveledUp);
         playerHealth = GetComponent<Health_Manager>();
     }

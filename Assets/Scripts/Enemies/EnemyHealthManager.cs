@@ -48,12 +48,9 @@ public class EnemyHealthManager : MonoBehaviour
           healthBar.SetHealth(currentHealth);
 
         }
-        Debug.Log("Klk");
-
 
         if (currentHealth <= 0)
         {
-            Debug.Log(enemy.experience);
             playerLevel.level.AddExp(enemy.experience); //Call function to give XP for the player
 
             if (myAnimator != null)

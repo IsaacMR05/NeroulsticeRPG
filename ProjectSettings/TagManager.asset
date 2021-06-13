@@ -10,6 +10,7 @@ TagManager:
   - RangedEnemy
   - WallCollider
   - Boss
+  - Invoked
   layers:
   - Default
   - TransparentFX

@@ -27,7 +27,8 @@ public class BossRangeAttack : StateMachineBehaviour
         {
             fire.bulletsAmount = 1;
         }
-        fire.startShooting = true;
+        //fire.startShooting = true;
+        boss.EnableFire();
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -39,8 +40,10 @@ public class BossRangeAttack : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        fire.startShooting = true;
-        fire.fireCase = 0;
+        //fire.startShooting = true;
+        //fire.fireCase = 0;
+        //fire.StopInvoking();
+        boss.DisableFire();
     }
 
 

@@ -6,10 +6,7 @@ public class StartBossFight : MonoBehaviour
 {
 
     public GameObject boss;
-
-    // Start is called before the first frame update
-
-
+    private GameObject[] enemies;
     // Update is called once per frame
     void Update()
     {
@@ -28,6 +25,12 @@ public class StartBossFight : MonoBehaviour
         {
             GameObject newBoss = GameObject.FindGameObjectWithTag("Boss");
             Destroy(newBoss);
+
+            enemies = GameObject.FindGameObjectsWithTag("Invoked");
+            for(int i = 0; i < enemies.Length; i++)
+            {
+                Destroy(enemies[i]);
+            }
         }
             
     }

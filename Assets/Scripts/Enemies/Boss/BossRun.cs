@@ -28,7 +28,7 @@ public class BossRun : StateMachineBehaviour
         if(Time.time > waitForRangeAttck)
         {
             waitForRangeAttck = Time.time + rangeAttckRate;
-            animator.SetTrigger("Range Attack");
+            animator.SetTrigger("Invoke!");
         }
         
         Vector2 target = new Vector2(player.position.x , player.position.y);
@@ -67,5 +67,6 @@ public class BossRun : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         animator.ResetTrigger("Attack");
+        animator.ResetTrigger("Invoke!");
     }
 }

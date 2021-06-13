@@ -23,6 +23,7 @@ public class Game_Manager : MonoBehaviour
     public GameObject spawnedArmour;
 
     public PlayerControler PC;
+    public Player player;
 
     public InventorySlot[] inventorySlots;
     public Canvas interfaceCanvas;
@@ -34,6 +35,7 @@ public class Game_Manager : MonoBehaviour
     void Awake()
     {
         Game_Manager.Instance = this;
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     }
 
     public void DestroyWeapon()
@@ -71,28 +73,28 @@ public class Game_Manager : MonoBehaviour
     }
     public void PickupItem(int itemID)
     {
-        if (itemID == 20) //Orange doors
+        /*if (itemID == 20) //Orange doors
         {
-            //player.Key0 = true;
-            //return;
+            player.currentID ;
+            return;
+        }*/
+
+        if (itemID == 21) //Green Cards --> Green doors
+        {
+            player.currentID = 1;
+            return;
         }
 
-        if (itemID == 21) //Green doors
+        if (itemID == 22) //Blue Cards --> Blue doors
         {
-            //player.Key = 2;
-            //return;
+            player.currentID = 2;
+            return;
         }
 
-        if (itemID == 22) //Blue doors
+        if (itemID == 23) //Purple Cards --> Purple doors
         {
-            //player.Key = 3;
-            //return;
-        }
-
-        if (itemID == 23) //Purple doors
-        {
-            //player.Key = 4;
-            //return;
+            player.currentID = 3;
+            return;
         }
 
         bool foundSlot = false;

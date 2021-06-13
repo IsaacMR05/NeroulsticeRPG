@@ -20,17 +20,19 @@ public class FireBullets : MonoBehaviour
 
     private Vector2 bulletMoveDirection;
     // Start is called before the first frame update
-    void Update()
+    void Start()
     {
-        if (startShooting) 
-        {
-            startShooting = false;
-            Debug.Log("Case" + fireCase);
+       // if (startShooting) 
+       // {
+        //    startShooting = false;
+        //    Debug.Log("Case" + fireCase);
+
+
             switch (fireCase)
             {
-                case 0:
-                    CancelInvoke();
-                    break;
+                //  case 0:
+                //      CancelInvoke();
+                //     break;
 
                 case 1: //At least 10 projectiles in boss object
                     InvokeRepeating("Fire", 10f, 1f);
@@ -44,7 +46,7 @@ public class FireBullets : MonoBehaviour
                     InvokeRepeating("Fire3", 10f, 0.1f);
                     break;
             }
-        }
+      //  }
     }
 
     private void Fire()
@@ -52,7 +54,7 @@ public class FireBullets : MonoBehaviour
         float angleStep = (endAngle - startAngle) / bulletsAmount;
         float angle = startAngle;
 
-        for(int i = 0; i < bulletsAmount + 1; i++)
+        for (int i = 0; i < bulletsAmount + 1; i++)
         {
             float bulDirX = transform.position.x + Mathf.Sin((angle * Mathf.PI) / 180f);
             float bulDirY = transform.position.y + Mathf.Cos((angle * Mathf.PI) / 180f);
@@ -111,10 +113,42 @@ public class FireBullets : MonoBehaviour
 
             angle += 10f;
 
-            if(angle >= 360f)
+            if (angle >= 360f)
             {
                 angle = 0f;
             }
         }
+    }
+    /*
+    public IEnumerator ShootBullets()
+    {
+        switch (fireCase)
+        {
+            //  case 0:
+            //      CancelInvoke();
+            //     break;
+
+            case 1: //At least 10 projectiles in boss object
+                InvokeRepeating("Fire", 10f, 1f);
+                break;
+
+            case 2: //Needs to have only 1 projectiles in boss object
+                InvokeRepeating("Fire2", 10f, 0.1f);
+                break;
+
+            case 3://Needs to have only 1 projectiles in boss object
+                InvokeRepeating("Fire3", 10f, 0.1f);
+                break;
+        }
+
+        yield return new WaitForSeconds(5);
+        if ()
+        {
+            StartCoroutine(ShootBullets());
+        }
+    }*/
+    
+    public void StopInvoking(){
+        CancelInvoke();
     }
 }

@@ -13,7 +13,7 @@ AnimatorState:
   m_Transitions:
   - {fileID: 7374700041188696277}
   - {fileID: -447266011672003180}
-  - {fileID: 6003329967751516914}
+  - {fileID: -2008136836320580352}
   m_StateMachineBehaviours:
   - {fileID: 6099311680661151673}
   m_Position: {x: 50, y: 50, z: 0}
@@ -30,6 +30,28 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1101 &-8750051722943374527
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions: []
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 3669195023603873037}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1102 &-8226643688234481099
 AnimatorState:
   serializedVersion: 5
@@ -83,6 +105,26 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!114 &-7898394049207417398
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25bf97d5b2cd74a4faa293b8cf773aac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slime: {fileID: 1544392050510859811, guid: 235f69e253f9aea45990d0afc086deb6, type: 3}
+  mutatedHuman: {fileID: 337723012995900324, guid: c5a578d5789ed6141b8bada39970aa89,
+    type: 3}
+  mutatedRobot: {fileID: 8272699592480547830, guid: 841680ec559cf194e96afbbab1a41217,
+    type: 3}
+  slimesSpawn: 3
+  mutatedHumanSpawn: 0
+  mutatedRobotSpawn: 0
 --- !u!1107 &-7668328623450207630
 AnimatorStateMachine:
   serializedVersion: 5
@@ -130,16 +172,25 @@ AnimatorStateMachine:
     m_Position: {x: 280, y: 120, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4347662384631590166}
-    m_Position: {x: 600, y: 280, z: 0}
+    m_Position: {x: 980, y: 60, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4707888519066063187}
-    m_Position: {x: 600, y: 150, z: 0}
+    m_Position: {x: 980, y: 0, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5886165738553180800}
-    m_Position: {x: 600, y: 0, z: 0}
+    m_Position: {x: 980, y: -60, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4044872895744269804}
     m_Position: {x: 20, y: 40, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 88459787472061352}
+    m_Position: {x: 600, y: 290, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 8453796143800756560}
+    m_Position: {x: 600, y: 150, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 898709575631027950}
+    m_Position: {x: 600, y: 10, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -200,28 +251,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!1101 &-7072307903832130713
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions: []
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: -9178171942276414751}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
-  m_ExitTime: 0.75
-  m_HasExitTime: 1
-  m_HasFixedDuration: 1
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
 --- !u!1102 &-6604920672885686637
 AnimatorState:
   serializedVersion: 5
@@ -264,6 +293,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireCase: 1
   totalBullets: 10
+--- !u!1101 &-6315129425276462897
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Invoke!
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 8453796143800756560}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1102 &-6291765882754503667
 AnimatorState:
   serializedVersion: 5
@@ -396,8 +450,7 @@ AnimatorState:
   m_Name: Range Attack Phase 2
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: 3637809751122046890}
+  m_Transitions: []
   m_StateMachineBehaviours:
   - {fileID: 1215201126496822584}
   m_Position: {x: 50, y: 50, z: 0}
@@ -452,8 +505,7 @@ AnimatorState:
   m_Name: Range Attack
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: -7072307903832130713}
+  m_Transitions: []
   m_StateMachineBehaviours:
   - {fileID: -6557209928872555605}
   m_Position: {x: 50, y: 50, z: 0}
@@ -564,8 +616,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25bf97d5b2cd74a4faa293b8cf773aac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slime: {fileID: 1544392050510859811, guid: 1c4e6d43c9be2e842983602e0230cc2a, type: 3}
-  enemiesSpawn: 4
+  slime: {fileID: 1544392050510859811, guid: 235f69e253f9aea45990d0afc086deb6, type: 3}
+  mutatedHuman: {fileID: 337723012995900324, guid: c5a578d5789ed6141b8bada39970aa89,
+    type: 3}
+  mutatedRobot: {fileID: 8272699592480547830, guid: 841680ec559cf194e96afbbab1a41217,
+    type: 3}
+  slimesSpawn: 2
+  mutatedHumanSpawn: 0
+  mutatedRobotSpawn: 0
 --- !u!1101 &-2683335744264378486
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -576,6 +634,53 @@ AnimatorStateTransition:
   m_Conditions: []
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -9178171942276414751}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &-2459193634862806135
+AnimatorStateTransition:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions: []
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 6891961375122179444}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &-2008136836320580352
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Invoke!
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 88459787472061352}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -622,6 +727,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 924dbd3be4df7b44a9f2132727d1d748, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-1600165625014801624
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25bf97d5b2cd74a4faa293b8cf773aac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slime: {fileID: 1544392050510859811, guid: 235f69e253f9aea45990d0afc086deb6, type: 3}
+  mutatedHuman: {fileID: 337723012995900324, guid: c5a578d5789ed6141b8bada39970aa89,
+    type: 3}
+  mutatedRobot: {fileID: 8272699592480547830, guid: 841680ec559cf194e96afbbab1a41217,
+    type: 3}
+  slimesSpawn: 0
+  mutatedHumanSpawn: 2
+  mutatedRobotSpawn: 1
 --- !u!1102 &-1536047934540800620
 AnimatorState:
   serializedVersion: 5
@@ -703,6 +828,28 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!1101 &-417219976027371583
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions: []
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -9178171942276414751}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1101 &-216544659424271380
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -738,28 +885,6 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6604920672885686637}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
-  m_ExitTime: 0.75
-  m_HasExitTime: 1
-  m_HasFixedDuration: 1
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
---- !u!1101 &-136366235347625466
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions: []
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 3669195023603873037}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -836,7 +961,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: Range Attack
+  - m_Name: Invoke!
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -867,6 +992,34 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+--- !u!1102 &88459787472061352
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Invoke Enemies!
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -417219976027371583}
+  m_StateMachineBehaviours:
+  - {fileID: -7898394049207417398}
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1101 &689989219092706123
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -892,6 +1045,34 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!1102 &898709575631027950
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Invoke Enemies! Phase 3
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -8750051722943374527}
+  m_StateMachineBehaviours:
+  - {fileID: 8212729920317999922}
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &918772756526134795
 AnimatorState:
   serializedVersion: 5
@@ -947,31 +1128,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1101 &958818890615991657
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: Range Attack
-    m_EventTreshold: 0
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 5886165738553180800}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
-  m_ExitTime: 0.75
-  m_HasExitTime: 1
-  m_HasFixedDuration: 1
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
 --- !u!1101 &1030205365142999915
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -1011,6 +1167,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireCase: 2
   totalBullets: 15
+--- !u!1101 &1224557927085566066
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions: []
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 6891961375122179444}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1101 &1716398091761759264
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -1059,33 +1237,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   onRangeDistance: 3
-  waitForRangeAttck: 8
-  rangeAttckRate: 8
+  waitForRangeAttck: 5
+  rangeAttckRate: 10
 --- !u!1101 &3172741808045924222
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions: []
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 6891961375122179444}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
-  m_ExitTime: 0.75
-  m_HasExitTime: 1
-  m_HasFixedDuration: 1
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
---- !u!1101 &3637809751122046890
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1118,8 +1274,8 @@ AnimatorState:
   m_Transitions:
   - {fileID: -141213555058053198}
   - {fileID: 1030205365142999915}
-  - {fileID: 958818890615991657}
   - {fileID: -690031830200304832}
+  - {fileID: 6877751819442271958}
   m_StateMachineBehaviours:
   - {fileID: 2800879921316240163}
   m_Position: {x: 50, y: 50, z: 0}
@@ -1295,33 +1451,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   onRangeDistance: 3
-  waitForRangeAttck: 8
-  rangeAttckRate: 10
---- !u!1101 &5840015069078290808
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: Range Attack
-    m_EventTreshold: 0
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: -4707888519066063187}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
-  m_ExitTime: 0.75
-  m_HasExitTime: 1
-  m_HasFixedDuration: 1
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
+  waitForRangeAttck: 10
+  rangeAttckRate: 15
 --- !u!1102 &5886165738553180800
 AnimatorState:
   serializedVersion: 5
@@ -1332,8 +1463,7 @@ AnimatorState:
   m_Name: Range Attack Phase 3
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: -136366235347625466}
+  m_Transitions: []
   m_StateMachineBehaviours:
   - {fileID: -3915623391629896770}
   m_Position: {x: 50, y: 50, z: 0}
@@ -1350,31 +1480,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1101 &6003329967751516914
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: Range Attack
-    m_EventTreshold: 0
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: -4347662384631590166}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
-  m_ExitTime: 0.75
-  m_HasExitTime: 1
-  m_HasFixedDuration: 1
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
 --- !u!1101 &6022969838272365860
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -1412,6 +1517,28 @@ BlendTree:
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 0
+--- !u!1101 &6085612118909687876
+AnimatorStateTransition:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions: []
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -9178171942276414751}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!114 &6099311680661151673
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1427,7 +1554,7 @@ MonoBehaviour:
   speed: 3
   onRangeDistance: 3
   waitForRangeAttck: 10
-  rangeAttckRate: 10
+  rangeAttckRate: 15
 --- !u!114 &6320406851613740482
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1440,8 +1567,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25bf97d5b2cd74a4faa293b8cf773aac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slime: {fileID: 0}
-  enemiesSpawn: 6
+  slime: {fileID: 1544392050510859811, guid: 235f69e253f9aea45990d0afc086deb6, type: 3}
+  mutatedHuman: {fileID: 337723012995900324, guid: c5a578d5789ed6141b8bada39970aa89,
+    type: 3}
+  mutatedRobot: {fileID: 8272699592480547830, guid: 841680ec559cf194e96afbbab1a41217,
+    type: 3}
+  slimesSpawn: 3
+  mutatedHumanSpawn: 1
+  mutatedRobotSpawn: 0
 --- !u!1101 &6489779556664135271
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -1486,6 +1619,31 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!1101 &6877751819442271958
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Invoke!
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 898709575631027950}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1102 &6891961375122179444
 AnimatorState:
   serializedVersion: 5
@@ -1499,7 +1657,7 @@ AnimatorState:
   m_Transitions:
   - {fileID: -126543862311045611}
   - {fileID: 689989219092706123}
-  - {fileID: 5840015069078290808}
+  - {fileID: -6315129425276462897}
   m_StateMachineBehaviours:
   - {fileID: 5170860951229044183}
   m_Position: {x: 50, y: 50, z: 0}
@@ -1597,6 +1755,48 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!114 &8212729920317999922
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25bf97d5b2cd74a4faa293b8cf773aac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slime: {fileID: 1544392050510859811, guid: f7d044cec49576042b119b89447e6230, type: 3}
+  mutatedHuman: {fileID: 337723012995900324, guid: f02434ec1a2e9ea4abe4a7685b351fea,
+    type: 3}
+  mutatedRobot: {fileID: 8272699592480547830, guid: 62d9f6c60a5b5f84190e16860528096c,
+    type: 3}
+  slimesSpawn: 1
+  mutatedHumanSpawn: 1
+  mutatedRobotSpawn: 1
+--- !u!1101 &8221841093336399876
+AnimatorStateTransition:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions: []
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 6891961375122179444}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!114 &8247599022538820367
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1609,6 +1809,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed35bc9373c9d014cbdffc721598bcfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1102 &8453796143800756560
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Invoke Enemies! Phase 2
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: 1224557927085566066}
+  m_StateMachineBehaviours:
+  - {fileID: -1600165625014801624}
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!114 &8737216463023059969
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1621,5 +1849,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25bf97d5b2cd74a4faa293b8cf773aac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slime: {fileID: 1544392050510859811, guid: df7e9369dce6d6b42abee01a49d01885, type: 3}
-  enemiesSpawn: 8
+  slime: {fileID: 1544392050510859811, guid: f7d044cec49576042b119b89447e6230, type: 3}
+  mutatedHuman: {fileID: 337723012995900324, guid: f02434ec1a2e9ea4abe4a7685b351fea,
+    type: 3}
+  mutatedRobot: {fileID: 8272699592480547830, guid: 62d9f6c60a5b5f84190e16860528096c,
+    type: 3}
+  slimesSpawn: 5
+  mutatedHumanSpawn: 2
+  mutatedRobotSpawn: 1
