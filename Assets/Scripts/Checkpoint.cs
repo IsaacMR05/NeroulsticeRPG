@@ -7,9 +7,11 @@ public class Checkpoint : MonoBehaviour
     private GameMaster gm;
     public Health_Manager health;
     public GameObject firstSpawn;
+    public GameObject player;
     void Start()
     {
         gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
+        player = GameObject.FindGameObjectWithTag("Player");
     }
     void Update()
     {
@@ -17,6 +19,12 @@ public class Checkpoint : MonoBehaviour
         {
 
             gm.lastCheckPointPos = firstSpawn.transform.position;
+        }
+        else if (health.currentHealth <= 0)
+        {
+            health.currentHealth = health.maxHealth;
+            player.transform.position = gm.lastCheckPointPos;
+
         }
     }
     void OnTriggerEnter2D(Collider2D other)
