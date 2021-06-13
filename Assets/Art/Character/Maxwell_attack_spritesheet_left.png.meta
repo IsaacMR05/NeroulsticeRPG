@@ -1,43 +1,67 @@
 fileFormatVersion: 2
-guid: 1a91fa3ba708b4449904aae8259577ce
+guid: 7d0871949d0e63249b6bccafe993e474
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9028333223990512586
-    second: Maxwell_Running_SpriteSheet_0
+      213: -4256568603700230485
+    second: Maxwell_attack_spritesheet_left_0
   - first:
-      213: 1126691842593958226
-    second: Maxwell_Running_SpriteSheet_1
+      213: -3165342055693540003
+    second: Maxwell_attack_spritesheet_left_1
   - first:
-      213: -8105855388559648836
-    second: Maxwell_Running_SpriteSheet_2
+      213: -7824099312409386814
+    second: Maxwell_attack_spritesheet_left_2
   - first:
-      213: 8012835377963799456
-    second: Maxwell_Running_SpriteSheet_3
+      213: 607706737336144279
+    second: Maxwell_attack_spritesheet_left_3
   - first:
-      213: 3874435137396092675
-    second: Maxwell_Running_SpriteSheet_4
+      213: 8825697491450189702
+    second: Maxwell_attack_spritesheet_left_4
   - first:
-      213: 6145316934770109907
-    second: Maxwell_Running_SpriteSheet_5
+      213: 3674739541397023162
+    second: Maxwell_attack_spritesheet_left_5
   - first:
-      213: -1302258747383601669
-    second: Maxwell_Running_SpriteSheet_6
+      213: 1964003462122314515
+    second: Maxwell_attack_spritesheet_left_6
   - first:
-      213: -191742732076143718
-    second: Maxwell_Running_SpriteSheet_7
+      213: 141504257659821315
+    second: Maxwell_attack_spritesheet_left_7
   - first:
-      213: -647052754252503194
-    second: Maxwell_Running_SpriteSheet_8
+      213: 4029657692311116961
+    second: Maxwell_attack_spritesheet_left_8
   - first:
-      213: -3600225156680112009
-    second: Maxwell_Running_SpriteSheet_9
+      213: 3356490230757341181
+    second: Maxwell_attack_spritesheet_left_9
   - first:
-      213: 3199358000856725814
-    second: Maxwell_Running_SpriteSheet_10
+      213: 607314881011448907
+    second: Maxwell_attack_spritesheet_left_10
   - first:
-      213: 6280197591039034110
-    second: Maxwell_Running_SpriteSheet_11
+      213: 4371300222432241344
+    second: Maxwell_attack_spritesheet_left_11
+  - first:
+      213: 431396476937633971
+    second: Maxwell_attack_spritesheet_left_12
+  - first:
+      213: 24103624988638192
+    second: Maxwell_attack_spritesheet_left_13
+  - first:
+      213: -5536948068199705780
+    second: Maxwell_attack_spritesheet_left_14
+  - first:
+      213: 7693464259495900259
+    second: Maxwell_attack_spritesheet_left_15
+  - first:
+      213: 381439763655270590
+    second: Maxwell_attack_spritesheet_left_16
+  - first:
+      213: -7928471549904423797
+    second: Maxwell_attack_spritesheet_left_17
+  - first:
+      213: -7698869879269654920
+    second: Maxwell_attack_spritesheet_left_18
+  - first:
+      213: 2866118127740682951
+    second: Maxwell_attack_spritesheet_left_19
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -97,7 +121,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 128
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -109,7 +133,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 128
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -123,7 +147,91 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Maxwell_Running_SpriteSheet_0
+      name: Maxwell_attack_spritesheet_left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba60e5e3861ade4c0800000000000000
+      internalID: -4256568603700230485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maxwell_attack_spritesheet_left_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5528c9cb227214d0800000000000000
+      internalID: -3165342055693540003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maxwell_attack_spritesheet_left_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0e57411273b6390800000000000000
+      internalID: -7824099312409386814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maxwell_attack_spritesheet_left_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791588ece020f6800800000000000000
+      internalID: 607706737336144279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maxwell_attack_spritesheet_left_4
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 634303654cae4b280800000000000000
-      internalID: -9028333223990512586
+      spriteID: 687d1f0ab1d2b7a70800000000000000
+      internalID: 8825697491450189702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Maxwell_Running_SpriteSheet_1
+      name: Maxwell_attack_spritesheet_left_5
       rect:
         serializedVersion: 2
         x: 32
@@ -158,56 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 259a429e240d2af00800000000000000
-      internalID: 1126691842593958226
+      spriteID: ab92d0fa42c4ff230800000000000000
+      internalID: 3674739541397023162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Maxwell_Running_SpriteSheet_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb757348877328f80800000000000000
-      internalID: -8105855388559648836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Maxwell_Running_SpriteSheet_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a3173b825f433f60800000000000000
-      internalID: 8012835377963799456
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Maxwell_Running_SpriteSheet_4
+      name: Maxwell_attack_spritesheet_left_6
       rect:
         serializedVersion: 2
         x: 0
@@ -221,14 +287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30f29c5da32c4c530800000000000000
-      internalID: 3874435137396092675
+      spriteID: 31b10793eba814b10800000000000000
+      internalID: 1964003462122314515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Maxwell_Running_SpriteSheet_5
+      name: Maxwell_attack_spritesheet_left_7
       rect:
         serializedVersion: 2
         x: 32
@@ -242,56 +308,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dd2a21613d884550800000000000000
-      internalID: 6145316934770109907
+      spriteID: 30dd4046f59b6f100800000000000000
+      internalID: 141504257659821315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Maxwell_Running_SpriteSheet_6
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf52e84a1927dede0800000000000000
-      internalID: -1302258747383601669
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Maxwell_Running_SpriteSheet_7
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9ba656400bc65df0800000000000000
-      internalID: -191742732076143718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Maxwell_Running_SpriteSheet_8
+      name: Maxwell_attack_spritesheet_left_8
       rect:
         serializedVersion: 2
         x: 0
@@ -305,14 +329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66767dfb2f43507f0800000000000000
-      internalID: -647052754252503194
+      spriteID: 1acdf9432583ce730800000000000000
+      internalID: 4029657692311116961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Maxwell_Running_SpriteSheet_9
+      name: Maxwell_attack_spritesheet_left_9
       rect:
         serializedVersion: 2
         x: 32
@@ -326,50 +350,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77828a87b4e690ec0800000000000000
-      internalID: -3600225156680112009
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Maxwell_Running_SpriteSheet_10
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6397e5e9627666c20800000000000000
-      internalID: 3199358000856725814
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Maxwell_Running_SpriteSheet_11
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef245256f6eb72750800000000000000
-      internalID: 6280197591039034110
+      spriteID: df73c58d416a49e20800000000000000
+      internalID: 3356490230757341181
       vertices: []
       indices: 
       edges: []

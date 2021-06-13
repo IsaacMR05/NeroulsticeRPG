@@ -1,0 +1,1748 @@
+fileFormatVersion: 2
+guid: a5a9b156fcf859c4c947d544d0a3ef87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1006972456448125622
+    second: Robot_death_0
+  - first:
+      213: 589028581908167611
+    second: Robot_death_1
+  - first:
+      213: 6322670248095271236
+    second: Robot_death_2
+  - first:
+      213: 7886066912548980539
+    second: Robot_death_3
+  - first:
+      213: 743616386916558620
+    second: Robot_death_4
+  - first:
+      213: 9028600524755303096
+    second: Robot_death_5
+  - first:
+      213: -7176031806153071399
+    second: Robot_death_6
+  - first:
+      213: -3313745751659597353
+    second: Robot_death_7
+  - first:
+      213: 2833261174018419608
+    second: Robot_death_8
+  - first:
+      213: -1999215265693702891
+    second: Robot_death_9
+  - first:
+      213: 1286024374798807902
+    second: Robot_death_10
+  - first:
+      213: 6627094257746037010
+    second: Robot_death_11
+  - first:
+      213: -904151282215972502
+    second: Robot_death_12
+  - first:
+      213: -4325882017419356535
+    second: Robot_death_13
+  - first:
+      213: -2458012860608501884
+    second: Robot_death_14
+  - first:
+      213: -3665696190990792105
+    second: Robot_death_15
+  - first:
+      213: 5795000159919419940
+    second: Robot_death_16
+  - first:
+      213: 2183805244245317438
+    second: Robot_death_17
+  - first:
+      213: -3101055953928915470
+    second: Robot_death_18
+  - first:
+      213: -3712636795932726429
+    second: Robot_death_19
+  - first:
+      213: -3097673041213870290
+    second: Robot_death_20
+  - first:
+      213: 2370239832992035588
+    second: Robot_death_21
+  - first:
+      213: 2089459833671043352
+    second: Robot_death_22
+  - first:
+      213: -4407849696302943533
+    second: Robot_death_23
+  - first:
+      213: -2445592857733004635
+    second: Robot_death_24
+  - first:
+      213: -4166171815811976942
+    second: Robot_death_25
+  - first:
+      213: -6024469360066863342
+    second: Robot_death_26
+  - first:
+      213: -5495498723505218242
+    second: Robot_death_27
+  - first:
+      213: 3994636759013592761
+    second: Robot_death_28
+  - first:
+      213: -8374508619949160257
+    second: Robot_death_29
+  - first:
+      213: -2555486958706316176
+    second: Robot_death_30
+  - first:
+      213: -1855109240254481578
+    second: Robot_death_31
+  - first:
+      213: 4882296881189284887
+    second: Robot_death_32
+  - first:
+      213: 7755386940468780016
+    second: Robot_death_33
+  - first:
+      213: -3472367084703354199
+    second: Robot_death_34
+  - first:
+      213: -8725786571271158489
+    second: Robot_death_35
+  - first:
+      213: 8028259491127121406
+    second: Robot_death_36
+  - first:
+      213: 5755025852360823256
+    second: Robot_death_37
+  - first:
+      213: 4893166001722239905
+    second: Robot_death_38
+  - first:
+      213: 4278001563682149345
+    second: Robot_death_39
+  - first:
+      213: 3848274842755191987
+    second: Robot_death_40
+  - first:
+      213: 1165028625081116750
+    second: Robot_death_41
+  - first:
+      213: 6815701506688455748
+    second: Robot_death_42
+  - first:
+      213: -7634646747694310626
+    second: Robot_death_43
+  - first:
+      213: 6706962526850950926
+    second: Robot_death_44
+  - first:
+      213: 998324868884348275
+    second: Robot_death_45
+  - first:
+      213: 7176901835927175769
+    second: Robot_death_46
+  - first:
+      213: -5514287963636855868
+    second: Robot_death_47
+  - first:
+      213: -2253317645764956570
+    second: Robot_death_48
+  - first:
+      213: -2027928885938295665
+    second: Robot_death_49
+  - first:
+      213: 4650247040958258834
+    second: Robot_death_50
+  - first:
+      213: 7510909703983542116
+    second: Robot_death_51
+  - first:
+      213: -4575690326745027048
+    second: Robot_death_52
+  - first:
+      213: -6280363337312904022
+    second: Robot_death_53
+  - first:
+      213: 6285113671580340345
+    second: Robot_death_54
+  - first:
+      213: 4300367774276536718
+    second: Robot_death_55
+  - first:
+      213: -6009827938175685916
+    second: Robot_death_56
+  - first:
+      213: 3680965047853535716
+    second: Robot_death_57
+  - first:
+      213: -2209174010841757683
+    second: Robot_death_58
+  - first:
+      213: 8504096778104208404
+    second: Robot_death_59
+  - first:
+      213: 8537499274950803461
+    second: Robot_death_60
+  - first:
+      213: -5580426629080539148
+    second: Robot_death_61
+  - first:
+      213: -5521618656483723059
+    second: Robot_death_62
+  - first:
+      213: 2496173584996719333
+    second: Robot_death_63
+  - first:
+      213: 3198142239769689676
+    second: Robot_death_64
+  - first:
+      213: 7944838111885921996
+    second: Robot_death_65
+  - first:
+      213: -5917750365243872942
+    second: Robot_death_66
+  - first:
+      213: -1303596937459032758
+    second: Robot_death_67
+  - first:
+      213: 3367676268924594881
+    second: Robot_death_68
+  - first:
+      213: 3606260575670954035
+    second: Robot_death_69
+  - first:
+      213: -5814170881063186393
+    second: Robot_death_70
+  - first:
+      213: 6139180302047240549
+    second: Robot_death_71
+  - first:
+      213: 5719739910242829021
+    second: Robot_death_72
+  - first:
+      213: 8603513901937501793
+    second: Robot_death_73
+  - first:
+      213: -9174336694325524875
+    second: Robot_death_74
+  - first:
+      213: -9170207284384756127
+    second: Robot_death_75
+  - first:
+      213: -4253230807435385503
+    second: Robot_death_76
+  - first:
+      213: -2320046260393561106
+    second: Robot_death_77
+  - first:
+      213: -7040709348421889657
+    second: Robot_death_78
+  - first:
+      213: -7402792561984113305
+    second: Robot_death_79
+  - first:
+      213: -8922391704531521838
+    second: Robot_death_80
+  - first:
+      213: 3315703705669709053
+    second: Robot_death_81
+  - first:
+      213: 3515418601239127841
+    second: Robot_death_82
+  - first:
+      213: 9183904947701376381
+    second: Robot_death_83
+  - first:
+      213: -93672401781893111
+    second: Robot_death_84
+  - first:
+      213: -6293890674179970913
+    second: Robot_death_85
+  - first:
+      213: 8891667865508787062
+    second: Robot_death_86
+  - first:
+      213: -3421208824246341047
+    second: Robot_death_87
+  - first:
+      213: -9158275446250986913
+    second: Robot_death_88
+  - first:
+      213: 1154383359580196473
+    second: Robot_death_89
+  - first:
+      213: -5364110807503294393
+    second: Robot_death_90
+  - first:
+      213: 168974320074150532
+    second: Robot_death_91
+  - first:
+      213: 5640211680581752537
+    second: Robot_death_92
+  - first:
+      213: -8441916846114152658
+    second: Robot_death_93
+  - first:
+      213: 4007804971766849932
+    second: Robot_death_94
+  - first:
+      213: 6254708741434926958
+    second: Robot_death_95
+  - first:
+      213: 7536917375281305499
+    second: Robot_death_96
+  - first:
+      213: -1942769003210231047
+    second: Robot_death_97
+  - first:
+      213: -6463631788363903107
+    second: Robot_death_98
+  - first:
+      213: 4261323801118250555
+    second: Robot_death_99
+  - first:
+      213: -3587754884466458573
+    second: Robot_death_100
+  - first:
+      213: 8379472096468210710
+    second: Robot_death_101
+  - first:
+      213: 4243082357255117342
+    second: Robot_death_102
+  - first:
+      213: 3011775018677518115
+    second: Robot_death_103
+  - first:
+      213: -9213983707682832438
+    second: Robot_death_104
+  - first:
+      213: 1566543307301687597
+    second: Robot_death_105
+  - first:
+      213: 8406248694036271283
+    second: Robot_death_106
+  - first:
+      213: 9041654835414999347
+    second: Robot_death_107
+  - first:
+      213: 5684478036538749924
+    second: Robot_death_108
+  - first:
+      213: 8385450577441942016
+    second: Robot_death_109
+  - first:
+      213: 5946457572265848650
+    second: Robot_death_110
+  - first:
+      213: -5451289070179694635
+    second: Robot_death_111
+  - first:
+      213: 590911486203043493
+    second: Robot_death_112
+  - first:
+      213: -8206035911224930345
+    second: Robot_death_113
+  - first:
+      213: -6183754355057909310
+    second: Robot_death_114
+  - first:
+      213: -7955337996458249673
+    second: Robot_death_115
+  - first:
+      213: -9149029641168097
+    second: Robot_death_116
+  - first:
+      213: 4281669450866128337
+    second: Robot_death_117
+  - first:
+      213: -6011675171099950485
+    second: Robot_death_118
+  - first:
+      213: 3040618731637207245
+    second: Robot_death_119
+  - first:
+      213: -890571278303383832
+    second: Robot_death_120
+  - first:
+      213: -3590774913090963870
+    second: Robot_death_121
+  - first:
+      213: -3958871318952167649
+    second: Robot_death_122
+  - first:
+      213: -1117331362118141636
+    second: Robot_death_123
+  - first:
+      213: -4953517425768724859
+    second: Robot_death_124
+  - first:
+      213: 2622513068691493037
+    second: Robot_death_125
+  - first:
+      213: -5010722919537663530
+    second: Robot_death_126
+  - first:
+      213: -6373716996675852625
+    second: Robot_death_127
+  - first:
+      213: -1505525682574066007
+    second: Robot_death_128
+  - first:
+      213: -3936317046241860976
+    second: Robot_death_129
+  - first:
+      213: -5230423627136248278
+    second: Robot_death_130
+  - first:
+      213: 1552594396942552628
+    second: Robot_death_131
+  - first:
+      213: 61812938010417334
+    second: Robot_death_132
+  - first:
+      213: 3439689247777186398
+    second: Robot_death_133
+  - first:
+      213: 6825057245121599180
+    second: Robot_death_134
+  - first:
+      213: -5191758979392956713
+    second: Robot_death_135
+  - first:
+      213: -973736460975956329
+    second: Robot_death_136
+  - first:
+      213: 2452894584145571836
+    second: Robot_death_137
+  - first:
+      213: -5192158232904563356
+    second: Robot_death_138
+  - first:
+      213: -6777906128274605008
+    second: Robot_death_139
+  - first:
+      213: -7941064598026378697
+    second: Robot_death_140
+  - first:
+      213: 8204772256579371995
+    second: Robot_death_141
+  - first:
+      213: 1345486947983177115
+    second: Robot_death_142
+  - first:
+      213: 8861385749191754813
+    second: Robot_death_143
+  - first:
+      213: 8446093610631408012
+    second: Robot_death_144
+  - first:
+      213: -5402449479100335974
+    second: Robot_death_145
+  - first:
+      213: -7423958899725187415
+    second: Robot_death_146
+  - first:
+      213: 4239863191677136875
+    second: Robot_death_147
+  - first:
+      213: 1930117361247498359
+    second: Robot_death_148
+  - first:
+      213: -4500331690505133277
+    second: Robot_death_149
+  - first:
+      213: -1952042693133064872
+    second: Robot_death_150
+  - first:
+      213: 1713104313621752297
+    second: Robot_death_151
+  - first:
+      213: 8329451462645088885
+    second: Robot_death_152
+  - first:
+      213: 4174427708335019465
+    second: Robot_death_153
+  - first:
+      213: 8817881456278431218
+    second: Robot_death_154
+  - first:
+      213: -5444851557157268319
+    second: Robot_death_155
+  - first:
+      213: -3857569263935888972
+    second: Robot_death_156
+  - first:
+      213: 7484480695761260947
+    second: Robot_death_157
+  - first:
+      213: 6717302857021619964
+    second: Robot_death_158
+  - first:
+      213: 1547537461216453506
+    second: Robot_death_159
+  - first:
+      213: 5999009171173793206
+    second: Robot_death_160
+  - first:
+      213: 8554006764384366406
+    second: Robot_death_161
+  - first:
+      213: 7258584846029437362
+    second: Robot_death_162
+  - first:
+      213: -1115951358873381198
+    second: Robot_death_163
+  - first:
+      213: -6684916142951670559
+    second: Robot_death_164
+  - first:
+      213: 529343633209127364
+    second: Robot_death_165
+  - first:
+      213: 7245594940722998462
+    second: Robot_death_166
+  - first:
+      213: -2847513968414090934
+    second: Robot_death_167
+  - first:
+      213: -9116791848752631761
+    second: Robot_death_168
+  - first:
+      213: -6548083614104829190
+    second: Robot_death_169
+  - first:
+      213: -241070258881566200
+    second: Robot_death_170
+  - first:
+      213: 8335081600400966812
+    second: Robot_death_171
+  - first:
+      213: -8696815916644986122
+    second: Robot_death_172
+  - first:
+      213: -8746394480169976766
+    second: Robot_death_173
+  - first:
+      213: -7370309815369274813
+    second: Robot_death_174
+  - first:
+      213: -7492414766869548490
+    second: Robot_death_175
+  - first:
+      213: -1862197220333119828
+    second: Robot_death_176
+  - first:
+      213: 8636019281074456333
+    second: Robot_death_177
+  - first:
+      213: 252770693723011654
+    second: Robot_death_178
+  - first:
+      213: -2783141299284414701
+    second: Robot_death_179
+  - first:
+      213: -3432034837292748774
+    second: Robot_death_180
+  - first:
+      213: 6944636316438849298
+    second: Robot_death_181
+  - first:
+      213: -281805790409439166
+    second: Robot_death_182
+  - first:
+      213: -5077932291864882945
+    second: Robot_death_183
+  - first:
+      213: 7906352525058228792
+    second: Robot_death_184
+  - first:
+      213: -2723168699493853485
+    second: Robot_death_185
+  - first:
+      213: 209337459242673849
+    second: Robot_death_186
+  - first:
+      213: 166759975181686151
+    second: Robot_death_187
+  - first:
+      213: -5975410859635038747
+    second: Robot_death_188
+  - first:
+      213: -1669728865876295750
+    second: Robot_death_189
+  - first:
+      213: -4016313055177704935
+    second: Robot_death_190
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Robot_death_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 934
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a459ec2d2e38602f0800000000000000
+      internalID: -1006972456448125622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 934
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb303bdf56ac2800800000000000000
+      internalID: 589028581908167611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 935
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44946a97713aeb750800000000000000
+      internalID: 6322670248095271236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_3
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 935
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3781752310f07d60800000000000000
+      internalID: 7886066912548980539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_4
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 935
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17225ff92bd15a00800000000000000
+      internalID: 743616386916558620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_5
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 935
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8baf1f877580c4d70800000000000000
+      internalID: 9028600524755303096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_6
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 935
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d46751b71d996c90800000000000000
+      internalID: -7176031806153071399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_7
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 935
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1be5cbbc53302d0800000000000000
+      internalID: -3313745751659597353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 807
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b2649c604c15720800000000000000
+      internalID: 2833261174018419608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_9
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 807
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515e9c2ee4c5144e0800000000000000
+      internalID: -1999215265693702891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_10
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 807
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e537060fa50e8d110800000000000000
+      internalID: 1286024374798807902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_11
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 807
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219cbf59d1b28fb50800000000000000
+      internalID: 6627094257746037010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_12
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 807
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a619d40033fc373f0800000000000000
+      internalID: -904151282215972502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_13
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 807
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9861873893167f3c0800000000000000
+      internalID: -4325882017419356535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_14
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 807
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487a61e835263edd0800000000000000
+      internalID: -2458012860608501884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_15
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 807
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75acd796cb4d02dc0800000000000000
+      internalID: -3665696190990792105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_17
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 679
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3790e1ac4f6e4e10800000000000000
+      internalID: 2183805244245317438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_18
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 679
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5f47d3a06d6f4d0800000000000000
+      internalID: -3101055953928915470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_19
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 679
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ba26621801a7cc0800000000000000
+      internalID: -3712636795932726429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_20
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 679
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fa42cf7cad205d0800000000000000
+      internalID: -3097673041213870290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_21
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 679
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403b8fde198c4e020800000000000000
+      internalID: 2370239832992035588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_22
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 679
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819c866f5a04ffc10800000000000000
+      internalID: 2089459833671043352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_23
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 679
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2bc841e0c24d2c0800000000000000
+      internalID: -4407849696302943533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_24
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 679
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a28791d0428f0ed0800000000000000
+      internalID: -2445592857733004635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_25
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 551
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211784d8ec8ce26c0800000000000000
+      internalID: -4166171815811976942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_26
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 551
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f5df83909c46ca0800000000000000
+      internalID: -6024469360066863342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_29
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 551
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8cb7bb7c4c7cb80800000000000000
+      internalID: -8374508619949160257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_32
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 551
+        width: 30
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4845805, y: 0.4986229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ce84b552761c340800000000000000
+      internalID: 4882296881189284887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_34
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 550
+        width: 30
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5102041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a27f7aa88cafcfc0800000000000000
+      internalID: -3472367084703354199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_37
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 549
+        width: 31
+        height: 50
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d118237585fddf40800000000000000
+      internalID: 5755025852360823256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_40
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 550
+        width: 32
+        height: 49
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5102041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4de789491d76530800000000000000
+      internalID: 3848274842755191987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_44
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 421
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.4375, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07aec612eae31d50800000000000000
+      internalID: 6706962526850950926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_46
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 420
+        width: 33
+        height: 51
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.5294118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952c946e13a799360800000000000000
+      internalID: 7176901835927175769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_48
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 419
+        width: 32
+        height: 52
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.53846157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e6f0e2a8b9ab0e0800000000000000
+      internalID: -2253317645764956570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_78
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 418
+        width: 33
+        height: 54
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.537037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7819a80a6206a4e90800000000000000
+      internalID: -7040709348421889657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_81
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 417
+        width: 33
+        height: 55
+      alignment: 9
+      pivot: {x: 0.42424244, y: 0.5454545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfca3e4f3feb30e20800000000000000
+      internalID: 3315703705669709053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_83
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 416
+        width: 33
+        height: 57
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.54385966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7561ba34e8c37f70800000000000000
+      internalID: 9183904947701376381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_85
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 415
+        width: 33
+        height: 58
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.55172414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98eb5e37cb97a8a0800000000000000
+      internalID: -6293890674179970913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_86
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 415
+        width: 33
+        height: 59
+      alignment: 9
+      pivot: {x: 0.42424244, y: 0.5423729}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673386840dc856b70800000000000000
+      internalID: 8891667865508787062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_143
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 285
+        width: 34
+        height: 62
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.54838705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d348846a367f9fa70800000000000000
+      internalID: 8861385749191754813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_145
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 284
+        width: 34
+        height: 63
+      alignment: 9
+      pivot: {x: 0.44117647, y: 0.5555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98fa3972d4a605b0800000000000000
+      internalID: -5402449479100335974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_147
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 283
+        width: 35
+        height: 65
+      alignment: 9
+      pivot: {x: 0.4857143, y: 0.5538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef6b2ceb1507da30800000000000000
+      internalID: 4239863191677136875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_148
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 283
+        width: 36
+        height: 66
+      alignment: 9
+      pivot: {x: 0.47222224, y: 0.54545456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770b8fb838729ca10800000000000000
+      internalID: 1930117361247498359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_149
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 282
+        width: 37
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5135135, y: 0.5522388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3232208db2c9b81c0800000000000000
+      internalID: -4500331690505133277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_150
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 281
+        width: 37
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5135135, y: 0.5588235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85528615383f8e4e0800000000000000
+      internalID: -1952042693133064872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_151
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 281
+        width: 37
+        height: 68
+      alignment: 9
+      pivot: {x: 0.4864865, y: 0.5588235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e92d9cfb4b26c710800000000000000
+      internalID: 1713104313621752297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_159
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 281
+        width: 36
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.5507246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283aa6c2f15f97510800000000000000
+      internalID: 1547537461216453506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_166
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 164
+        width: 36
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.46551725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc6924b5368d8460800000000000000
+      internalID: 7245594940722998462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_173
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 152
+        width: 37
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5675676, y: 0.55714285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cf7088f809e9680800000000000000
+      internalID: -8746394480169976766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_175
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 151
+        width: 37
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5675676, y: 0.56338024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63279de4778950890800000000000000
+      internalID: -7492414766869548490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_death_27
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 551
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ddbd107011cb3b0800000000000000
+      internalID: -5495498723505218242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1547 @@
+fileFormatVersion: 2
+guid: bd324b0e0b2bc8f49a5070318f8a1093
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4907105643230838878
+    second: Mutated_human_hit 1_0
+  - first:
+      213: 8871745346248124221
+    second: Mutated_human_hit 1_1
+  - first:
+      213: -4807156111158894667
+    second: Mutated_human_hit 1_2
+  - first:
+      213: -2151088488246989792
+    second: Mutated_human_hit 1_3
+  - first:
+      213: 6094435481563920892
+    second: Mutated_human_hit 1_4
+  - first:
+      213: 4300068767437457269
+    second: Mutated_human_hit 1_5
+  - first:
+      213: -6913896799204930330
+    second: Mutated_human_hit 1_6
+  - first:
+      213: 7531797869261957931
+    second: Mutated_human_hit 1_7
+  - first:
+      213: -2947035306970640160
+    second: Mutated_human_hit 1_8
+  - first:
+      213: -8054164631491327125
+    second: Mutated_human_hit 1_9
+  - first:
+      213: 4870999230366475896
+    second: Mutated_human_hit 1_10
+  - first:
+      213: -1427248168013297009
+    second: Mutated_human_hit 1_11
+  - first:
+      213: -443045913866364039
+    second: Mutated_human_hit 1_12
+  - first:
+      213: 1887073200030704612
+    second: Mutated_human_hit 1_13
+  - first:
+      213: 1086224488008984812
+    second: Mutated_human_hit 1_14
+  - first:
+      213: -1630680063817226442
+    second: Mutated_human_hit 1_15
+  - first:
+      213: 682296598386103706
+    second: Mutated_human_hit 1_16
+  - first:
+      213: -6842044362503842990
+    second: Mutated_human_hit 1_17
+  - first:
+      213: 1702002656564804577
+    second: Mutated_human_hit 1_18
+  - first:
+      213: 249232626409925800
+    second: Mutated_human_hit 1_19
+  - first:
+      213: -4753050444224371846
+    second: Mutated_human_hit 1_20
+  - first:
+      213: 3411188147216218655
+    second: Mutated_human_hit 1_21
+  - first:
+      213: -7666311661032615719
+    second: Mutated_human_hit 1_22
+  - first:
+      213: 366822487260982475
+    second: Mutated_human_hit 1_23
+  - first:
+      213: -8941780165464874713
+    second: Mutated_human_hit 1_24
+  - first:
+      213: -812049008094232308
+    second: Mutated_human_hit 1_25
+  - first:
+      213: -6531903664555668222
+    second: Mutated_human_hit 1_26
+  - first:
+      213: 8716290697056196001
+    second: Mutated_human_hit 1_27
+  - first:
+      213: 4801245942609512598
+    second: Mutated_human_hit 1_28
+  - first:
+      213: -1129338130533381225
+    second: Mutated_human_hit 1_29
+  - first:
+      213: 3992308104301789216
+    second: Mutated_human_hit 1_30
+  - first:
+      213: 4482405714865560901
+    second: Mutated_human_hit 1_31
+  - first:
+      213: -2690447756964032362
+    second: Mutated_human_hit 1_32
+  - first:
+      213: -3963948202448350374
+    second: Mutated_human_hit 1_33
+  - first:
+      213: -4790227798712271023
+    second: Mutated_human_hit 1_34
+  - first:
+      213: 7894472908220042640
+    second: Mutated_human_hit 1_35
+  - first:
+      213: -4499197316113289659
+    second: Mutated_human_hit 1_36
+  - first:
+      213: -1409286727453237317
+    second: Mutated_human_hit 1_37
+  - first:
+      213: 8182653755375274126
+    second: Mutated_human_hit 1_38
+  - first:
+      213: -3679358975390117156
+    second: Mutated_human_hit 1_39
+  - first:
+      213: -7608533391459282745
+    second: Mutated_human_hit 1_40
+  - first:
+      213: -8487567886933665344
+    second: Mutated_human_hit 1_41
+  - first:
+      213: 4914848918612731860
+    second: Mutated_human_hit 1_42
+  - first:
+      213: -8903037386955516082
+    second: Mutated_human_hit 1_43
+  - first:
+      213: 7573212859858788242
+    second: Mutated_human_hit 1_44
+  - first:
+      213: -7143200751105292762
+    second: Mutated_human_hit 1_45
+  - first:
+      213: -7955350048179661131
+    second: Mutated_human_hit 1_46
+  - first:
+      213: -7049330731099598823
+    second: Mutated_human_hit 1_47
+  - first:
+      213: -3170266310822631675
+    second: Mutated_human_hit 1_48
+  - first:
+      213: 6496185175600380282
+    second: Mutated_human_hit 1_49
+  - first:
+      213: -8949594028322655168
+    second: Mutated_human_hit 1_50
+  - first:
+      213: 797197738411709818
+    second: Mutated_human_hit 1_51
+  - first:
+      213: 2536412127188370650
+    second: Mutated_human_hit 1_52
+  - first:
+      213: 169424249543915558
+    second: Mutated_human_hit 1_53
+  - first:
+      213: 7368044368349144067
+    second: Mutated_human_hit 1_54
+  - first:
+      213: 8263986261333128077
+    second: Mutated_human_hit 1_55
+  - first:
+      213: -3062640010061254624
+    second: Mutated_human_hit 1_56
+  - first:
+      213: -7212408817184336276
+    second: Mutated_human_hit 1_57
+  - first:
+      213: -3602433603758862466
+    second: Mutated_human_hit 1_58
+  - first:
+      213: 3368331360240990662
+    second: Mutated_human_hit 1_59
+  - first:
+      213: -9191756894048066842
+    second: Mutated_human_hit 1_60
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 944
+        width: 27
+        height: 30
+      alignment: 9
+      pivot: {x: 0.8148148, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af39eb9a6576ebb0800000000000000
+      internalID: -4907105643230838878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_1
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 944
+        width: 27
+        height: 30
+      alignment: 9
+      pivot: {x: 0.8148148, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3728dc4365ce1b70800000000000000
+      internalID: 8871745346248124221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 944
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.7916667, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf968e7cfc894db0800000000000000
+      internalID: -4807156111158894667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_3
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 944
+        width: 21
+        height: 30
+      alignment: 9
+      pivot: {x: 0.7619048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c2b99ba6cc522e0800000000000000
+      internalID: -2151088488246989792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_4
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 944
+        width: 18
+        height: 30
+      alignment: 9
+      pivot: {x: 0.7222222, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf97721e7c8c39450800000000000000
+      internalID: 6094435481563920892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_5
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 944
+        width: 15
+        height: 30
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5778cd0e2c9ecab30800000000000000
+      internalID: 4300068767437457269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_6
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 944
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec0ea51e77ec00a0800000000000000
+      internalID: -6913896799204930330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_7
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 944
+        width: 14
+        height: 30
+      alignment: 9
+      pivot: {x: 0.35714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b2765c142568860800000000000000
+      internalID: 7531797869261957931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 816
+        width: 18
+        height: 30
+      alignment: 9
+      pivot: {x: 0.2777778, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e01b7b90070a17d0800000000000000
+      internalID: -2947035306970640160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_9
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 816
+        width: 20
+        height: 30
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bc171c0fbd93090800000000000000
+      internalID: -8054164631491327125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_10
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 816
+        width: 17
+        height: 30
+      alignment: 9
+      pivot: {x: 0.29411766, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876e13b0ef3499340800000000000000
+      internalID: 4870999230366475896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_11
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 816
+        width: 14
+        height: 30
+      alignment: 9
+      pivot: {x: 0.35714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a8d336a55613ce0800000000000000
+      internalID: -1427248168013297009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_12
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 816
+        width: 14
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b9ec4b61cf9d9f0800000000000000
+      internalID: -443045913866364039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_13
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 816
+        width: 15
+        height: 30
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e36df8c31b303a10800000000000000
+      internalID: 1887073200030704612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_14
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 816
+        width: 15
+        height: 30
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce82b12ba6b031f00800000000000000
+      internalID: 1086224488008984812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_15
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 816
+        width: 14
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637ecd52f19ae59e0800000000000000
+      internalID: -1630680063817226442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_16
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 688
+        width: 14
+        height: 30
+      alignment: 9
+      pivot: {x: 0.35714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95d24a2421087900800000000000000
+      internalID: 682296598386103706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_17
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 688
+        width: 14
+        height: 30
+      alignment: 9
+      pivot: {x: 0.35714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2539e7b27ec2c01a0800000000000000
+      internalID: -6842044362503842990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_18
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 688
+        width: 14
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebf057066abe9710800000000000000
+      internalID: 1702002656564804577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_19
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 688
+        width: 14
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ace993d0c3757300800000000000000
+      internalID: 249232626409925800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_20
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 688
+        width: 15
+        height: 30
+      alignment: 9
+      pivot: {x: 0.4666667, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a736e70cdc5c90eb0800000000000000
+      internalID: -4753050444224371846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_21
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 688
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a78d0fb89f65f20800000000000000
+      internalID: 3411188147216218655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_22
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 688
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d057b2892acb9590800000000000000
+      internalID: -7666311661032615719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_23
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 688
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcce0d0db17371500800000000000000
+      internalID: 366822487260982475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_24
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 560
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72125d9a05a68e380800000000000000
+      internalID: -8941780165464874713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_25
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 560
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01c554cab50bb4f0800000000000000
+      internalID: -812049008094232308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_26
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 560
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d461f79340a55a0800000000000000
+      internalID: -6531903664555668222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_27
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 560
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a59315453c76f870800000000000000
+      internalID: 8716290697056196001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_28
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 560
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69886882fb371a240800000000000000
+      internalID: 4801245942609512598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_29
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 560
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b014a24f8c350f0800000000000000
+      internalID: -1129338130533381225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_30
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 560
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02042d69117876730800000000000000
+      internalID: 3992308104301789216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_31
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 560
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d1eb5bf34b43e30800000000000000
+      internalID: 4482405714865560901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_32
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 432
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6909967050c99aad0800000000000000
+      internalID: -2690447756964032362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_33
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 432
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53940d9c1a3df8c0800000000000000
+      internalID: -3963948202448350374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_34
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 432
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fbd806231b58db0800000000000000
+      internalID: -4790227798712271023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_35
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 432
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d8667884dce8d60800000000000000
+      internalID: 7894472908220042640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_36
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 432
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e2da6f0e3af81c0800000000000000
+      internalID: -4499197316113289659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_37
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 432
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf1a772035317ce0800000000000000
+      internalID: -1409286727453237317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_38
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 432
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88c829ac30ae8170800000000000000
+      internalID: 8182653755375274126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_39
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 432
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd21ab6818a40fcc0800000000000000
+      internalID: -3679358975390117156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_40
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 304
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c01f54313f096690800000000000000
+      internalID: -7608533391459282745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_41
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 304
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c95e44d9f9163a80800000000000000
+      internalID: -8487567886933665344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_42
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 304
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7ef9e2d0d053440800000000000000
+      internalID: 4914848918612731860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_43
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 304
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e479e78baae027480800000000000000
+      internalID: -8903037386955516082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_44
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 304
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f9d40b8f4791960800000000000000
+      internalID: 7573212859858788242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_45
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 304
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626c01f53c04edc90800000000000000
+      internalID: -7143200751105292762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_46
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 304
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b65d5ac74be89190800000000000000
+      internalID: -7955350048179661131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_47
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 304
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910509c8c0fbb2e90800000000000000
+      internalID: -7049330731099598823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_48
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 176
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507670c4693f004d0800000000000000
+      internalID: -3170266310822631675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_49
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 176
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79b1dabff5172a50800000000000000
+      internalID: 6496185175600380282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_50
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 176
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044fed1f5a7acc380800000000000000
+      internalID: -8949594028322655168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_51
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 176
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7556cd8e17301b00800000000000000
+      internalID: 797197738411709818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_52
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 176
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad44e052465233320800000000000000
+      internalID: 2536412127188370650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_53
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 176
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628f662157ae95200800000000000000
+      internalID: 169424249543915558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_54
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 176
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304a4c0c05d804660800000000000000
+      internalID: 7368044368349144067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_55
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 176
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83387f58b39fa270800000000000000
+      internalID: 8263986261333128077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_56
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 48
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020766d23215f75d0800000000000000
+      internalID: -3062640010061254624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_57
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 48
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6615dcc46068eb90800000000000000
+      internalID: -7212408817184336276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_58
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 48
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fc50159b5910ec0800000000000000
+      internalID: -3602433603758862466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutated_human_hit 1_59
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 48
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9f8f4a687bebe20800000000000000
+      internalID: 3368331360240990662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: -8900331118322363415}
   - component: {fileID: -4557879074267176397}
   - component: {fileID: 6371413353661442453}
+  - component: {fileID: -568455340857121243}
   m_Layer: 0
   m_Name: Raged Slime
   m_TagString: Enemy
@@ -248,6 +249,25 @@ CapsuleCollider2D:
   m_Offset: {x: 0.03, y: -0.3}
   m_Size: {x: 0.75, y: 0.4}
   m_Direction: 1
+--- !u!95 &-568455340857121243
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544392050510859811}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9e2bee6afe2c60c49a3bd2949fcbb0c8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &6827722649031045532
 PrefabInstance:
   m_ObjectHideFlags: 0

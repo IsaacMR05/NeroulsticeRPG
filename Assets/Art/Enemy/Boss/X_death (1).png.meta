@@ -1,0 +1,5972 @@
+fileFormatVersion: 2
+guid: 84417d56f63d9af4f9458febac3eac87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6339826189044116557
+    second: X_death (1)_0
+  - first:
+      213: -6872033356460923159
+    second: X_death (1)_1
+  - first:
+      213: -2267812285749656850
+    second: X_death (1)_2
+  - first:
+      213: -2855019949255706087
+    second: X_death (1)_3
+  - first:
+      213: -25216532398940809
+    second: X_death (1)_4
+  - first:
+      213: 4127248046664353425
+    second: X_death (1)_5
+  - first:
+      213: -8395336970426746481
+    second: X_death (1)_6
+  - first:
+      213: 996409716414553346
+    second: X_death (1)_7
+  - first:
+      213: 6318048444268861913
+    second: X_death (1)_8
+  - first:
+      213: -2706518883225665950
+    second: X_death (1)_9
+  - first:
+      213: -2117023277552639325
+    second: X_death (1)_10
+  - first:
+      213: -8809207193415208255
+    second: X_death (1)_11
+  - first:
+      213: -8144449713922602365
+    second: X_death (1)_12
+  - first:
+      213: -5089311461843498259
+    second: X_death (1)_13
+  - first:
+      213: 6599983961624825028
+    second: X_death (1)_14
+  - first:
+      213: 2656291637224062315
+    second: X_death (1)_15
+  - first:
+      213: -1363256544380227917
+    second: X_death (1)_16
+  - first:
+      213: -6787459538405474780
+    second: X_death (1)_17
+  - first:
+      213: 477804496274971484
+    second: X_death (1)_18
+  - first:
+      213: 8416587911222819562
+    second: X_death (1)_19
+  - first:
+      213: 8197610755108590813
+    second: X_death (1)_20
+  - first:
+      213: 1582009398949895718
+    second: X_death (1)_21
+  - first:
+      213: 6823224151537029964
+    second: X_death (1)_22
+  - first:
+      213: 1509562849108772768
+    second: X_death (1)_23
+  - first:
+      213: 7820230825604042548
+    second: X_death (1)_24
+  - first:
+      213: -6690119747809859498
+    second: X_death (1)_25
+  - first:
+      213: -4704260468415452862
+    second: X_death (1)_26
+  - first:
+      213: 4797374442060329074
+    second: X_death (1)_27
+  - first:
+      213: 2511216032216187268
+    second: X_death (1)_28
+  - first:
+      213: 5605762666343277061
+    second: X_death (1)_29
+  - first:
+      213: 1333374696616722219
+    second: X_death (1)_30
+  - first:
+      213: -1930153773448720283
+    second: X_death (1)_31
+  - first:
+      213: 453192123653689548
+    second: X_death (1)_32
+  - first:
+      213: 8025710361132368384
+    second: X_death (1)_33
+  - first:
+      213: 8534605669046109374
+    second: X_death (1)_34
+  - first:
+      213: -2107065190141546567
+    second: X_death (1)_35
+  - first:
+      213: 8911501131796119838
+    second: X_death (1)_36
+  - first:
+      213: -7327603397668626521
+    second: X_death (1)_37
+  - first:
+      213: -3664124101478844261
+    second: X_death (1)_38
+  - first:
+      213: 8547215479041212814
+    second: X_death (1)_39
+  - first:
+      213: 2776381279162129706
+    second: X_death (1)_40
+  - first:
+      213: -1019830551049425105
+    second: X_death (1)_41
+  - first:
+      213: -2798075463382661804
+    second: X_death (1)_42
+  - first:
+      213: -1908870411452210751
+    second: X_death (1)_43
+  - first:
+      213: -5267499588200386294
+    second: X_death (1)_44
+  - first:
+      213: 795569705074370024
+    second: X_death (1)_45
+  - first:
+      213: -600582980623619661
+    second: X_death (1)_46
+  - first:
+      213: 6774266754396862621
+    second: X_death (1)_47
+  - first:
+      213: 3732443265372989650
+    second: X_death (1)_48
+  - first:
+      213: 841918481117511457
+    second: X_death (1)_49
+  - first:
+      213: -7305616692976373561
+    second: X_death (1)_50
+  - first:
+      213: 6661306193873219727
+    second: X_death (1)_51
+  - first:
+      213: -7837021281339075804
+    second: X_death (1)_52
+  - first:
+      213: -2390779524589336069
+    second: X_death (1)_53
+  - first:
+      213: -803643146647373334
+    second: X_death (1)_54
+  - first:
+      213: 7984134963882505893
+    second: X_death (1)_55
+  - first:
+      213: 3902193019058702391
+    second: X_death (1)_56
+  - first:
+      213: 1602431090994728125
+    second: X_death (1)_57
+  - first:
+      213: 7359423647758248099
+    second: X_death (1)_58
+  - first:
+      213: 7752244968503794269
+    second: X_death (1)_59
+  - first:
+      213: 776041638385018750
+    second: X_death (1)_60
+  - first:
+      213: 7368950341207357845
+    second: X_death (1)_61
+  - first:
+      213: -2290205714810469735
+    second: X_death (1)_62
+  - first:
+      213: 4197916715584440172
+    second: X_death (1)_63
+  - first:
+      213: 8802306365014443347
+    second: X_death (1)_64
+  - first:
+      213: -6722450927825173526
+    second: X_death (1)_65
+  - first:
+      213: -9107773427189400975
+    second: X_death (1)_66
+  - first:
+      213: -2635769405500242457
+    second: X_death (1)_67
+  - first:
+      213: -3075182971771920621
+    second: X_death (1)_68
+  - first:
+      213: -3607399375981382420
+    second: X_death (1)_69
+  - first:
+      213: 5553102343879467506
+    second: X_death (1)_70
+  - first:
+      213: 1949363685080019527
+    second: X_death (1)_71
+  - first:
+      213: 600721583279110622
+    second: X_death (1)_72
+  - first:
+      213: -5908594248814303465
+    second: X_death (1)_73
+  - first:
+      213: -7254476970575352590
+    second: X_death (1)_74
+  - first:
+      213: 4171453566707349488
+    second: X_death (1)_75
+  - first:
+      213: 8234554543411617681
+    second: X_death (1)_76
+  - first:
+      213: -3843012246996997503
+    second: X_death (1)_77
+  - first:
+      213: -4448649796862156132
+    second: X_death (1)_78
+  - first:
+      213: 1790296463975061439
+    second: X_death (1)_79
+  - first:
+      213: 3839882448754184300
+    second: X_death (1)_80
+  - first:
+      213: 2096890357165497114
+    second: X_death (1)_81
+  - first:
+      213: -3443980857791171507
+    second: X_death (1)_82
+  - first:
+      213: -4668413909506391504
+    second: X_death (1)_83
+  - first:
+      213: 874716205516405437
+    second: X_death (1)_84
+  - first:
+      213: -8463600204753873018
+    second: X_death (1)_85
+  - first:
+      213: 3657139916609999926
+    second: X_death (1)_86
+  - first:
+      213: -5274837214244251220
+    second: X_death (1)_87
+  - first:
+      213: -7561510343172449312
+    second: X_death (1)_88
+  - first:
+      213: -3800346523600151204
+    second: X_death (1)_89
+  - first:
+      213: -3906533141537434560
+    second: X_death (1)_90
+  - first:
+      213: -5573278613379226483
+    second: X_death (1)_91
+  - first:
+      213: -9054964279798672347
+    second: X_death (1)_92
+  - first:
+      213: 2320277625526957041
+    second: X_death (1)_93
+  - first:
+      213: 2011236485652354109
+    second: X_death (1)_94
+  - first:
+      213: -1396535158182069279
+    second: X_death (1)_95
+  - first:
+      213: 8443522432048633175
+    second: X_death (1)_96
+  - first:
+      213: 8439043610560691203
+    second: X_death (1)_97
+  - first:
+      213: 9005660618887355419
+    second: X_death (1)_98
+  - first:
+      213: 1182094391581425034
+    second: X_death (1)_99
+  - first:
+      213: 5495345931150018955
+    second: X_death (1)_100
+  - first:
+      213: 6195275331910912054
+    second: X_death (1)_101
+  - first:
+      213: 1562020119434094666
+    second: X_death (1)_102
+  - first:
+      213: 8165420732342700267
+    second: X_death (1)_103
+  - first:
+      213: -5989213337504362481
+    second: X_death (1)_104
+  - first:
+      213: -2033410322105176544
+    second: X_death (1)_105
+  - first:
+      213: -4221336282191455456
+    second: X_death (1)_106
+  - first:
+      213: -1375259422380859201
+    second: X_death (1)_107
+  - first:
+      213: -3346581271499037995
+    second: X_death (1)_108
+  - first:
+      213: 3263621775483026491
+    second: X_death (1)_109
+  - first:
+      213: -7202433626948033132
+    second: X_death (1)_110
+  - first:
+      213: -5964603845777033081
+    second: X_death (1)_111
+  - first:
+      213: 408866963207365578
+    second: X_death (1)_112
+  - first:
+      213: -8612406648902692498
+    second: X_death (1)_113
+  - first:
+      213: -1450386083106827460
+    second: X_death (1)_114
+  - first:
+      213: 2021915540856809649
+    second: X_death (1)_115
+  - first:
+      213: 3624640370421054527
+    second: X_death (1)_116
+  - first:
+      213: -3832826465692508545
+    second: X_death (1)_117
+  - first:
+      213: -5277515363937219060
+    second: X_death (1)_118
+  - first:
+      213: 4666008107879544480
+    second: X_death (1)_119
+  - first:
+      213: 4380446347847058513
+    second: X_death (1)_120
+  - first:
+      213: -8534376072905672394
+    second: X_death (1)_121
+  - first:
+      213: -6799263701309239598
+    second: X_death (1)_122
+  - first:
+      213: -3748910539733661874
+    second: X_death (1)_123
+  - first:
+      213: 7666297303527876326
+    second: X_death (1)_124
+  - first:
+      213: 5063777094151539360
+    second: X_death (1)_125
+  - first:
+      213: 6725630524304639845
+    second: X_death (1)_126
+  - first:
+      213: 4316052216827921132
+    second: X_death (1)_127
+  - first:
+      213: 3105669156393657469
+    second: X_death (1)_128
+  - first:
+      213: 6785056270178845774
+    second: X_death (1)_129
+  - first:
+      213: 162933047095283555
+    second: X_death (1)_130
+  - first:
+      213: -8599479218643767437
+    second: X_death (1)_131
+  - first:
+      213: 1492769360384929835
+    second: X_death (1)_132
+  - first:
+      213: -8218471697535916240
+    second: X_death (1)_133
+  - first:
+      213: 5069733126156096716
+    second: X_death (1)_134
+  - first:
+      213: 5779030667302677611
+    second: X_death (1)_135
+  - first:
+      213: -2951615193720548251
+    second: X_death (1)_136
+  - first:
+      213: 8178434327044289993
+    second: X_death (1)_137
+  - first:
+      213: -2840832141848591801
+    second: X_death (1)_138
+  - first:
+      213: -2443073796398635100
+    second: X_death (1)_139
+  - first:
+      213: -6468488295875269036
+    second: X_death (1)_140
+  - first:
+      213: 8397898862752626750
+    second: X_death (1)_141
+  - first:
+      213: 8050806784109443644
+    second: X_death (1)_142
+  - first:
+      213: -6083079966453513843
+    second: X_death (1)_143
+  - first:
+      213: -4469176688211773045
+    second: X_death (1)_144
+  - first:
+      213: 8690600228855081785
+    second: X_death (1)_145
+  - first:
+      213: -1204718509107923635
+    second: X_death (1)_146
+  - first:
+      213: -3306383366853061003
+    second: X_death (1)_147
+  - first:
+      213: 8799531907840798091
+    second: X_death (1)_148
+  - first:
+      213: 3730104395719961591
+    second: X_death (1)_149
+  - first:
+      213: -1885615461330656747
+    second: X_death (1)_150
+  - first:
+      213: -3101503341303462031
+    second: X_death (1)_151
+  - first:
+      213: -5748906018107956037
+    second: X_death (1)_152
+  - first:
+      213: -7312567303934336881
+    second: X_death (1)_153
+  - first:
+      213: -6830492747115628397
+    second: X_death (1)_154
+  - first:
+      213: 4985179731106313911
+    second: X_death (1)_155
+  - first:
+      213: -736977188063946501
+    second: X_death (1)_156
+  - first:
+      213: -2830037744247682072
+    second: X_death (1)_157
+  - first:
+      213: -1484520675754641986
+    second: X_death (1)_158
+  - first:
+      213: -5220836034870464505
+    second: X_death (1)_159
+  - first:
+      213: -889841303093862095
+    second: X_death (1)_160
+  - first:
+      213: -3854884915808215245
+    second: X_death (1)_161
+  - first:
+      213: -2151709338110864533
+    second: X_death (1)_162
+  - first:
+      213: -5961345281485815260
+    second: X_death (1)_163
+  - first:
+      213: -472550614960805925
+    second: X_death (1)_164
+  - first:
+      213: 8184980011588000172
+    second: X_death (1)_165
+  - first:
+      213: 4190698330217445832
+    second: X_death (1)_166
+  - first:
+      213: -1647907585378355946
+    second: X_death (1)_167
+  - first:
+      213: -9199659654084338225
+    second: X_death (1)_168
+  - first:
+      213: -4190146645723431790
+    second: X_death (1)_169
+  - first:
+      213: -8358137323522243525
+    second: X_death (1)_170
+  - first:
+      213: -3056862452327407740
+    second: X_death (1)_171
+  - first:
+      213: 964264536911182925
+    second: X_death (1)_172
+  - first:
+      213: -239305483501235891
+    second: X_death (1)_173
+  - first:
+      213: -3419253440731363223
+    second: X_death (1)_174
+  - first:
+      213: -9213562576955367029
+    second: X_death (1)_175
+  - first:
+      213: 4276010522236926656
+    second: X_death (1)_176
+  - first:
+      213: -4379418412181739228
+    second: X_death (1)_177
+  - first:
+      213: 6527798763992055164
+    second: X_death (1)_178
+  - first:
+      213: -198081875914470857
+    second: X_death (1)_179
+  - first:
+      213: 6181610341873359833
+    second: X_death (1)_180
+  - first:
+      213: 1415339008369401608
+    second: X_death (1)_181
+  - first:
+      213: 2832126267140677635
+    second: X_death (1)_182
+  - first:
+      213: 3343902089096959909
+    second: X_death (1)_183
+  - first:
+      213: 3059291711676232722
+    second: X_death (1)_184
+  - first:
+      213: 3714226785712548735
+    second: X_death (1)_185
+  - first:
+      213: 2746787308070375231
+    second: X_death (1)_186
+  - first:
+      213: -75983352923131731
+    second: X_death (1)_187
+  - first:
+      213: -3204570086557766243
+    second: X_death (1)_188
+  - first:
+      213: 2053147699987893173
+    second: X_death (1)_189
+  - first:
+      213: 5597072609015279553
+    second: X_death (1)_190
+  - first:
+      213: -8229086450607122501
+    second: X_death (1)_191
+  - first:
+      213: 8826434496507702197
+    second: X_death (1)_192
+  - first:
+      213: -3217902257566485128
+    second: X_death (1)_193
+  - first:
+      213: -1975572510369344993
+    second: X_death (1)_194
+  - first:
+      213: -145322958657178135
+    second: X_death (1)_195
+  - first:
+      213: -8045465778527572559
+    second: X_death (1)_196
+  - first:
+      213: 6590310626555919118
+    second: X_death (1)_197
+  - first:
+      213: 2758964845806637504
+    second: X_death (1)_198
+  - first:
+      213: -4352777140475309047
+    second: X_death (1)_199
+  - first:
+      213: 4972484984138239485
+    second: X_death (1)_200
+  - first:
+      213: 4087950161087950058
+    second: X_death (1)_201
+  - first:
+      213: 4546721072379293401
+    second: X_death (1)_202
+  - first:
+      213: 2759445115870886742
+    second: X_death (1)_203
+  - first:
+      213: 4231383101368434193
+    second: X_death (1)_204
+  - first:
+      213: 7618275674474190937
+    second: X_death (1)_205
+  - first:
+      213: -5779995848103798364
+    second: X_death (1)_206
+  - first:
+      213: 622419116537359278
+    second: X_death (1)_207
+  - first:
+      213: 819083262682808049
+    second: X_death (1)_208
+  - first:
+      213: 8651647465332079539
+    second: X_death (1)_209
+  - first:
+      213: 2155293545763360089
+    second: X_death (1)_210
+  - first:
+      213: -1242125267436663428
+    second: X_death (1)_211
+  - first:
+      213: -8377371344198535178
+    second: X_death (1)_212
+  - first:
+      213: -4549480939557754199
+    second: X_death (1)_213
+  - first:
+      213: 5560592442790004467
+    second: X_death (1)_214
+  - first:
+      213: 3623221060526060003
+    second: X_death (1)_215
+  - first:
+      213: -4957616581796631667
+    second: X_death (1)_216
+  - first:
+      213: -679988514045847775
+    second: X_death (1)_217
+  - first:
+      213: 4000238482858223981
+    second: X_death (1)_218
+  - first:
+      213: 2877552029450972916
+    second: X_death (1)_219
+  - first:
+      213: 3968594495555104250
+    second: X_death (1)_220
+  - first:
+      213: -1186980469208187077
+    second: X_death (1)_221
+  - first:
+      213: -3862194056126773320
+    second: X_death (1)_222
+  - first:
+      213: -3866715615226127145
+    second: X_death (1)_223
+  - first:
+      213: 8738260657277837018
+    second: X_death (1)_224
+  - first:
+      213: -3191969603493613204
+    second: X_death (1)_225
+  - first:
+      213: 989947367394508183
+    second: X_death (1)_226
+  - first:
+      213: 4907054848044631319
+    second: X_death (1)_227
+  - first:
+      213: 3364046503678078410
+    second: X_death (1)_228
+  - first:
+      213: 5270824374646957101
+    second: X_death (1)_229
+  - first:
+      213: 5523443384504296411
+    second: X_death (1)_230
+  - first:
+      213: 8417716936929382339
+    second: X_death (1)_231
+  - first:
+      213: 1108469796211214218
+    second: X_death (1)_232
+  - first:
+      213: -7254758733616188492
+    second: X_death (1)_233
+  - first:
+      213: -4795425214072534413
+    second: X_death (1)_234
+  - first:
+      213: -8121565707030403037
+    second: X_death (1)_235
+  - first:
+      213: -3484407016961416251
+    second: X_death (1)_236
+  - first:
+      213: 8129820592279286854
+    second: X_death (1)_237
+  - first:
+      213: -5202452324686653982
+    second: X_death (1)_238
+  - first:
+      213: -2372957674333132998
+    second: X_death (1)_239
+  - first:
+      213: -5905433633413751631
+    second: X_death (1)_240
+  - first:
+      213: 8054435245773706349
+    second: X_death (1)_241
+  - first:
+      213: 6207436044959845646
+    second: X_death (1)_242
+  - first:
+      213: 9119959770115711618
+    second: X_death (1)_243
+  - first:
+      213: -9124904105396588573
+    second: X_death (1)_244
+  - first:
+      213: 8123832057995201392
+    second: X_death (1)_245
+  - first:
+      213: 8631615323239705215
+    second: X_death (1)_246
+  - first:
+      213: -6516332202234061190
+    second: X_death (1)_247
+  - first:
+      213: -6807212059482166068
+    second: X_death (1)_248
+  - first:
+      213: 8170336754822163207
+    second: X_death (1)_249
+  - first:
+      213: 6464222199501879687
+    second: X_death (1)_250
+  - first:
+      213: 5965322332089238703
+    second: X_death (1)_251
+  - first:
+      213: 8692173148905103040
+    second: X_death (1)_252
+  - first:
+      213: -2856409726019901363
+    second: X_death (1)_253
+  - first:
+      213: 1714117593424489507
+    second: X_death (1)_254
+  - first:
+      213: -5935366454599144584
+    second: X_death (1)_255
+  - first:
+      213: -2604070929034894038
+    second: X_death (1)_256
+  - first:
+      213: -1069704939064855438
+    second: X_death (1)_257
+  - first:
+      213: -2939463756472073472
+    second: X_death (1)_258
+  - first:
+      213: 8167036326975497558
+    second: X_death (1)_259
+  - first:
+      213: 6393827365473001680
+    second: X_death (1)_260
+  - first:
+      213: 5766470511250341013
+    second: X_death (1)_261
+  - first:
+      213: 220869424361431820
+    second: X_death (1)_262
+  - first:
+      213: -8461099874917455632
+    second: X_death (1)_263
+  - first:
+      213: -3903434061460035561
+    second: X_death (1)_264
+  - first:
+      213: -9073005691984124797
+    second: X_death (1)_265
+  - first:
+      213: -5346941647384226321
+    second: X_death (1)_266
+  - first:
+      213: -4902303048695360381
+    second: X_death (1)_267
+  - first:
+      213: -8854676355357885692
+    second: X_death (1)_268
+  - first:
+      213: -4354387386167193567
+    second: X_death (1)_269
+  - first:
+      213: 988048281957968923
+    second: X_death (1)_270
+  - first:
+      213: -9217583634710833693
+    second: X_death (1)_271
+  - first:
+      213: -5774742291521132087
+    second: X_death (1)_272
+  - first:
+      213: -2181907038373436927
+    second: X_death (1)_273
+  - first:
+      213: 1079858970177726842
+    second: X_death (1)_274
+  - first:
+      213: 4531133690890625541
+    second: X_death (1)_275
+  - first:
+      213: -7575121180905205428
+    second: X_death (1)_276
+  - first:
+      213: 4471541398781662218
+    second: X_death (1)_277
+  - first:
+      213: -4042450326940527293
+    second: X_death (1)_278
+  - first:
+      213: 5901153917236024912
+    second: X_death (1)_279
+  - first:
+      213: -5802710253958735636
+    second: X_death (1)_280
+  - first:
+      213: -7096699372732482718
+    second: X_death (1)_281
+  - first:
+      213: -5319864062037114496
+    second: X_death (1)_282
+  - first:
+      213: 2381906947251110752
+    second: X_death (1)_283
+  - first:
+      213: 8756144597486026374
+    second: X_death (1)_284
+  - first:
+      213: -3272810812877853020
+    second: X_death (1)_285
+  - first:
+      213: -1617195622323910402
+    second: X_death (1)_286
+  - first:
+      213: -3116155314174635030
+    second: X_death (1)_287
+  - first:
+      213: -7977664461013018668
+    second: X_death (1)_288
+  - first:
+      213: 8881070234294375171
+    second: X_death (1)_289
+  - first:
+      213: 4184825864396955460
+    second: X_death (1)_290
+  - first:
+      213: 2560857455028036874
+    second: X_death (1)_291
+  - first:
+      213: -7762229869388565887
+    second: X_death (1)_292
+  - first:
+      213: -8354854932841512293
+    second: X_death (1)_293
+  - first:
+      213: 2841970415938085071
+    second: X_death (1)_294
+  - first:
+      213: -2343409184379824403
+    second: X_death (1)_295
+  - first:
+      213: -5093076392004846428
+    second: X_death (1)_296
+  - first:
+      213: -67141811887084027
+    second: X_death (1)_297
+  - first:
+      213: -4233136876763861912
+    second: X_death (1)_298
+  - first:
+      213: 3473276993727568096
+    second: X_death (1)_299
+  - first:
+      213: -287628624086128666
+    second: X_death (1)_300
+  - first:
+      213: -2781682938500110835
+    second: X_death (1)_301
+  - first:
+      213: 8244613307323119422
+    second: X_death (1)_302
+  - first:
+      213: -9161932695951417628
+    second: X_death (1)_303
+  - first:
+      213: -928259109890676475
+    second: X_death (1)_304
+  - first:
+      213: 2374117666123905451
+    second: X_death (1)_305
+  - first:
+      213: 4390280014583421180
+    second: X_death (1)_306
+  - first:
+      213: 8670651065195155047
+    second: X_death (1)_307
+  - first:
+      213: -9059005488545972302
+    second: X_death (1)_308
+  - first:
+      213: -4852689388625018013
+    second: X_death (1)_309
+  - first:
+      213: 1809360932658924661
+    second: X_death (1)_310
+  - first:
+      213: 3257256471530964595
+    second: X_death (1)_311
+  - first:
+      213: 4701603748099930484
+    second: X_death (1)_312
+  - first:
+      213: 6530811066058114645
+    second: X_death (1)_313
+  - first:
+      213: -2211313444920410751
+    second: X_death (1)_314
+  - first:
+      213: -6838572913331381603
+    second: X_death (1)_315
+  - first:
+      213: -3070911228225116551
+    second: X_death (1)_316
+  - first:
+      213: -558189427204828921
+    second: X_death (1)_317
+  - first:
+      213: 163359378739394621
+    second: X_death (1)_318
+  - first:
+      213: -1986592270539261399
+    second: X_death (1)_319
+  - first:
+      213: 31452347772403301
+    second: X_death (1)_320
+  - first:
+      213: 6187463322727709452
+    second: X_death (1)_321
+  - first:
+      213: -3431356572604991586
+    second: X_death (1)_322
+  - first:
+      213: 2708921117720854346
+    second: X_death (1)_323
+  - first:
+      213: -3183270043603447904
+    second: X_death (1)_324
+  - first:
+      213: 2838802696413932771
+    second: X_death (1)_325
+  - first:
+      213: -6936355816144961182
+    second: X_death (1)_326
+  - first:
+      213: -7379672634748446984
+    second: X_death (1)_327
+  - first:
+      213: 4445987620239563792
+    second: X_death (1)_328
+  - first:
+      213: 2302518078184708948
+    second: X_death (1)_329
+  - first:
+      213: 6353599637601914050
+    second: X_death (1)_330
+  - first:
+      213: 4800992650064721231
+    second: X_death (1)_331
+  - first:
+      213: -5481548590720327909
+    second: X_death (1)_332
+  - first:
+      213: 4462777388012450071
+    second: X_death (1)_333
+  - first:
+      213: 9190602389153967235
+    second: X_death (1)_334
+  - first:
+      213: 1242971598742330873
+    second: X_death (1)_335
+  - first:
+      213: 5828971287106265844
+    second: X_death (1)_336
+  - first:
+      213: -1836625603240515732
+    second: X_death (1)_337
+  - first:
+      213: 2409312036326349480
+    second: X_death (1)_338
+  - first:
+      213: 2299119966383882632
+    second: X_death (1)_339
+  - first:
+      213: 4678644176448172466
+    second: X_death (1)_340
+  - first:
+      213: 5570674327434876164
+    second: X_death (1)_341
+  - first:
+      213: -8325331598606826924
+    second: X_death (1)_342
+  - first:
+      213: -770480576297865175
+    second: X_death (1)_343
+  - first:
+      213: 1168883550074562135
+    second: X_death (1)_344
+  - first:
+      213: -811561798601564215
+    second: X_death (1)_345
+  - first:
+      213: -5605974513698139168
+    second: X_death (1)_346
+  - first:
+      213: -8529894942528907502
+    second: X_death (1)_347
+  - first:
+      213: 3171255820534133799
+    second: X_death (1)_348
+  - first:
+      213: -3155437415984524382
+    second: X_death (1)_349
+  - first:
+      213: -5879461473053972685
+    second: X_death (1)_350
+  - first:
+      213: -3904811473319780159
+    second: X_death (1)_351
+  - first:
+      213: 7118982586952950381
+    second: X_death (1)_352
+  - first:
+      213: -9065679146678081168
+    second: X_death (1)_353
+  - first:
+      213: 2393104554675664570
+    second: X_death (1)_354
+  - first:
+      213: 5345541263220132232
+    second: X_death (1)_355
+  - first:
+      213: -9111480698759868777
+    second: X_death (1)_356
+  - first:
+      213: 1154856106005909930
+    second: X_death (1)_357
+  - first:
+      213: -676294522863823080
+    second: X_death (1)_358
+  - first:
+      213: 6345417391999765426
+    second: X_death (1)_359
+  - first:
+      213: 3033866419959121399
+    second: X_death (1)_360
+  - first:
+      213: 1107863472823448261
+    second: X_death (1)_361
+  - first:
+      213: 7266769924679306165
+    second: X_death (1)_362
+  - first:
+      213: 425910778600061204
+    second: X_death (1)_363
+  - first:
+      213: -2377915037595189900
+    second: X_death (1)_364
+  - first:
+      213: -3668803235496816016
+    second: X_death (1)_365
+  - first:
+      213: 4333137416872410143
+    second: X_death (1)_366
+  - first:
+      213: -8252126804612378623
+    second: X_death (1)_367
+  - first:
+      213: -6812713244553462077
+    second: X_death (1)_368
+  - first:
+      213: 6920664745684394717
+    second: X_death (1)_369
+  - first:
+      213: 3239835652340351960
+    second: X_death (1)_370
+  - first:
+      213: 1471384792048441270
+    second: X_death (1)_371
+  - first:
+      213: 7705573570478124520
+    second: X_death (1)_372
+  - first:
+      213: 3717832417546071311
+    second: X_death (1)_373
+  - first:
+      213: 6475537190866796336
+    second: X_death (1)_374
+  - first:
+      213: 2189649917491953868
+    second: X_death (1)_375
+  - first:
+      213: -6768038227820824717
+    second: X_death (1)_376
+  - first:
+      213: 7264967783141128058
+    second: X_death (1)_377
+  - first:
+      213: -8859625931396447969
+    second: X_death (1)_378
+  - first:
+      213: 3901952532929132511
+    second: X_death (1)_379
+  - first:
+      213: -7136690718301737605
+    second: X_death (1)_380
+  - first:
+      213: -9200887092079820674
+    second: X_death (1)_381
+  - first:
+      213: -7642179175560286275
+    second: X_death (1)_382
+  - first:
+      213: -4742636033269077470
+    second: X_death (1)_383
+  - first:
+      213: 1549503713314626097
+    second: X_death (1)_384
+  - first:
+      213: -7172966217614663815
+    second: X_death (1)_385
+  - first:
+      213: 469711459643195584
+    second: X_death (1)_386
+  - first:
+      213: 7062314527855531650
+    second: X_death (1)_387
+  - first:
+      213: -7378073079978611636
+    second: X_death (1)_388
+  - first:
+      213: -1943087564719148670
+    second: X_death (1)_389
+  - first:
+      213: -6570171855910135119
+    second: X_death (1)_390
+  - first:
+      213: 2771235031942198094
+    second: X_death (1)_391
+  - first:
+      213: -3271190312287298522
+    second: X_death (1)_392
+  - first:
+      213: -7272860476122386589
+    second: X_death (1)_393
+  - first:
+      213: -1434150728611574343
+    second: X_death (1)_394
+  - first:
+      213: -748424672087099602
+    second: X_death (1)_395
+  - first:
+      213: -5373274798731447418
+    second: X_death (1)_396
+  - first:
+      213: 7001774068662353256
+    second: X_death (1)_397
+  - first:
+      213: -5057601427594362431
+    second: X_death (1)_398
+  - first:
+      213: 3186464320698927983
+    second: X_death (1)_399
+  - first:
+      213: 7786416770491257631
+    second: X_death (1)_400
+  - first:
+      213: -3991849802540677733
+    second: X_death (1)_401
+  - first:
+      213: -5487273105095748362
+    second: X_death (1)_402
+  - first:
+      213: 1559794180146622615
+    second: X_death (1)_403
+  - first:
+      213: 3283617539957408817
+    second: X_death (1)_404
+  - first:
+      213: 4582463966366477545
+    second: X_death (1)_405
+  - first:
+      213: 1487816062113317818
+    second: X_death (1)_406
+  - first:
+      213: 7954444065564656733
+    second: X_death (1)_407
+  - first:
+      213: -6718358010858342283
+    second: X_death (1)_408
+  - first:
+      213: -5805381982078600507
+    second: X_death (1)_409
+  - first:
+      213: -826946461620029909
+    second: X_death (1)_410
+  - first:
+      213: 3621337082107815464
+    second: X_death (1)_411
+  - first:
+      213: 1424546548565392383
+    second: X_death (1)_412
+  - first:
+      213: -9047421170552017513
+    second: X_death (1)_413
+  - first:
+      213: 6867080825447255988
+    second: X_death (1)_414
+  - first:
+      213: 6431469193597736220
+    second: X_death (1)_415
+  - first:
+      213: 3670979687832458476
+    second: X_death (1)_416
+  - first:
+      213: 4572296749657862101
+    second: X_death (1)_417
+  - first:
+      213: 5165237864162785337
+    second: X_death (1)_418
+  - first:
+      213: 2723576488240445698
+    second: X_death (1)_419
+  - first:
+      213: -867560135547312772
+    second: X_death (1)_420
+  - first:
+      213: 3880125829945564361
+    second: X_death (1)_421
+  - first:
+      213: 6049058788543085927
+    second: X_death (1)_422
+  - first:
+      213: 5669118136501949112
+    second: X_death (1)_423
+  - first:
+      213: -516517149715263740
+    second: X_death (1)_424
+  - first:
+      213: -2118870888709511292
+    second: X_death (1)_425
+  - first:
+      213: -2134467218679921990
+    second: X_death (1)_426
+  - first:
+      213: 1381339537091140417
+    second: X_death (1)_427
+  - first:
+      213: 1282821169877930401
+    second: X_death (1)_428
+  - first:
+      213: 803616272864841851
+    second: X_death (1)_429
+  - first:
+      213: -8769197107767625572
+    second: X_death (1)_430
+  - first:
+      213: -1849963550053968694
+    second: X_death (1)_431
+  - first:
+      213: -3529978772180203956
+    second: X_death (1)_432
+  - first:
+      213: -8592466677766703767
+    second: X_death (1)_433
+  - first:
+      213: -7829049124978603145
+    second: X_death (1)_434
+  - first:
+      213: 893147445460940317
+    second: X_death (1)_435
+  - first:
+      213: 2870036361807765809
+    second: X_death (1)_436
+  - first:
+      213: -7433768319874102467
+    second: X_death (1)_437
+  - first:
+      213: -8279357857020166568
+    second: X_death (1)_438
+  - first:
+      213: -7752795388582344132
+    second: X_death (1)_439
+  - first:
+      213: 7023314946542787599
+    second: X_death (1)_440
+  - first:
+      213: -713994329494612606
+    second: X_death (1)_441
+  - first:
+      213: -839307178129793696
+    second: X_death (1)_442
+  - first:
+      213: -8772374608651745334
+    second: X_death (1)_443
+  - first:
+      213: 4718031123583959235
+    second: X_death (1)_444
+  - first:
+      213: 6820585212859291088
+    second: X_death (1)_445
+  - first:
+      213: -7281196401847360723
+    second: X_death (1)_446
+  - first:
+      213: -6572092257284934318
+    second: X_death (1)_447
+  - first:
+      213: 803904731602665908
+    second: X_death (1)_448
+  - first:
+      213: -5816246793032070309
+    second: X_death (1)_449
+  - first:
+      213: -1178369087282750912
+    second: X_death (1)_450
+  - first:
+      213: -631439887088731064
+    second: X_death (1)_451
+  - first:
+      213: -4696021888011557492
+    second: X_death (1)_452
+  - first:
+      213: 7730539475644236639
+    second: X_death (1)_453
+  - first:
+      213: 285505781841600791
+    second: X_death (1)_454
+  - first:
+      213: 229581757924172342
+    second: X_death (1)_455
+  - first:
+      213: -7712814765944253275
+    second: X_death (1)_456
+  - first:
+      213: -4922640152248084178
+    second: X_death (1)_457
+  - first:
+      213: -1115929859138772593
+    second: X_death (1)_458
+  - first:
+      213: -2927565668138450756
+    second: X_death (1)_459
+  - first:
+      213: -387008242360680030
+    second: X_death (1)_460
+  - first:
+      213: 3090820662805297446
+    second: X_death (1)_461
+  - first:
+      213: 7451231560232652119
+    second: X_death (1)_462
+  - first:
+      213: 5127010716383451351
+    second: X_death (1)_463
+  - first:
+      213: 3668838165876763985
+    second: X_death (1)_464
+  - first:
+      213: -438580452502232756
+    second: X_death (1)_465
+  - first:
+      213: 8968263866136120888
+    second: X_death (1)_466
+  - first:
+      213: -1028013901579960029
+    second: X_death (1)_467
+  - first:
+      213: -3269646165712553190
+    second: X_death (1)_468
+  - first:
+      213: -4460322504078141586
+    second: X_death (1)_469
+  - first:
+      213: -3469478940018959389
+    second: X_death (1)_470
+  - first:
+      213: -8839244595780994515
+    second: X_death (1)_471
+  - first:
+      213: 1722362849229905747
+    second: X_death (1)_472
+  - first:
+      213: -2760516109000887457
+    second: X_death (1)_473
+  - first:
+      213: 5065937910829887194
+    second: X_death (1)_474
+  - first:
+      213: 2227105418282690591
+    second: X_death (1)_475
+  - first:
+      213: 2044837041026401269
+    second: X_death (1)_476
+  - first:
+      213: 8378258879835302154
+    second: X_death (1)_477
+  - first:
+      213: 527901567859133512
+    second: X_death (1)_478
+  - first:
+      213: -5739096760412092317
+    second: X_death (1)_479
+  - first:
+      213: 2074885197744200983
+    second: X_death (1)_480
+  - first:
+      213: 36527598964418204
+    second: X_death (1)_481
+  - first:
+      213: 337280118867971122
+    second: X_death (1)_482
+  - first:
+      213: -3852503282485927385
+    second: X_death (1)_483
+  - first:
+      213: 2122710344925696195
+    second: X_death (1)_484
+  - first:
+      213: -9052840320613480064
+    second: X_death (1)_485
+  - first:
+      213: 5838156765304994518
+    second: X_death (1)_486
+  - first:
+      213: 2822754240888376488
+    second: X_death (1)_487
+  - first:
+      213: 5486592753950869998
+    second: X_death (1)_488
+  - first:
+      213: -5846064241498684781
+    second: X_death (1)_489
+  - first:
+      213: 2040983847954247733
+    second: X_death (1)_490
+  - first:
+      213: 628378592021097784
+    second: X_death (1)_491
+  - first:
+      213: -5297595807253137256
+    second: X_death (1)_492
+  - first:
+      213: -7395003144744276114
+    second: X_death (1)_493
+  - first:
+      213: -6979808129790323707
+    second: X_death (1)_494
+  - first:
+      213: -6601764121521344124
+    second: X_death (1)_495
+  - first:
+      213: -1371584494031623723
+    second: X_death (1)_496
+  - first:
+      213: 7089472798178856645
+    second: X_death (1)_497
+  - first:
+      213: -2078285984695503573
+    second: X_death (1)_498
+  - first:
+      213: -4911545341609594694
+    second: X_death (1)_499
+  - first:
+      213: 1972269646618523342
+    second: X_death (1)_500
+  - first:
+      213: -8610772247133886482
+    second: X_death (1)_501
+  - first:
+      213: -1360291713979772460
+    second: X_death (1)_502
+  - first:
+      213: 6174473655612857472
+    second: X_death (1)_503
+  - first:
+      213: -6797734958075775441
+    second: X_death (1)_504
+  - first:
+      213: 7133539679311571676
+    second: X_death (1)_505
+  - first:
+      213: -1686154101507017990
+    second: X_death (1)_506
+  - first:
+      213: 5830067480912052235
+    second: X_death (1)_507
+  - first:
+      213: 5671426542830220107
+    second: X_death (1)_508
+  - first:
+      213: 7933167823708138738
+    second: X_death (1)_509
+  - first:
+      213: 7051514408008529968
+    second: X_death (1)_510
+  - first:
+      213: -2770560854381560707
+    second: X_death (1)_511
+  - first:
+      213: 2943312599430950699
+    second: X_death (1)_512
+  - first:
+      213: -4725684077243153472
+    second: X_death (1)_513
+  - first:
+      213: -1568546326871013823
+    second: X_death (1)_514
+  - first:
+      213: 1630052839427467416
+    second: X_death (1)_515
+  - first:
+      213: 4070788673485023471
+    second: X_death (1)_516
+  - first:
+      213: -3354094347139212178
+    second: X_death (1)_517
+  - first:
+      213: -5433350052320646126
+    second: X_death (1)_518
+  - first:
+      213: -8922624581561932573
+    second: X_death (1)_519
+  - first:
+      213: 3046872759042560653
+    second: X_death (1)_520
+  - first:
+      213: 3181114270458659835
+    second: X_death (1)_521
+  - first:
+      213: -6724520143703631423
+    second: X_death (1)_522
+  - first:
+      213: 1604753295008430538
+    second: X_death (1)_523
+  - first:
+      213: -8173026168618630316
+    second: X_death (1)_524
+  - first:
+      213: 6699488009607876919
+    second: X_death (1)_525
+  - first:
+      213: -864219050154916345
+    second: X_death (1)_526
+  - first:
+      213: 6806288423403517338
+    second: X_death (1)_527
+  - first:
+      213: 3044948851311676343
+    second: X_death (1)_528
+  - first:
+      213: -4567127037215085381
+    second: X_death (1)_529
+  - first:
+      213: -1047645493712274114
+    second: X_death (1)_530
+  - first:
+      213: -3868717327264208383
+    second: X_death (1)_531
+  - first:
+      213: -2862466378272901109
+    second: X_death (1)_532
+  - first:
+      213: 1104837481908906593
+    second: X_death (1)_533
+  - first:
+      213: -7632642147218176870
+    second: X_death (1)_534
+  - first:
+      213: 620713553474939669
+    second: X_death (1)_535
+  - first:
+      213: -7051297182330556642
+    second: X_death (1)_536
+  - first:
+      213: -8567244222386205134
+    second: X_death (1)_537
+  - first:
+      213: 7453512290805950619
+    second: X_death (1)_538
+  - first:
+      213: -2341179332426034945
+    second: X_death (1)_539
+  - first:
+      213: -8782899143397449268
+    second: X_death (1)_540
+  - first:
+      213: -7387570767753103196
+    second: X_death (1)_541
+  - first:
+      213: -129481990319375031
+    second: X_death (1)_542
+  - first:
+      213: 6593003065044379275
+    second: X_death (1)_543
+  - first:
+      213: 7576868719526333439
+    second: X_death (1)_544
+  - first:
+      213: -584175577763085099
+    second: X_death (1)_545
+  - first:
+      213: -338662506998626840
+    second: X_death (1)_546
+  - first:
+      213: 161527599827098964
+    second: X_death (1)_547
+  - first:
+      213: -4085223137398192383
+    second: X_death (1)_548
+  - first:
+      213: -293126565013540069
+    second: X_death (1)_549
+  - first:
+      213: 3938607523792293509
+    second: X_death (1)_550
+  - first:
+      213: 2614150904380196525
+    second: X_death (1)_551
+  - first:
+      213: 8511503141453001098
+    second: X_death (1)_552
+  - first:
+      213: 5483403762894439496
+    second: X_death (1)_553
+  - first:
+      213: 479327674237842488
+    second: X_death (1)_554
+  - first:
+      213: 2627984961133548484
+    second: X_death (1)_555
+  - first:
+      213: -2919503649438018712
+    second: X_death (1)_556
+  - first:
+      213: -8641119906348328592
+    second: X_death (1)_557
+  - first:
+      213: -8099161959630423908
+    second: X_death (1)_558
+  - first:
+      213: 1713278414877864372
+    second: X_death (1)_559
+  - first:
+      213: -9012965642265673333
+    second: X_death (1)_560
+  - first:
+      213: 3921427163277702374
+    second: X_death (1)_561
+  - first:
+      213: -2535105005441975558
+    second: X_death (1)_562
+  - first:
+      213: -792416896868136744
+    second: X_death (1)_563
+  - first:
+      213: 4564208904397247409
+    second: X_death (1)_564
+  - first:
+      213: 5905003136189012528
+    second: X_death (1)_565
+  - first:
+      213: 2113061229859232729
+    second: X_death (1)_566
+  - first:
+      213: -3592841582510800577
+    second: X_death (1)_567
+  - first:
+      213: 7078626694191962969
+    second: X_death (1)_568
+  - first:
+      213: 8985821094911933409
+    second: X_death (1)_569
+  - first:
+      213: -8806929443803393955
+    second: X_death (1)_570
+  - first:
+      213: 5235467138993285352
+    second: X_death (1)_571
+  - first:
+      213: -4315859931054592835
+    second: X_death (1)_572
+  - first:
+      213: 7702932900085378327
+    second: X_death (1)_573
+  - first:
+      213: -9004844729287082589
+    second: X_death (1)_574
+  - first:
+      213: -626536495326927230
+    second: X_death (1)_575
+  - first:
+      213: -6390689553874301709
+    second: X_death (1)_576
+  - first:
+      213: -6243384491348289954
+    second: X_death (1)_577
+  - first:
+      213: 5843270913338458474
+    second: X_death (1)_578
+  - first:
+      213: -5580123572776658084
+    second: X_death (1)_579
+  - first:
+      213: -3518646457825265099
+    second: X_death (1)_580
+  - first:
+      213: 6058974147035273780
+    second: X_death (1)_581
+  - first:
+      213: -6789815207664213589
+    second: X_death (1)_582
+  - first:
+      213: 6946038443654240227
+    second: X_death (1)_583
+  - first:
+      213: -6411749939025556231
+    second: X_death (1)_584
+  - first:
+      213: 8082205980094318556
+    second: X_death (1)_585
+  - first:
+      213: 7563427042481738008
+    second: X_death (1)_586
+  - first:
+      213: 918712179168286205
+    second: X_death (1)_587
+  - first:
+      213: -4167505125458350109
+    second: X_death (1)_588
+  - first:
+      213: -5850245017692648850
+    second: X_death (1)_589
+  - first:
+      213: -555809568209268138
+    second: X_death (1)_590
+  - first:
+      213: 8093835151140745856
+    second: X_death (1)_591
+  - first:
+      213: -4885249673439024217
+    second: X_death (1)_592
+  - first:
+      213: 5961482452622646666
+    second: X_death (1)_593
+  - first:
+      213: 7646700348072075097
+    second: X_death (1)_594
+  - first:
+      213: -822108557263296992
+    second: X_death (1)_595
+  - first:
+      213: 2064516192012448401
+    second: X_death (1)_596
+  - first:
+      213: -1946796035737389943
+    second: X_death (1)_597
+  - first:
+      213: -2525461723984565151
+    second: X_death (1)_598
+  - first:
+      213: 5449542516570170390
+    second: X_death (1)_599
+  - first:
+      213: -9119486805556572797
+    second: X_death (1)_600
+  - first:
+      213: -1397236316100973621
+    second: X_death (1)_601
+  - first:
+      213: -7623845655024714242
+    second: X_death (1)_602
+  - first:
+      213: 92180973142270293
+    second: X_death (1)_603
+  - first:
+      213: -5346066039430545018
+    second: X_death (1)_604
+  - first:
+      213: -8281382662308540989
+    second: X_death (1)_605
+  - first:
+      213: -6530931604124796629
+    second: X_death (1)_606
+  - first:
+      213: 9076818121990341563
+    second: X_death (1)_607
+  - first:
+      213: -2687445647748470769
+    second: X_death (1)_608
+  - first:
+      213: 6728744033305595574
+    second: X_death (1)_609
+  - first:
+      213: -1223403442364041766
+    second: X_death (1)_610
+  - first:
+      213: 6233060752891976070
+    second: X_death (1)_611
+  - first:
+      213: -5386159975831029544
+    second: X_death (1)_612
+  - first:
+      213: -989196194316126917
+    second: X_death (1)_613
+  - first:
+      213: -6268631985054704091
+    second: X_death (1)_614
+  - first:
+      213: -4418296423901482443
+    second: X_death (1)_615
+  - first:
+      213: -1569580574730652154
+    second: X_death (1)_616
+  - first:
+      213: 3155786605948120662
+    second: X_death (1)_617
+  - first:
+      213: 7369700104743630022
+    second: X_death (1)_618
+  - first:
+      213: -8718573609305038834
+    second: X_death (1)_619
+  - first:
+      213: -2098266769612960469
+    second: X_death (1)_620
+  - first:
+      213: -182118041173108998
+    second: X_death (1)_621
+  - first:
+      213: 7121450368100846706
+    second: X_death (1)_622
+  - first:
+      213: -4136542074613222496
+    second: X_death (1)_623
+  - first:
+      213: -6068892861780613984
+    second: X_death (1)_624
+  - first:
+      213: 8513016605247508767
+    second: X_death (1)_625
+  - first:
+      213: 4839326115227057264
+    second: X_death (1)_626
+  - first:
+      213: -4547072405269574203
+    second: X_death (1)_627
+  - first:
+      213: -8342490751221558357
+    second: X_death (1)_628
+  - first:
+      213: 4827416555785555634
+    second: X_death (1)_629
+  - first:
+      213: -4783931810655793879
+    second: X_death (1)_630
+  - first:
+      213: 4968916172206594521
+    second: X_death (1)_631
+  - first:
+      213: -2441681575575783527
+    second: X_death (1)_632
+  - first:
+      213: 6640144987213869538
+    second: X_death (1)_633
+  - first:
+      213: -2283060415518124450
+    second: X_death (1)_634
+  - first:
+      213: 6679239261543430833
+    second: X_death (1)_635
+  - first:
+      213: 6761035488215848188
+    second: X_death (1)_636
+  - first:
+      213: 3803147003646778413
+    second: X_death (1)_637
+  - first:
+      213: 2268299746670482707
+    second: X_death (1)_638
+  - first:
+      213: -1239087093218116157
+    second: X_death (1)_639
+  - first:
+      213: -4738286626395751621
+    second: X_death (1)_640
+  - first:
+      213: 7404417688946395780
+    second: X_death (1)_641
+  - first:
+      213: -3712926655395907673
+    second: X_death (1)_642
+  - first:
+      213: 4938481234794560711
+    second: X_death (1)_643
+  - first:
+      213: -555704739365058891
+    second: X_death (1)_644
+  - first:
+      213: -6585584604986590348
+    second: X_death (1)_645
+  - first:
+      213: -8296671070840540689
+    second: X_death (1)_646
+  - first:
+      213: 2523293022280410667
+    second: X_death (1)_647
+  - first:
+      213: -2160059717301039399
+    second: X_death (1)_648
+  - first:
+      213: -3383247112499917260
+    second: X_death (1)_649
+  - first:
+      213: -7219466420134719504
+    second: X_death (1)_650
+  - first:
+      213: 1702394535641726844
+    second: X_death (1)_651
+  - first:
+      213: -528996251494547552
+    second: X_death (1)_652
+  - first:
+      213: 6217907521230414634
+    second: X_death (1)_653
+  - first:
+      213: 3836382363548559985
+    second: X_death (1)_654
+  - first:
+      213: 3456909863447376883
+    second: X_death (1)_655
+  - first:
+      213: 5019829279038370412
+    second: X_death (1)_656
+  - first:
+      213: 155676398390337783
+    second: X_death (1)_657
+  - first:
+      213: 2314530338229563352
+    second: X_death (1)_658
+  - first:
+      213: 4830414334231291964
+    second: X_death (1)_659
+  - first:
+      213: -835002829241997783
+    second: X_death (1)_660
+  - first:
+      213: 6087893015540387791
+    second: X_death (1)_661
+  - first:
+      213: -5406540253178731359
+    second: X_death (1)_662
+  - first:
+      213: 4771100450854246031
+    second: X_death (1)_663
+  - first:
+      213: 2237889756386736472
+    second: X_death (1)_664
+  - first:
+      213: 4259320261764129980
+    second: X_death (1)_665
+  - first:
+      213: 7347574285279031670
+    second: X_death (1)_666
+  - first:
+      213: 5526458719752869570
+    second: X_death (1)_667
+  - first:
+      213: -7629986368370930749
+    second: X_death (1)_668
+  - first:
+      213: -1247692119488999581
+    second: X_death (1)_669
+  - first:
+      213: -8135708804069399151
+    second: X_death (1)_670
+  - first:
+      213: 8917023000370552982
+    second: X_death (1)_671
+  - first:
+      213: 3475435204841708796
+    second: X_death (1)_672
+  - first:
+      213: -9190529747781467062
+    second: X_death (1)_673
+  - first:
+      213: 8545711704424944103
+    second: X_death (1)_674
+  - first:
+      213: 7645367624566444830
+    second: X_death (1)_675
+  - first:
+      213: -8684357631544479760
+    second: X_death (1)_676
+  - first:
+      213: -3063333727050601799
+    second: X_death (1)_677
+  - first:
+      213: 7199306499535009431
+    second: X_death (1)_678
+  - first:
+      213: 2953104391458378980
+    second: X_death (1)_679
+  - first:
+      213: 7358097029331812755
+    second: X_death (1)_680
+  - first:
+      213: -5299461794929340237
+    second: X_death (1)_681
+  - first:
+      213: -1805311544177828308
+    second: X_death (1)_682
+  - first:
+      213: -3935849123972252604
+    second: X_death (1)_683
+  - first:
+      213: 7707605323594027335
+    second: X_death (1)_684
+  - first:
+      213: 3825583089921469546
+    second: X_death (1)_685
+  - first:
+      213: -5153651171568491047
+    second: X_death (1)_686
+  - first:
+      213: -7223751406688057164
+    second: X_death (1)_687
+  - first:
+      213: -4343152554157931923
+    second: X_death (1)_688
+  - first:
+      213: -3730919391422502046
+    second: X_death (1)_689
+  - first:
+      213: 95815450410449827
+    second: X_death (1)_690
+  - first:
+      213: -6555304487760509516
+    second: X_death (1)_691
+  - first:
+      213: -6910207982768385638
+    second: X_death (1)_692
+  - first:
+      213: -2813560280860915728
+    second: X_death (1)_693
+  - first:
+      213: 2968363163513267094
+    second: X_death (1)_694
+  - first:
+      213: 9184722256624613488
+    second: X_death (1)_695
+  - first:
+      213: -2442558279285621637
+    second: X_death (1)_696
+  - first:
+      213: -6169635534350376287
+    second: X_death (1)_697
+  - first:
+      213: -1751471016326100125
+    second: X_death (1)_698
+  - first:
+      213: 6874933441144761570
+    second: X_death (1)_699
+  - first:
+      213: 7519697616221635512
+    second: X_death (1)_700
+  - first:
+      213: -7462796950630468914
+    second: X_death (1)_701
+  - first:
+      213: 8981872350737018797
+    second: X_death (1)_702
+  - first:
+      213: -8825806724568512581
+    second: X_death (1)_703
+  - first:
+      213: 3810071614911341409
+    second: X_death (1)_704
+  - first:
+      213: -8703277634781606460
+    second: X_death (1)_705
+  - first:
+      213: -6192925167453254535
+    second: X_death (1)_706
+  - first:
+      213: -2722552234327658187
+    second: X_death (1)_707
+  - first:
+      213: 2978029499994577287
+    second: X_death (1)_708
+  - first:
+      213: 119293866053348258
+    second: X_death (1)_709
+  - first:
+      213: 6170401058088262436
+    second: X_death (1)_710
+  - first:
+      213: 4159795760930853711
+    second: X_death (1)_711
+  - first:
+      213: -720968482912220268
+    second: X_death (1)_712
+  - first:
+      213: 1368858862386932898
+    second: X_death (1)_713
+  - first:
+      213: 1912699698189029383
+    second: X_death (1)_714
+  - first:
+      213: -5510253536536898523
+    second: X_death (1)_715
+  - first:
+      213: 6864171618753276187
+    second: X_death (1)_716
+  - first:
+      213: 412375944247758287
+    second: X_death (1)_717
+  - first:
+      213: -6326618578424995653
+    second: X_death (1)_718
+  - first:
+      213: 4883689451049838007
+    second: X_death (1)_719
+  - first:
+      213: -4984120485160988424
+    second: X_death (1)_720
+  - first:
+      213: 6155409614113595064
+    second: X_death (1)_721
+  - first:
+      213: -1313800240086412878
+    second: X_death (1)_722
+  - first:
+      213: 3435467202018007844
+    second: X_death (1)_723
+  - first:
+      213: -6281243359852819898
+    second: X_death (1)_724
+  - first:
+      213: -5489464269212058492
+    second: X_death (1)_725
+  - first:
+      213: 9041332527313593954
+    second: X_death (1)_726
+  - first:
+      213: 2931995025909686676
+    second: X_death (1)_727
+  - first:
+      213: 9109093363705045476
+    second: X_death (1)_728
+  - first:
+      213: -6505995102924660507
+    second: X_death (1)_729
+  - first:
+      213: -2968969531576042618
+    second: X_death (1)_730
+  - first:
+      213: -1498822841572096663
+    second: X_death (1)_731
+  - first:
+      213: -8896126014756257161
+    second: X_death (1)_732
+  - first:
+      213: -9200085281194821755
+    second: X_death (1)_733
+  - first:
+      213: 9094272295020230489
+    second: X_death (1)_734
+  - first:
+      213: 992715004605846180
+    second: X_death (1)_735
+  - first:
+      213: -6129589977639913332
+    second: X_death (1)_736
+  - first:
+      213: 5837950903178821410
+    second: X_death (1)_737
+  - first:
+      213: 345036193370676662
+    second: X_death (1)_738
+  - first:
+      213: 2679009954148641200
+    second: X_death (1)_739
+  - first:
+      213: 4879168139571622194
+    second: X_death (1)_740
+  - first:
+      213: 8562273469262301797
+    second: X_death (1)_741
+  - first:
+      213: 8771803825685714658
+    second: X_death (1)_742
+  - first:
+      213: -3387670388462748319
+    second: X_death (1)_743
+  - first:
+      213: -3337373916205681892
+    second: X_death (1)_744
+  - first:
+      213: 5804769771324109621
+    second: X_death (1)_745
+  - first:
+      213: 3932685931839114860
+    second: X_death (1)_746
+  - first:
+      213: 5587255303532218810
+    second: X_death (1)_747
+  - first:
+      213: -1309300583789914975
+    second: X_death (1)_748
+  - first:
+      213: 4704222747541444007
+    second: X_death (1)_749
+  - first:
+      213: 3503167683186473778
+    second: X_death (1)_750
+  - first:
+      213: -4869582077632012484
+    second: X_death (1)_751
+  - first:
+      213: -4266928361303824933
+    second: X_death (1)_752
+  - first:
+      213: -2926456164389908778
+    second: X_death (1)_753
+  - first:
+      213: 8256205593971415051
+    second: X_death (1)_754
+  - first:
+      213: -4098268169053270249
+    second: X_death (1)_755
+  - first:
+      213: 1981673644276179398
+    second: X_death (1)_756
+  - first:
+      213: 4543749816408930972
+    second: X_death (1)_757
+  - first:
+      213: -93002838465901650
+    second: X_death (1)_758
+  - first:
+      213: 844930354636991570
+    second: X_death (1)_759
+  - first:
+      213: -5722810664608283582
+    second: X_death (1)_760
+  - first:
+      213: -6496644352482599169
+    second: X_death (1)_761
+  - first:
+      213: -5271878992059387361
+    second: X_death (1)_762
+  - first:
+      213: -7972762362400387060
+    second: X_death (1)_763
+  - first:
+      213: 360306829199719902
+    second: X_death (1)_764
+  - first:
+      213: -4467891229510290787
+    second: X_death (1)_765
+  - first:
+      213: -3884042125672446637
+    second: X_death (1)_766
+  - first:
+      213: -6104687985266090406
+    second: X_death (1)_767
+  - first:
+      213: 3713237974812963431
+    second: X_death (1)_768
+  - first:
+      213: 9006010049267260463
+    second: X_death (1)_769
+  - first:
+      213: -3396429006463759482
+    second: X_death (1)_770
+  - first:
+      213: -1947743434363357440
+    second: X_death (1)_771
+  - first:
+      213: 2649843845024153605
+    second: X_death (1)_772
+  - first:
+      213: -4898070401613389770
+    second: X_death (1)_773
+  - first:
+      213: -8603448032251101013
+    second: X_death (1)_774
+  - first:
+      213: 8864255615334121593
+    second: X_death (1)_775
+  - first:
+      213: -7889594401028637289
+    second: X_death (1)_776
+  - first:
+      213: -5756453517623716213
+    second: X_death (1)_777
+  - first:
+      213: -615364538487527631
+    second: X_death (1)_778
+  - first:
+      213: 2029472617232566477
+    second: X_death (1)_779
+  - first:
+      213: 846679660107276640
+    second: X_death (1)_780
+  - first:
+      213: 1416496498711834261
+    second: X_death (1)_781
+  - first:
+      213: -6925179155731373724
+    second: X_death (1)_782
+  - first:
+      213: 1669621353592200607
+    second: X_death (1)_783
+  - first:
+      213: 5168818962998854443
+    second: X_death (1)_784
+  - first:
+      213: 874910665708816047
+    second: X_death (1)_785
+  - first:
+      213: 4009421463501462074
+    second: X_death (1)_786
+  - first:
+      213: -5090469584337377444
+    second: X_death (1)_787
+  - first:
+      213: 1526747170745772751
+    second: X_death (1)_788
+  - first:
+      213: 7959857408164070545
+    second: X_death (1)_789
+  - first:
+      213: 7313619432229148951
+    second: X_death (1)_790
+  - first:
+      213: 1590977125462997226
+    second: X_death (1)_791
+  - first:
+      213: -4132236579905482599
+    second: X_death (1)_792
+  - first:
+      213: -1819882036089511344
+    second: X_death (1)_793
+  - first:
+      213: -1132852503495722603
+    second: X_death (1)_794
+  - first:
+      213: 9216412572047271442
+    second: X_death (1)_795
+  - first:
+      213: -3043155985035922429
+    second: X_death (1)_796
+  - first:
+      213: -3765575515745812672
+    second: X_death (1)_797
+  - first:
+      213: 9116251698403390153
+    second: X_death (1)_798
+  - first:
+      213: -798187911082087591
+    second: X_death (1)_799
+  - first:
+      213: -3563398990504441661
+    second: X_death (1)_800
+  - first:
+      213: -8400451554513455432
+    second: X_death (1)_801
+  - first:
+      213: -3237238169728528238
+    second: X_death (1)_802
+  - first:
+      213: 6876494551619866680
+    second: X_death (1)_803
+  - first:
+      213: 6597742849377484695
+    second: X_death (1)_804
+  - first:
+      213: -4807724216504408205
+    second: X_death (1)_805
+  - first:
+      213: -1088807386114896549
+    second: X_death (1)_806
+  - first:
+      213: -4983330711572772590
+    second: X_death (1)_807
+  - first:
+      213: 710244231300916337
+    second: X_death (1)_808
+  - first:
+      213: 4349922075604215796
+    second: X_death (1)_809
+  - first:
+      213: 4095386388836062404
+    second: X_death (1)_810
+  - first:
+      213: -5905087090903430429
+    second: X_death (1)_811
+  - first:
+      213: -2300567370486450083
+    second: X_death (1)_812
+  - first:
+      213: -3242214299360520213
+    second: X_death (1)_813
+  - first:
+      213: 9118625514904895273
+    second: X_death (1)_814
+  - first:
+      213: 7970842129164482210
+    second: X_death (1)_815
+  - first:
+      213: -4132191581580468485
+    second: X_death (1)_816
+  - first:
+      213: -4107568053782150231
+    second: X_death (1)_817
+  - first:
+      213: -8602832149941945996
+    second: X_death (1)_818
+  - first:
+      213: 7267320600247595726
+    second: X_death (1)_819
+  - first:
+      213: 7978085092537262970
+    second: X_death (1)_820
+  - first:
+      213: -7572103191574889893
+    second: X_death (1)_821
+  - first:
+      213: 7642920458310072413
+    second: X_death (1)_822
+  - first:
+      213: 5814297351113363409
+    second: X_death (1)_823
+  - first:
+      213: 5244349562456358038
+    second: X_death (1)_824
+  - first:
+      213: 7434203136639299167
+    second: X_death (1)_825
+  - first:
+      213: 9159093028217501707
+    second: X_death (1)_826
+  - first:
+      213: -4552237221355914291
+    second: X_death (1)_827
+  - first:
+      213: -996878627282318840
+    second: X_death (1)_828
+  - first:
+      213: -6471593997497867894
+    second: X_death (1)_829
+  - first:
+      213: -7850196141772531526
+    second: X_death (1)_830
+  - first:
+      213: -415514380604343056
+    second: X_death (1)_831
+  - first:
+      213: -5611672656428381366
+    second: X_death (1)_832
+  - first:
+      213: -6176067871754980999
+    second: X_death (1)_833
+  - first:
+      213: 5457485655170220154
+    second: X_death (1)_834
+  - first:
+      213: 5646888785271193541
+    second: X_death (1)_835
+  - first:
+      213: 1529744257227873042
+    second: X_death (1)_836
+  - first:
+      213: 1811339587719783172
+    second: X_death (1)_837
+  - first:
+      213: -6531221120301737225
+    second: X_death (1)_838
+  - first:
+      213: -5508947951879222884
+    second: X_death (1)_839
+  - first:
+      213: 3245550009601175631
+    second: X_death (1)_840
+  - first:
+      213: 7351870639970443432
+    second: X_death (1)_841
+  - first:
+      213: 5026774240186459064
+    second: X_death (1)_842
+  - first:
+      213: -3274418601580571443
+    second: X_death (1)_843
+  - first:
+      213: 1812538266528869685
+    second: X_death (1)_844
+  - first:
+      213: -1449574558571466053
+    second: X_death (1)_845
+  - first:
+      213: 6918127333665345750
+    second: X_death (1)_846
+  - first:
+      213: -7430425180306412727
+    second: X_death (1)_847
+  - first:
+      213: 5574964481302325289
+    second: X_death (1)_848
+  - first:
+      213: 3490919834861806160
+    second: X_death (1)_849
+  - first:
+      213: 7966206444190009536
+    second: X_death (1)_850
+  - first:
+      213: -2251499953417332679
+    second: X_death (1)_851
+  - first:
+      213: -2691951785208419529
+    second: X_death (1)_852
+  - first:
+      213: -3421396074379433883
+    second: X_death (1)_853
+  - first:
+      213: 674732240296412622
+    second: X_death (1)_854
+  - first:
+      213: -3847530613263189790
+    second: X_death (1)_855
+  - first:
+      213: -8495947062958993724
+    second: X_death (1)_856
+  - first:
+      213: 6056478203495309727
+    second: X_death (1)_857
+  - first:
+      213: -2932996779203479117
+    second: X_death (1)_858
+  - first:
+      213: 789057355185742646
+    second: X_death (1)_859
+  - first:
+      213: -2148477372966256416
+    second: X_death (1)_860
+  - first:
+      213: 567579973556018214
+    second: X_death (1)_861
+  - first:
+      213: -1464019703901066846
+    second: X_death (1)_862
+  - first:
+      213: 7076056117554638235
+    second: X_death (1)_863
+  - first:
+      213: -1488967486909322668
+    second: X_death (1)_864
+  - first:
+      213: -2084931288701340258
+    second: X_death (1)_865
+  - first:
+      213: 5027417916632722382
+    second: X_death (1)_866
+  - first:
+      213: 7491743106820896807
+    second: X_death (1)_867
+  - first:
+      213: 4759549595061108409
+    second: X_death (1)_868
+  - first:
+      213: 475780258965339646
+    second: X_death (1)_869
+  - first:
+      213: -8849714618464211541
+    second: X_death (1)_870
+  - first:
+      213: 5243559541399091772
+    second: X_death (1)_871
+  - first:
+      213: 3236980733860737023
+    second: X_death (1)_872
+  - first:
+      213: 5515173093369784534
+    second: X_death (1)_873
+  - first:
+      213: 1783818228380864681
+    second: X_death (1)_874
+  - first:
+      213: -1963284308363748556
+    second: X_death (1)_875
+  - first:
+      213: -6208085481487557615
+    second: X_death (1)_876
+  - first:
+      213: -656976415253896670
+    second: X_death (1)_877
+  - first:
+      213: 6523401295577649071
+    second: X_death (1)_878
+  - first:
+      213: 1428667523943991811
+    second: X_death (1)_879
+  - first:
+      213: -6365666064411578320
+    second: X_death (1)_880
+  - first:
+      213: 5861749010817911785
+    second: X_death (1)_881
+  - first:
+      213: 355193204309451150
+    second: X_death (1)_882
+  - first:
+      213: -6330137958445527950
+    second: X_death (1)_883
+  - first:
+      213: 2894426196616217597
+    second: X_death (1)_884
+  - first:
+      213: 1543645947382456827
+    second: X_death (1)_885
+  - first:
+      213: 8191438059588545197
+    second: X_death (1)_886
+  - first:
+      213: 2227383117775137750
+    second: X_death (1)_887
+  - first:
+      213: -2433753358000107322
+    second: X_death (1)_888
+  - first:
+      213: 6742372544685015261
+    second: X_death (1)_889
+  - first:
+      213: 5305187188198374404
+    second: X_death (1)_890
+  - first:
+      213: 548211312009598267
+    second: X_death (1)_891
+  - first:
+      213: -8613136692506119469
+    second: X_death (1)_892
+  - first:
+      213: 1051195043161844043
+    second: X_death (1)_893
+  - first:
+      213: -3483254614101700674
+    second: X_death (1)_894
+  - first:
+      213: -3972914226114547971
+    second: X_death (1)_895
+  - first:
+      213: 9199695657663511503
+    second: X_death (1)_896
+  - first:
+      213: 6835474091592892247
+    second: X_death (1)_897
+  - first:
+      213: 7784804961973398829
+    second: X_death (1)_898
+  - first:
+      213: -5594671159690161187
+    second: X_death (1)_899
+  - first:
+      213: 3212264722678419717
+    second: X_death (1)_900
+  - first:
+      213: 4725558603385303079
+    second: X_death (1)_901
+  - first:
+      213: 4880342340986853151
+    second: X_death (1)_902
+  - first:
+      213: -4517095055229942710
+    second: X_death (1)_903
+  - first:
+      213: -7889742692718938752
+    second: X_death (1)_904
+  - first:
+      213: 8379896182673732810
+    second: X_death (1)_905
+  - first:
+      213: -3437198531038762589
+    second: X_death (1)_906
+  - first:
+      213: 2412335058301703394
+    second: X_death (1)_907
+  - first:
+      213: 3488786182550014220
+    second: X_death (1)_908
+  - first:
+      213: 7931806927809895640
+    second: X_death (1)_909
+  - first:
+      213: 5539171639739748736
+    second: X_death (1)_910
+  - first:
+      213: 8889408105423165982
+    second: X_death (1)_911
+  - first:
+      213: -1851427350562944246
+    second: X_death (1)_912
+  - first:
+      213: 1241570006832977546
+    second: X_death (1)_913
+  - first:
+      213: -4262253671909865598
+    second: X_death (1)_914
+  - first:
+      213: -4521699379986866220
+    second: X_death (1)_915
+  - first:
+      213: -1816028210666688335
+    second: X_death (1)_916
+  - first:
+      213: -4899412843530040283
+    second: X_death (1)_917
+  - first:
+      213: 1464071966039863199
+    second: X_death (1)_918
+  - first:
+      213: 3372094772926565206
+    second: X_death (1)_919
+  - first:
+      213: -1119231356565742517
+    second: X_death (1)_920
+  - first:
+      213: -8312135419048711049
+    second: X_death (1)_921
+  - first:
+      213: 920261763327855879
+    second: X_death (1)_922
+  - first:
+      213: 6631021539799018910
+    second: X_death (1)_923
+  - first:
+      213: -6283751921947070488
+    second: X_death (1)_924
+  - first:
+      213: 4246107458227459966
+    second: X_death (1)_925
+  - first:
+      213: -442335019935053070
+    second: X_death (1)_926
+  - first:
+      213: 2687287006874426981
+    second: X_death (1)_927
+  - first:
+      213: 7342724300950423718
+    second: X_death (1)_928
+  - first:
+      213: 5040484104589640718
+    second: X_death (1)_929
+  - first:
+      213: 50515233279277871
+    second: X_death (1)_930
+  - first:
+      213: -85285729192070705
+    second: X_death (1)_931
+  - first:
+      213: -7607256701187130944
+    second: X_death (1)_932
+  - first:
+      213: -5480309852918525298
+    second: X_death (1)_933
+  - first:
+      213: 4754909187041172208
+    second: X_death (1)_934
+  - first:
+      213: -3229092486514369114
+    second: X_death (1)_935
+  - first:
+      213: 8488764888281500712
+    second: X_death (1)_936
+  - first:
+      213: -7127674580452302615
+    second: X_death (1)_937
+  - first:
+      213: 4426893470037251072
+    second: X_death (1)_938
+  - first:
+      213: 2655487022585834987
+    second: X_death (1)_939
+  - first:
+      213: -8538096765929481881
+    second: X_death (1)_940
+  - first:
+      213: 5374248126803632318
+    second: X_death (1)_941
+  - first:
+      213: -4929607006394806952
+    second: X_death (1)_942
+  - first:
+      213: -4362785191645220845
+    second: X_death (1)_943
+  - first:
+      213: -794802153696398921
+    second: X_death (1)_944
+  - first:
+      213: 4935288883041983504
+    second: X_death (1)_945
+  - first:
+      213: 8711090201551756487
+    second: X_death (1)_946
+  - first:
+      213: 8181527297757260251
+    second: X_death (1)_947
+  - first:
+      213: 111803031268093024
+    second: X_death (1)_948
+  - first:
+      213: 3423897058538118707
+    second: X_death (1)_949
+  - first:
+      213: -3542095721526452981
+    second: X_death (1)_950
+  - first:
+      213: -7106408870297985493
+    second: X_death (1)_951
+  - first:
+      213: -4656591704463300456
+    second: X_death (1)_952
+  - first:
+      213: 5729322968468140847
+    second: X_death (1)_953
+  - first:
+      213: 7475672355038747462
+    second: X_death (1)_954
+  - first:
+      213: 4925787982393754236
+    second: X_death (1)_955
+  - first:
+      213: -2061009795233115347
+    second: X_death (1)_956
+  - first:
+      213: -563839676154381470
+    second: X_death (1)_957
+  - first:
+      213: -4324065954055400479
+    second: X_death (1)_958
+  - first:
+      213: -6964986863567146250
+    second: X_death (1)_959
+  - first:
+      213: 7273691869980182470
+    second: X_death (1)_960
+  - first:
+      213: 3348902887620721185
+    second: X_death (1)_961
+  - first:
+      213: 3243374284166679641
+    second: X_death (1)_962
+  - first:
+      213: 258561020444631273
+    second: X_death (1)_963
+  - first:
+      213: -8499099513730697386
+    second: X_death (1)_964
+  - first:
+      213: -7060093563981494415
+    second: X_death (1)_965
+  - first:
+      213: 8189421230048418083
+    second: X_death (1)_966
+  - first:
+      213: -5799724182913707772
+    second: X_death (1)_967
+  - first:
+      213: -8074338650522790218
+    second: X_death (1)_968
+  - first:
+      213: 7956455761522875743
+    second: X_death (1)_969
+  - first:
+      213: 4821932534817934622
+    second: X_death (1)_970
+  - first:
+      213: 1969413583353945538
+    second: X_death (1)_971
+  - first:
+      213: -446876256480000482
+    second: X_death (1)_972
+  - first:
+      213: -8135517088070358914
+    second: X_death (1)_973
+  - first:
+      213: -2623664498299386916
+    second: X_death (1)_974
+  - first:
+      213: -454440303472894486
+    second: X_death (1)_975
+  - first:
+      213: 7456844571126068790
+    second: X_death (1)_976
+  - first:
+      213: 3196900411681716205
+    second: X_death (1)_977
+  - first:
+      213: 589267646888476021
+    second: X_death (1)_978
+  - first:
+      213: -4667775556486764817
+    second: X_death (1)_979
+  - first:
+      213: -7837374114985172682
+    second: X_death (1)_980
+  - first:
+      213: -388499758373470954
+    second: X_death (1)_981
+  - first:
+      213: -6606629646765390566
+    second: X_death (1)_982
+  - first:
+      213: 8211291315938008721
+    second: X_death (1)_983
+  - first:
+      213: 8169292017870332749
+    second: X_death (1)_984
+  - first:
+      213: -3113321547652457486
+    second: X_death (1)_985
+  - first:
+      213: 3018870021473672923
+    second: X_death (1)_986
+  - first:
+      213: -5350378136886596750
+    second: X_death (1)_987
+  - first:
+      213: 6243630019364521086
+    second: X_death (1)_988
+  - first:
+      213: -5181510150344495729
+    second: X_death (1)_989
+  - first:
+      213: 7869560070049866216
+    second: X_death (1)_990
+  - first:
+      213: -8537587062041420352
+    second: X_death (1)_991
+  - first:
+      213: -4074790407410980603
+    second: X_death (1)_992
+  - first:
+      213: 4586596946221927415
+    second: X_death (1)_993
+  - first:
+      213: -4825604394971137894
+    second: X_death (1)_994
+  - first:
+      213: -8163497350356436243
+    second: X_death (1)_995
+  - first:
+      213: -836129211794742161
+    second: X_death (1)_996
+  - first:
+      213: 4551289353010176711
+    second: X_death (1)_997
+  - first:
+      213: -7713634134146655858
+    second: X_death (1)_998
+  - first:
+      213: -6694121566660767851
+    second: X_death (1)_999
+  - first:
+      213: -2981558890112421337
+    second: X_death (1)_1000
+  - first:
+      213: 540341250419878078
+    second: X_death (1)_1001
+  - first:
+      213: -6203321983840144634
+    second: X_death (1)_1002
+  - first:
+      213: 4960596696378637272
+    second: X_death (1)_1003
+  - first:
+      213: -6252356817297939673
+    second: X_death (1)_1004
+  - first:
+      213: -9060934669792254245
+    second: X_death (1)_1005
+  - first:
+      213: 4618223385623690687
+    second: X_death (1)_1006
+  - first:
+      213: 7086716442424130956
+    second: X_death (1)_1007
+  - first:
+      213: 3888003683191771136
+    second: X_death (1)_1008
+  - first:
+      213: 3577293647782611698
+    second: X_death (1)_1009
+  - first:
+      213: 4900583417165527702
+    second: X_death (1)_1010
+  - first:
+      213: 7560932195498835028
+    second: X_death (1)_1011
+  - first:
+      213: -1412469739870857908
+    second: X_death (1)_1012
+  - first:
+      213: 1808906124481608726
+    second: X_death (1)_1013
+  - first:
+      213: 5364491577631583709
+    second: X_death (1)_1014
+  - first:
+      213: 6853246097724812135
+    second: X_death (1)_1015
+  - first:
+      213: 3142027907634912131
+    second: X_death (1)_1016
+  - first:
+      213: -4989870855520567999
+    second: X_death (1)_1017
+  - first:
+      213: 6574921033306310497
+    second: X_death (1)_1018
+  - first:
+      213: 8668794338107343620
+    second: X_death (1)_1019
+  - first:
+      213: -5257724597062793319
+    second: X_death (1)_1020
+  - first:
+      213: -1545162078416467876
+    second: X_death (1)_1021
+  - first:
+      213: -2181127295059285024
+    second: X_death (1)_1022
+  - first:
+      213: 3027297354897302115
+    second: X_death (1)_1023
+  - first:
+      213: -2449175972567451376
+    second: X_death (1)_1024
+  - first:
+      213: 1083926063291459227
+    second: X_death (1)_1025
+  - first:
+      213: 5571507105227916821
+    second: X_death (1)_1026
+  - first:
+      213: 95206826991044410
+    second: X_death (1)_1027
+  - first:
+      213: -2331106579248359742
+    second: X_death (1)_1028
+  - first:
+      213: -985221587472330096
+    second: X_death (1)_1029
+  - first:
+      213: 6353872824368847836
+    second: X_death (1)_1030
+  - first:
+      213: 4770374888536516734
+    second: X_death (1)_1031
+  - first:
+      213: -4722903295871944384
+    second: X_death (1)_1032
+  - first:
+      213: 6370335489377943597
+    second: X_death (1)_1033
+  - first:
+      213: -176274452793560759
+    second: X_death (1)_1034
+  - first:
+      213: 2004522168947488481
+    second: X_death (1)_1035
+  - first:
+      213: -6906773334537334402
+    second: X_death (1)_1036
+  - first:
+      213: -5558925533203519677
+    second: X_death (1)_1037
+  - first:
+      213: -3679137963835833487
+    second: X_death (1)_1038
+  - first:
+      213: 2826297992124035956
+    second: X_death (1)_1039
+  - first:
+      213: -1551523931893160836
+    second: X_death (1)_1040
+  - first:
+      213: -8804633679453782382
+    second: X_death (1)_1041
+  - first:
+      213: 6562896292401366918
+    second: X_death (1)_1042
+  - first:
+      213: -5224055738137224675
+    second: X_death (1)_1043
+  - first:
+      213: -6665157814156673878
+    second: X_death (1)_1044
+  - first:
+      213: 1059541377208833351
+    second: X_death (1)_1045
+  - first:
+      213: -7365324319021730121
+    second: X_death (1)_1046
+  - first:
+      213: -400994786304505123
+    second: X_death (1)_1047
+  - first:
+      213: 900200797505558002
+    second: X_death (1)_1048
+  - first:
+      213: 1083249720159538739
+    second: X_death (1)_1049
+  - first:
+      213: -663188714019346123
+    second: X_death (1)_1050
+  - first:
+      213: 8329582933327868709
+    second: X_death (1)_1051
+  - first:
+      213: 8207015043087422632
+    second: X_death (1)_1052
+  - first:
+      213: -3483202734942447376
+    second: X_death (1)_1053
+  - first:
+      213: 8414876414701922712
+    second: X_death (1)_1054
+  - first:
+      213: 3164025255988514425
+    second: X_death (1)_1055
+  - first:
+      213: -3966640478353990052
+    second: X_death (1)_1056
+  - first:
+      213: -1770843006123828373
+    second: X_death (1)_1057
+  - first:
+      213: -1915442833071286893
+    second: X_death (1)_1058
+  - first:
+      213: -7075266485656194139
+    second: X_death (1)_1059
+  - first:
+      213: 1604869514679619180
+    second: X_death (1)_1060
+  - first:
+      213: 3602663822628509007
+    second: X_death (1)_1061
+  - first:
+      213: 4194040045993718231
+    second: X_death (1)_1062
+  - first:
+      213: -7788995975530981555
+    second: X_death (1)_1063
+  - first:
+      213: 2382273906279788399
+    second: X_death (1)_1064
+  - first:
+      213: 8385119253217006620
+    second: X_death (1)_1065
+  - first:
+      213: -5155230374856135887
+    second: X_death (1)_1066
+  - first:
+      213: -7269876137302087486
+    second: X_death (1)_1067
+  - first:
+      213: 5424710145781793925
+    second: X_death (1)_1068
+  - first:
+      213: 2771942576483829203
+    second: X_death (1)_1069
+  - first:
+      213: 3827559533060191525
+    second: X_death (1)_1070
+  - first:
+      213: 4897856856631500788
+    second: X_death (1)_1071
+  - first:
+      213: -8693409589400725300
+    second: X_death (1)_1072
+  - first:
+      213: 4448244234082964542
+    second: X_death (1)_1073
+  - first:
+      213: 5168428132864513867
+    second: X_death (1)_1074
+  - first:
+      213: -7880951401775435557
+    second: X_death (1)_1075
+  - first:
+      213: 1406070159843444303
+    second: X_death (1)_1076
+  - first:
+      213: 4984281199044626010
+    second: X_death (1)_1077
+  - first:
+      213: 6651450739143625874
+    second: X_death (1)_1078
+  - first:
+      213: -6739856651345170637
+    second: X_death (1)_1079
+  - first:
+      213: 4466996219242466717
+    second: X_death (1)_1080
+  - first:
+      213: 4662437363543729191
+    second: X_death (1)_1081
+  - first:
+      213: -1587450689964368687
+    second: X_death (1)_1082
+  - first:
+      213: 8854604827356202312
+    second: X_death (1)_1083
+  - first:
+      213: 4066041946326182920
+    second: X_death (1)_1084
+  - first:
+      213: 3127491961355884694
+    second: X_death (1)_1085
+  - first:
+      213: 5573880542489469497
+    second: X_death (1)_1086
+  - first:
+      213: 3150461813885846239
+    second: X_death (1)_1087
+  - first:
+      213: -7203877946949636173
+    second: X_death (1)_1088
+  - first:
+      213: 5244382963691817478
+    second: X_death (1)_1089
+  - first:
+      213: 7182327047997755401
+    second: X_death (1)_1090
+  - first:
+      213: 7715343452789907722
+    second: X_death (1)_1091
+  - first:
+      213: -2641509071124873803
+    second: X_death (1)_1092
+  - first:
+      213: 2767612176806471999
+    second: X_death (1)_1093
+  - first:
+      213: -1870040622955221651
+    second: X_death (1)_1094
+  - first:
+      213: -1148981547698628819
+    second: X_death (1)_1095
+  - first:
+      213: 6757063354911095927
+    second: X_death (1)_1096
+  - first:
+      213: 9119820431399538373
+    second: X_death (1)_1097
+  - first:
+      213: 7992148987134016236
+    second: X_death (1)_1098
+  - first:
+      213: 5920841166854876926
+    second: X_death (1)_1099
+  - first:
+      213: -2720867967463996069
+    second: X_death (1)_1100
+  - first:
+      213: -7728032347356307220
+    second: X_death (1)_1101
+  - first:
+      213: -2106821029099493751
+    second: X_death (1)_1102
+  - first:
+      213: -4989573478737293697
+    second: X_death (1)_1103
+  - first:
+      213: 3926335749566076070
+    second: X_death (1)_1104
+  - first:
+      213: -6897125522469454466
+    second: X_death (1)_1105
+  - first:
+      213: 6755580738922018027
+    second: X_death (1)_1106
+  - first:
+      213: -4229714142899188777
+    second: X_death (1)_1107
+  - first:
+      213: 4780702819008087107
+    second: X_death (1)_1108
+  - first:
+      213: 596947317994190709
+    second: X_death (1)_1109
+  - first:
+      213: 5130853249379657138
+    second: X_death (1)_1110
+  - first:
+      213: 7200882052269117703
+    second: X_death (1)_1111
+  - first:
+      213: -3120997394462196495
+    second: X_death (1)_1112
+  - first:
+      213: -2075488598811206807
+    second: X_death (1)_1113
+  - first:
+      213: -8620179383490119973
+    second: X_death (1)_1114
+  - first:
+      213: -8135232869639150684
+    second: X_death (1)_1115
+  - first:
+      213: -920820768510647283
+    second: X_death (1)_1116
+  - first:
+      213: -6729883961225974444
+    second: X_death (1)_1117
+  - first:
+      213: -1586873933041192950
+    second: X_death (1)_1118
+  - first:
+      213: -3382559046783185698
+    second: X_death (1)_1119
+  - first:
+      213: 5421611105673580215
+    second: X_death (1)_1120
+  - first:
+      213: -5623851447252140078
+    second: X_death (1)_1121
+  - first:
+      213: -1742342137947253221
+    second: X_death (1)_1122
+  - first:
+      213: 1803067083205970919
+    second: X_death (1)_1123
+  - first:
+      213: 3798455904141900624
+    second: X_death (1)_1124
+  - first:
+      213: 3012293554115344934
+    second: X_death (1)_1125
+  - first:
+      213: -8362550688079733327
+    second: X_death (1)_1126
+  - first:
+      213: 327819599117596864
+    second: X_death (1)_1127
+  - first:
+      213: 7770979932835011864
+    second: X_death (1)_1128
+  - first:
+      213: -7514383168630627828
+    second: X_death (1)_1129
+  - first:
+      213: 9102966324846157615
+    second: X_death (1)_1130
+  - first:
+      213: -5763289126330611478
+    second: X_death (1)_1131
+  - first:
+      213: -3668967630364454756
+    second: X_death (1)_1132
+  - first:
+      213: 8805897460391222472
+    second: X_death (1)_1133
+  - first:
+      213: 5230292467950889457
+    second: X_death (1)_1134
+  - first:
+      213: 7669262950597080692
+    second: X_death (1)_1135
+  - first:
+      213: 8879096663178769125
+    second: X_death (1)_1136
+  - first:
+      213: 6141291274927115953
+    second: X_death (1)_1137
+  - first:
+      213: 6437044595594775617
+    second: X_death (1)_1138
+  - first:
+      213: 3099263560918879156
+    second: X_death (1)_1139
+  - first:
+      213: -1165093845278233549
+    second: X_death (1)_1140
+  - first:
+      213: -5916204480298053976
+    second: X_death (1)_1141
+  - first:
+      213: -5032305745258417785
+    second: X_death (1)_1142
+  - first:
+      213: 1492973253099280086
+    second: X_death (1)_1143
+  - first:
+      213: 8663146342697599366
+    second: X_death (1)_1144
+  - first:
+      213: 2002012371644425089
+    second: X_death (1)_1145
+  - first:
+      213: -4977689459376031408
+    second: X_death (1)_1146
+  - first:
+      213: 2673260816307342081
+    second: X_death (1)_1147
+  - first:
+      213: -8574392162250043739
+    second: X_death (1)_1148
+  - first:
+      213: 8890296743276620226
+    second: X_death (1)_1149
+  - first:
+      213: -8104328812909931609
+    second: X_death (1)_1150
+  - first:
+      213: -4229863412305426720
+    second: X_death (1)_1151
+  - first:
+      213: 3427438188259936334
+    second: X_death (1)_1152
+  - first:
+      213: -4488142511729137687
+    second: X_death (1)_1153
+  - first:
+      213: 7763710794275918448
+    second: X_death (1)_1154
+  - first:
+      213: 72861182040581736
+    second: X_death (1)_1155
+  - first:
+      213: -4930210851709074074
+    second: X_death (1)_1156
+  - first:
+      213: 1256070562735761694
+    second: X_death (1)_1157
+  - first:
+      213: 618992323649514756
+    second: X_death (1)_1158
+  - first:
+      213: 7601325420123868739
+    second: X_death (1)_1159
+  - first:
+      213: -7856619748285746249
+    second: X_death (1)_1160
+  - first:
+      213: -9214931988251461891
+    second: X_death (1)_1161
+  - first:
+      213: 6563755051999211877
+    second: X_death (1)_1162
+  - first:
+      213: 7624825140297257555
+    second: X_death (1)_1163
+  - first:
+      213: -1130932878579356625
+    second: X_death (1)_1164
+  - first:
+      213: 3861962863570477951
+    second: X_death (1)_1165
+  - first:
+      213: -2805340504596127668
+    second: X_death (1)_1166
+  - first:
+      213: -312960315557960773
+    second: X_death (1)_1167
+  - first:
+      213: -1642598299810779527
+    second: X_death (1)_1168
+  - first:
+      213: 663590154101297154
+    second: X_death (1)_1169
+  - first:
+      213: 8898542345091374800
+    second: X_death (1)_1170
+  - first:
+      213: 2014975981544420310
+    second: X_death (1)_1171
+  - first:
+      213: 2882826072508988646
+    second: X_death (1)_1172
+  - first:
+      213: 1765210814603536242
+    second: X_death (1)_1173
+  - first:
+      213: 3883343560241455871
+    second: X_death (1)_1174
+  - first:
+      213: -4654346151179812446
+    second: X_death (1)_1175
+  - first:
+      213: 5759575598858588204
+    second: X_death (1)_1176
+  - first:
+      213: 4982898443967448283
+    second: X_death (1)_1177
+  - first:
+      213: -4224142087135432478
+    second: X_death (1)_1178
+  - first:
+      213: -4310271903318965401
+    second: X_death (1)_1179
+  - first:
+      213: 6920490673220001959
+    second: X_death (1)_1180
+  - first:
+      213: -389042295964350647
+    second: X_death (1)_1181
+  - first:
+      213: 2698720841625904592
+    second: X_death (1)_1182
+  - first:
+      213: -3819240602511160897
+    second: X_death (1)_1183
+  - first:
+      213: -4572913030150184753
+    second: X_death (1)_1184
+  - first:
+      213: -103794581810303287
+    second: X_death (1)_1185
+  - first:
+      213: 4345597726689985696
+    second: X_death (1)_1186
+  - first:
+      213: 3831721400526131983
+    second: X_death (1)_1187
+  - first:
+      213: 2161129150445366467
+    second: X_death (1)_1188
+  - first:
+      213: 5410318065593035812
+    second: X_death (1)_1189
+  - first:
+      213: 8023515817605676079
+    second: X_death (1)_1190
+  - first:
+      213: -810306940568978519
+    second: X_death (1)_1191
+  - first:
+      213: -5705443283241627865
+    second: X_death (1)_1192
+  - first:
+      213: 7979742851266794412
+    second: X_death (1)_1193
+  - first:
+      213: 3592641753496236430
+    second: X_death (1)_1194
+  - first:
+      213: -4822239138557867999
+    second: X_death (1)_1195
+  - first:
+      213: 5968210596422983361
+    second: X_death (1)_1196
+  - first:
+      213: 5886959002529254853
+    second: X_death (1)_1197
+  - first:
+      213: 549893190612886630
+    second: X_death (1)_1198
+  - first:
+      213: -102169232226504469
+    second: X_death (1)_1199
+  - first:
+      213: -8422153687849544740
+    second: X_death (1)_1200
+  - first:
+      213: -5945341200574516498
+    second: X_death (1)_1201
+  - first:
+      213: -3715917551501475276
+    second: X_death (1)_1202
+  - first:
+      213: -6354900346814278436
+    second: X_death (1)_1203
+  - first:
+      213: -7526929421823395267
+    second: X_death (1)_1204
+  - first:
+      213: -5502322218196363791
+    second: X_death (1)_1205
+  - first:
+      213: -4680299575611935975
+    second: X_death (1)_1206
+  - first:
+      213: 4583444483706499726
+    second: X_death (1)_1207
+  - first:
+      213: -2376329600367347405
+    second: X_death (1)_1208
+  - first:
+      213: -985559247095731258
+    second: X_death (1)_1209
+  - first:
+      213: -2958039461336780242
+    second: X_death (1)_1210
+  - first:
+      213: -1261325350734915212
+    second: X_death (1)_1211
+  - first:
+      213: 6801458693668221474
+    second: X_death (1)_1212
+  - first:
+      213: -730335945006953780
+    second: X_death (1)_1213
+  - first:
+      213: -4383947077141199728
+    second: X_death (1)_1214
+  - first:
+      213: 4551881053926891850
+    second: X_death (1)_1215
+  - first:
+      213: 6201700377383768826
+    second: X_death (1)_1216
+  - first:
+      213: -6733822220245127507
+    second: X_death (1)_1217
+  - first:
+      213: -7467730675301425964
+    second: X_death (1)_1218
+  - first:
+      213: 1286722463274674156
+    second: X_death (1)_1219
+  - first:
+      213: -2658184755035493421
+    second: X_death (1)_1220
+  - first:
+      213: -2494885184978677541
+    second: X_death (1)_1221
+  - first:
+      213: -8351513604386900447
+    second: X_death (1)_1222
+  - first:
+      213: 8689447214745623886
+    second: X_death (1)_1223
+  - first:
+      213: -8010864872709299727
+    second: X_death (1)_1224
+  - first:
+      213: 1894153437003266214
+    second: X_death (1)_1225
+  - first:
+      213: 3379610997096783940
+    second: X_death (1)_1226
+  - first:
+      213: 4447353691555083145
+    second: X_death (1)_1227
+  - first:
+      213: 8040110899131144724
+    second: X_death (1)_1228
+  - first:
+      213: -5105107521983899797
+    second: X_death (1)_1229
+  - first:
+      213: -2321051802632952491
+    second: X_death (1)_1230
+  - first:
+      213: -407403204639332505
+    second: X_death (1)_1231
+  - first:
+      213: 8168670402019576865
+    second: X_death (1)_1232
+  - first:
+      213: 3036194362534555203
+    second: X_death (1)_1233
+  - first:
+      213: 6281566179078723999
+    second: X_death (1)_1234
+  - first:
+      213: -7738970187831407488
+    second: X_death (1)_1235
+  - first:
+      213: 6421805704320088618
+    second: X_death (1)_1236
+  - first:
+      213: 7710506440761567209
+    second: X_death (1)_1237
+  - first:
+      213: 7721643835851071056
+    second: X_death (1)_1238
+  - first:
+      213: -1887661305561496509
+    second: X_death (1)_1239
+  - first:
+      213: -5056819992539336031
+    second: X_death (1)_1240
+  - first:
+      213: -4651773362890884378
+    second: X_death (1)_1241
+  - first:
+      213: 1906864014188267116
+    second: X_death (1)_1242
+  - first:
+      213: -8070627892804880670
+    second: X_death (1)_1243
+  - first:
+      213: 4065424053734357992
+    second: X_death (1)_1244
+  - first:
+      213: -3938941736814716611
+    second: X_death (1)_1245
+  - first:
+      213: 5391869243721070254
+    second: X_death (1)_1246
+  - first:
+      213: -4129085418369598489
+    second: X_death (1)_1247
+  - first:
+      213: 2685982088137527499
+    second: X_death (1)_1248
+  - first:
+      213: -2023334257101223744
+    second: X_death (1)_1249
+  - first:
+      213: 6795654696610325251
+    second: X_death (1)_1250
+  - first:
+      213: -4146091487386318658
+    second: X_death (1)_1251
+  - first:
+      213: 4301139217117587624
+    second: X_death (1)_1252
+  - first:
+      213: 1796288930531811784
+    second: X_death (1)_1253
+  - first:
+      213: -5951682038964797801
+    second: X_death (1)_1254
+  - first:
+      213: 1549322735503135598
+    second: X_death (1)_1255
+  - first:
+      213: -7948119449986208114
+    second: X_death (1)_1256
+  - first:
+      213: -1990552452039655539
+    second: X_death (1)_1257
+  - first:
+      213: 7583859190720240084
+    second: X_death (1)_1258
+  - first:
+      213: 7142899429049545301
+    second: X_death (1)_1259
+  - first:
+      213: -2641754703891365156
+    second: X_death (1)_1260
+  - first:
+      213: 3614363044837100882
+    second: X_death (1)_1261
+  - first:
+      213: 715564142978700305
+    second: X_death (1)_1262
+  - first:
+      213: -3879583849540136993
+    second: X_death (1)_1263
+  - first:
+      213: 8202758430533163687
+    second: X_death (1)_1264
+  - first:
+      213: 6790153245287340264
+    second: X_death (1)_1265
+  - first:
+      213: 2824123204215529282
+    second: X_death (1)_1266
+  - first:
+      213: 7336121288621318235
+    second: X_death (1)_1267
+  - first:
+      213: -1123086914966538909
+    second: X_death (1)_1268
+  - first:
+      213: -6630527974260666359
+    second: X_death (1)_1269
+  - first:
+      213: 1708088844842155099
+    second: X_death (1)_1270
+  - first:
+      213: -7768896808530007581
+    second: X_death (1)_1271
+  - first:
+      213: 1104786914659802975
+    second: X_death (1)_1272
+  - first:
+      213: -2514267756349718754
+    second: X_death (1)_1273
+  - first:
+      213: -994809736223131633
+    second: X_death (1)_1274
+  - first:
+      213: 2034914096611061694
+    second: X_death (1)_1275
+  - first:
+      213: 5459728946257785638
+    second: X_death (1)_1276
+  - first:
+      213: 9218691840997210761
+    second: X_death (1)_1277
+  - first:
+      213: -6907368348339157120
+    second: X_death (1)_1278
+  - first:
+      213: 7575676157627793384
+    second: X_death (1)_1279
+  - first:
+      213: -82760158933268280
+    second: X_death (1)_1280
+  - first:
+      213: -7398039955290427539
+    second: X_death (1)_1281
+  - first:
+      213: 2582331178476459425
+    second: X_death (1)_1282
+  - first:
+      213: 5834641127335160494
+    second: X_death (1)_1283
+  - first:
+      213: -5462849676274330640
+    second: X_death (1)_1284
+  - first:
+      213: -2099189001194834451
+    second: X_death (1)_1285
+  - first:
+      213: 8384474023428732668
+    second: X_death (1)_1286
+  - first:
+      213: 8950342759911477773
+    second: X_death (1)_1287
+  - first:
+      213: -3006044152957243060
+    second: X_death (1)_1288
+  - first:
+      213: -5623232582845049427
+    second: X_death (1)_1289
+  - first:
+      213: -7407739125861835534
+    second: X_death (1)_1290
+  - first:
+      213: 660756414046071063
+    second: X_death (1)_1291
+  - first:
+      213: 7831253651625535039
+    second: X_death (1)_1292
+  - first:
+      213: -8108059747139390143
+    second: X_death (1)_1293
+  - first:
+      213: -7828800511350214823
+    second: X_death (1)_1294
+  - first:
+      213: -4655852978049037824
+    second: X_death (1)_1295
+  - first:
+      213: -8238353181520640435
+    second: X_death (1)_1296
+  - first:
+      213: -451796379615780659
+    second: X_death (1)_1297
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: X_death (1)_60
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1175
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77e9da22cd05ca00800000000000000
+      internalID: 776041638385018750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_61
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1175
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599782ffa45c34660800000000000000
+      internalID: 7368950341207357845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_62
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1175
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9920722590e8730e0800000000000000
+      internalID: -2290205714810469735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_63
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1175
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67c515e20ff14a30800000000000000
+      internalID: 4197916715584440172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_64
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 1175
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35588da9003182a70800000000000000
+      internalID: 8802306365014443347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_65
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1175
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae34cfa8f7e05b2a0800000000000000
+      internalID: -6722450927825173526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_66
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 1175
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a32a1b250ba9180800000000000000
+      internalID: -9107773427189400975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_67
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1175
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5c05bc0bddb6bd0800000000000000
+      internalID: -2635769405500242457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_68
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1175
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f54345161c255d0800000000000000
+      internalID: -3075182971771920621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_69
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 1175
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4f9af5161ffedc0800000000000000
+      internalID: -3607399375981382420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_70
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1047
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f123500925901d40800000000000000
+      internalID: 5553102343879467506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_71
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1047
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742bd3381f78d0b10800000000000000
+      internalID: 1949363685080019527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_72
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1047
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9f244e811365800800000000000000
+      internalID: 600721583279110622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_73
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1047
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717e185f5d4700ea0800000000000000
+      internalID: -5908594248814303465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_74
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1047
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcaa9191abe25b90800000000000000
+      internalID: -7254476970575352590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_75
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1047
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7b0a8eaeaf3e930800000000000000
+      internalID: 4171453566707349488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_76
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1047
+        width: 55
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fd0ab8ab3074270800000000000000
+      internalID: 8234554543411617681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_77
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1047
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18aa446f8b0eaaac0800000000000000
+      internalID: -3843012246996997503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_78
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 1047
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92eae764983342c0800000000000000
+      internalID: -4448649796862156132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_79
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1047
+        width: 55
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb71fd9062968d810800000000000000
+      internalID: 1790296463975061439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_80
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 1047
+        width: 55
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6010491eb00a4530800000000000000
+      internalID: 3839882448754184300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_81
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1047
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b9ac78ba6a91d10800000000000000
+      internalID: 2096890357165497114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_82
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1047
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44bc1628a58430d0800000000000000
+      internalID: -3443980857791171507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_83
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 1047
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032016b9846763fb0800000000000000
+      internalID: -4668413909506391504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_84
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 919
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba351521cd932c00800000000000000
+      internalID: 874716205516405437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_85
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 919
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687d8b2b4704b8a80800000000000000
+      internalID: -8463600204753873018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_86
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 919
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634d077b065c0c230800000000000000
+      internalID: 3657139916609999926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_87
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 919
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9d5fc30830cc6b0800000000000000
+      internalID: -5274837214244251220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_88
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 919
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb93cdc76e101790800000000000000
+      internalID: -7561510343172449312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_89
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 918
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d1c6dc8f4724bc0800000000000000
+      internalID: -3800346523600151204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_90
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 918
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044de533ec439c9c0800000000000000
+      internalID: -3906533141537434560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_91
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 917
+        width: 53
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84ef3f21acb7a2b0800000000000000
+      internalID: -5573278613379226483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_92
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 917
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524dfb876fd465280800000000000000
+      internalID: -9054964279798672347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_93
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 917
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f332d10538433020800000000000000
+      internalID: 2320277625526957041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_94
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 916
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d341d9e7de859eb10800000000000000
+      internalID: 2011236485652354109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_95
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 916
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebb63c3ca28e9ce0800000000000000
+      internalID: -1396535158182069279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_96
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 916
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7551d4f8aea6d2570800000000000000
+      internalID: 8443522432048633175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_97
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 917
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cff7ba3718d1570800000000000000
+      internalID: 8439043610560691203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_98
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 789
+        width: 54
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c518c6e988afc70800000000000000
+      internalID: 9005660618887355419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_99
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 789
+        width: 54
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d313d0694a76010800000000000000
+      internalID: 1182094391581425034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_100
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 789
+        width: 54
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89c5104204634c40800000000000000
+      internalID: 5495345931150018955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_101
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 789
+        width: 54
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6384a44271a0af550800000000000000
+      internalID: 6195275331910912054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_102
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 790
+        width: 53
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48e1eec5096da510800000000000000
+      internalID: 1562020119434094666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_103
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 790
+        width: 53
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be885e0d4e6615170800000000000000
+      internalID: 8165420732342700267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_104
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 789
+        width: 53
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f005506a33a02eca0800000000000000
+      internalID: -5989213337504362481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_105
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 789
+        width: 54
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02eee44e510e7c3e0800000000000000
+      internalID: -2033410322105176544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_106
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 789
+        width: 54
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b9286540dca65c0800000000000000
+      internalID: -4221336282191455456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_107
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 790
+        width: 55
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0eafe77d81aece0800000000000000
+      internalID: -1375259422380859201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_108
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 790
+        width: 56
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d22354801e8e81d0800000000000000
+      internalID: -3346581271499037995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_109
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 790
+        width: 56
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c35e0a6b6ba4d20800000000000000
+      internalID: 3263621775483026491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_110
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 790
+        width: 56
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4952f63c6c0db0c90800000000000000
+      internalID: -7202433626948033132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_111
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 790
+        width: 55
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788f7827768793da0800000000000000
+      internalID: -5964603845777033081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_112
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 662
+        width: 55
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac32e5636569ca500800000000000000
+      internalID: 408866963207365578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_113
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 663
+        width: 56
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6151f688c59a7880800000000000000
+      internalID: -8612406648902692498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_114
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 663
+        width: 58
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c335f39ba813fdbe0800000000000000
+      internalID: -1450386083106827460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_115
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 663
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8ac9ac8794f0c10800000000000000
+      internalID: 2021915540856809649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_116
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 663
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cbc75763f4d4230800000000000000
+      internalID: 3624640370421054527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_117
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 663
+        width: 62
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e9eaaf2a01fcac0800000000000000
+      internalID: -3832826465692508545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_118
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 663
+        width: 63
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e0bdbecbf72c6b0800000000000000
+      internalID: -5277515363937219060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_119
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 663
+        width: 64
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6b04d07adf0c040800000000000000
+      internalID: 4666008107879544480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_120
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 663
+        width: 65
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154c419aeb87acc30800000000000000
+      internalID: 4380446347847058513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_121
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 662
+        width: 62
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6393dd2cd2ecf8980800000000000000
+      internalID: -8534376072905672394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_122
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 662
+        width: 66
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de414d00b924a1a0800000000000000
+      internalID: -6799263701309239598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_123
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 661
+        width: 67
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4705780ab139fbc0800000000000000
+      internalID: -3748910539733661874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_124
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 661
+        width: 67
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6605f97c8246a60800000000000000
+      internalID: 7666297303527876326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_125
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 661
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa89a62076264640800000000000000
+      internalID: 5063777094151539360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_126
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 533
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567c3b3f35d365d50800000000000000
+      internalID: 6725630524304639845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_127
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 533
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2c010bf92b5eb30800000000000000
+      internalID: 4316052216827921132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_128
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 533
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d742bb8a4ad891b20800000000000000
+      internalID: 3105669156393657469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_129
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 533
+        width: 67
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e440c0d9abc592e50800000000000000
+      internalID: 6785056270178845774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_130
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 533
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f494a3ebad24200800000000000000
+      internalID: 162933047095283555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_131
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 533
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f626f663388a880800000000000000
+      internalID: -8599479218643767437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_132
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 533
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20b45103d167b410800000000000000
+      internalID: 1492769360384929835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_133
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 533
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03725cfc88f12fd80800000000000000
+      internalID: -8218471697535916240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_134
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 533
+        width: 64
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4909aea6f4b5640800000000000000
+      internalID: 5069733126156096716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_135
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 533
+        width: 62
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c2aa6f5cd333050800000000000000
+      internalID: 5779030667302677611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_136
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 534
+        width: 63
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56414a0ae91c907d0800000000000000
+      internalID: -2951615193720548251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_137
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 534
+        width: 62
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5f55270b2af7170800000000000000
+      internalID: 8178434327044289993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_138
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 534
+        width: 60
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7424a96e7365398d0800000000000000
+      internalID: -2840832141848591801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_139
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 535
+        width: 45
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7289d7355781ed0800000000000000
+      internalID: -2443073796398635100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_140
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 407
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e259a9a205b36a0800000000000000
+      internalID: -6468488295875269036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_141
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 407
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38f60e85845b8470800000000000000
+      internalID: 8397898862752626750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_142
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 417
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3af52a7d163abf60800000000000000
+      internalID: 8050806784109443644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_143
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 417
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d814e33000f849ba0800000000000000
+      internalID: -6083079966453513843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_144
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 417
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b893ea41b7b4af1c0800000000000000
+      internalID: -4469176688211773045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_145
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 417
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93be5d50dd63b9870800000000000000
+      internalID: 8690600228855081785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_146
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 418
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45b84a16eaf74fe0800000000000000
+      internalID: -1204718509107923635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_147
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 418
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576967788dd5d12d0800000000000000
+      internalID: -3306383366853061003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_148
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 418
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8de094f5a73e1a70800000000000000
+      internalID: 8799531907840798091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_149
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 419
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbe20a5f2ef3c330800000000000000
+      internalID: 3730104395719961591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_150
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 419
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512e6647ab2f4d5e0800000000000000
+      internalID: -1885615461330656747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_151
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 419
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1778befb42f35f4d0800000000000000
+      internalID: -3101503341303462031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_152
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 419
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4e19f7f68c730b0800000000000000
+      internalID: -5748906018107956037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_death (1)_153
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 420
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80abdcd7ca848a90800000000000000
+      internalID: -7312567303934336881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
