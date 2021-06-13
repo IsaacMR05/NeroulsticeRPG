@@ -8,7 +8,7 @@ public class BossGroundAttack : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         animator.SetBool("BaseAttack", false);
-        animator.SetBool("RangeAttack", false);
+        animator.SetBool("Invoked", false);
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks

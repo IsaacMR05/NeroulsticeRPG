@@ -66,6 +66,23 @@ public class Hurt_Player : MonoBehaviour
 
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            //Destroy(other.gameObject);
+            //other.gameObject.SetActive(false);    //eso hace que se quite el tick de arriba y lo hace invisible
+
+            other.gameObject.GetComponent<Health_Manager>().HurtPlayer(damageToGive);
+
+
+            //reloading = true;
+            //hará que se active el if de arriba
+
+        }
+    }
+
     private void OnCollisionStay2D(Collision2D collision) // necesito explicarlo( tornar a mirar el video
     {
         if (collision.collider.tag == "Player")
@@ -75,6 +92,7 @@ public class Hurt_Player : MonoBehaviour
         }
 
     }
+
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.collider.tag == "Player")

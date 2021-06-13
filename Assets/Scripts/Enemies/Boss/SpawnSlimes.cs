@@ -42,6 +42,8 @@ public class SpawnSlimes : StateMachineBehaviour
                 spawnPoint = new Vector2(randX, randY);
                 Instantiate(mutatedRobot, spawnPoint, Quaternion.identity);
         }
+
+        animator.SetBool("Invoked", true);
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks

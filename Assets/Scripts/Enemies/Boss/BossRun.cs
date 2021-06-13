@@ -49,18 +49,12 @@ public class BossRun : StateMachineBehaviour
             animator.SetTrigger("Phase 1");
             //bossSprite.color = new Color(255, 121, 142);
         }
-        else if (bossHealth.currentHealth <= 0)
-        {
-            animator.SetTrigger("Dead");
-        }
 
         if (Vector2.Distance(player.position, rb.position) <= onRangeDistance)
         {
             animator.SetTrigger("Attack");
         }
 
-        animator.SetFloat("movX", newPos.x);
-        animator.SetFloat("movY", newPos.y);
     }
 
     //OnStateExit is called when a transition ends and the state machine finishes evaluating this state

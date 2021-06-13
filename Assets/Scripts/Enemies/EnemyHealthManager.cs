@@ -9,10 +9,9 @@ public class EnemyHealthManager : MonoBehaviour
     public int maxHealth;
     public Player playerLevel;
     public Enemy enemy;
-    private int playerExp;
     public HealthBar healthBar;
     private Animator myAnimator;
-    public bool invencible = false;
+
 
 
 
@@ -22,6 +21,7 @@ public class EnemyHealthManager : MonoBehaviour
     {
         playerLevel = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         myAnimator = GetComponent<Animator>();
+
         currentHealth = maxHealth;
         if(healthBar != null)
         {
@@ -34,10 +34,6 @@ public class EnemyHealthManager : MonoBehaviour
     
     public void HurtEnemy (int damageToGive)
     {
-        if(enemy.name == "X" && invencible)
-        {
-            return;
-        }
         if (myAnimator != null)
         {
            myAnimator.SetBool("hit", true);
@@ -55,10 +51,10 @@ public class EnemyHealthManager : MonoBehaviour
 
             if (myAnimator != null)
             {
-               myAnimator.SetBool("dead",true);
+                myAnimator.SetBool("dead", true);
             }
-            
-           if(myAnimator == null)
+
+            if (myAnimator == null)
             {
                 Destroy(gameObject);
             }

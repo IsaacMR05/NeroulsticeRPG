@@ -11,6 +11,7 @@ TagManager:
   - WallCollider
   - Boss
   - Invoked
+  - NPC
   layers:
   - Default
   - TransparentFX
