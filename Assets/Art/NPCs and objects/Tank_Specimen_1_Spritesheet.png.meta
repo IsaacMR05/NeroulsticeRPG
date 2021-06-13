@@ -1,0 +1,488 @@
+fileFormatVersion: 2
+guid: d860681d7d4cea9499efadd4224fe8e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1237281223015156232
+    second: Tank_Specimen_1_Spritesheet_0
+  - first:
+      213: 7832997497476511756
+    second: Tank_Specimen_1_Spritesheet_1
+  - first:
+      213: 98094483593321532
+    second: Tank_Specimen_1_Spritesheet_2
+  - first:
+      213: 3615883935181292755
+    second: Tank_Specimen_1_Spritesheet_3
+  - first:
+      213: 8738369634103277404
+    second: Tank_Specimen_1_Spritesheet_4
+  - first:
+      213: 4541856435345757156
+    second: Tank_Specimen_1_Spritesheet_5
+  - first:
+      213: 1136555403826995811
+    second: Tank_Specimen_1_Spritesheet_6
+  - first:
+      213: -4704448849463245435
+    second: Tank_Specimen_1_Spritesheet_7
+  - first:
+      213: 6971964019314332961
+    second: Tank_Specimen_1_Spritesheet_8
+  - first:
+      213: 1581647889988354713
+    second: Tank_Specimen_1_Spritesheet_9
+  - first:
+      213: -6870677145226570363
+    second: Tank_Specimen_1_Spritesheet_10
+  - first:
+      213: -5966159714522320181
+    second: Tank_Specimen_1_Spritesheet_11
+  - first:
+      213: 5109159091343256990
+    second: Tank_Specimen_1_Spritesheet_12
+  - first:
+      213: -7370122108030604317
+    second: Tank_Specimen_1_Spritesheet_13
+  - first:
+      213: -8350035368010533261
+    second: Tank_Specimen_1_Spritesheet_14
+  - first:
+      213: 4968319839248259818
+    second: Tank_Specimen_1_Spritesheet_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tank_Specimen_1_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a441987b4bb2110800000000000000
+      internalID: 1237281223015156232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank_Specimen_1_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 85
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c087c9319b564bc60800000000000000
+      internalID: 7832997497476511756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank_Specimen_1_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 85
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c5101c9608c5100800000000000000
+      internalID: 98094483593321532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank_Specimen_1_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 85
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4c58108433e2230800000000000000
+      internalID: 3615883935181292755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank_Specimen_1_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 85
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5739c462ece44970800000000000000
+      internalID: 8738369634103277404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank_Specimen_1_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 85
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e31b993d5ae70f30800000000000000
+      internalID: 4541856435345757156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank_Specimen_1_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 85
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362a8a83e1bd5cf00800000000000000
+      internalID: 1136555403826995811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank_Specimen_1_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 85
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5858fb752b076beb0800000000000000
+      internalID: -4704448849463245435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank_Specimen_1_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1251906265461c060800000000000000
+      internalID: 6971964019314332961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank_Specimen_1_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 17
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9928082406423f510800000000000000
+      internalID: 1581647889988354713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank_Specimen_1_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 17
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5851060f98376a0a0800000000000000
+      internalID: -6870677145226570363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank_Specimen_1_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 17
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2b6a68951f33da0800000000000000
+      internalID: -5966159714522320181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank_Specimen_1_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 17
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9de874cf1167e640800000000000000
+      internalID: 5109159091343256990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank_Specimen_1_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 17
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb2597cdf018b990800000000000000
+      internalID: -7370122108030604317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank_Specimen_1_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 17
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376b8cbb217be1c80800000000000000
+      internalID: -8350035368010533261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank_Specimen_1_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 17
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea1bec029403f440800000000000000
+      internalID: 4968319839248259818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
