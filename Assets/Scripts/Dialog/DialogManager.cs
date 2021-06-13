@@ -10,6 +10,7 @@ public class DialogManager : MonoBehaviour
     public GameObject dialogBox;
     public GameObject nameBox;
     public GameObject keyShortcuts;
+    public GameObject popUp;
 
     public string[] dialogLines;
 
@@ -40,6 +41,7 @@ public class DialogManager : MonoBehaviour
                     if (currentLine >= dialogLines.Length)
                     { 
                         dialogBox.SetActive(false);
+                        popUp.SetActive(true);
                         keyShortcuts.SetActive(true);
                         PlayerControler.instance.canMove = true;
                     }
@@ -69,6 +71,8 @@ public class DialogManager : MonoBehaviour
         dialogText.text = dialogLines[currentLine];
         dialogBox.SetActive(true);
         keyShortcuts.SetActive(false);
+        popUp.SetActive(false);
+
 
         justStarted = true;
 

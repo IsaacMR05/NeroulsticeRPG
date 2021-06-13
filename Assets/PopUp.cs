@@ -15,7 +15,7 @@ public class PopUp : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
 
-        if (other.CompareTag("Weapon"))
+        if (other.CompareTag("Weapon") || other.CompareTag("NPC"))
         {
             popUp.SetActive(true);
         }
@@ -24,9 +24,11 @@ public class PopUp : MonoBehaviour
     void OnTriggerExit2D(Collider2D other)
     {
 
-        if (other.CompareTag("Weapon"))
+        if (other.CompareTag("Weapon") || other.CompareTag("NPC"))
         {
             popUp.SetActive(false);
         }
     }
+
+
 }
