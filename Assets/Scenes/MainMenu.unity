@@ -2254,7 +2254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c35de195ed47b4c97c1417e06ba592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameScene: Game Scene
+  gameScene: Game Scene (Test)
   demo: Demo Scene
   twitter: https://twitter.com/TheXIncident
 --- !u!114 &1926239338

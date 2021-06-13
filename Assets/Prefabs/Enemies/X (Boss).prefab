@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df3c00ea0ace46a4086ab6b7328da431, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wait_to_hurt: 0.99
+  wait_to_hurt: 2
   damageToGive: 20
 --- !u!1 &8314133646489599882
 GameObject:
@@ -232,7 +232,6 @@ MonoBehaviour:
   playerLevel: {fileID: 0}
   enemy: {fileID: 8314133646489599880}
   healthBar: {fileID: 0}
-  myAnimator: {fileID: 2740758908587575928}
 --- !u!114 &6225698767385200932
 MonoBehaviour:
   m_ObjectHideFlags: 0
