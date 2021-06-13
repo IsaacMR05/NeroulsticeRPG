@@ -1,7 +1,40 @@
 fileFormatVersion: 2
 guid: db56bcde21945df40a99672efd4f60ea
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7860975138684198277
+    second: X_attack_phase_change_0
+  - first:
+      213: 1246789580052560529
+    second: X_attack_phase_change_1
+  - first:
+      213: 7471309679565712392
+    second: X_attack_phase_change_2
+  - first:
+      213: 7238458092348173486
+    second: X_attack_phase_change_3
+  - first:
+      213: -8509386145077438318
+    second: X_attack_phase_change_4
+  - first:
+      213: 2936630877684492226
+    second: X_attack_phase_change_5
+  - first:
+      213: -6599233831392068342
+    second: X_attack_phase_change_6
+  - first:
+      213: -3522160717976262043
+    second: X_attack_phase_change_7
+  - first:
+      213: -1310920825747514028
+    second: X_attack_phase_change_8
+  - first:
+      213: -201864769049421605
+    second: X_attack_phase_change_9
+  - first:
+      213: -4667920502293543558
+    second: X_attack_phase_change_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +73,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16.01
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -61,10 +94,22 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -73,7 +118,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: X_attack_phase_change_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 80
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b722d86b2c438e290800000000000000
+      internalID: -7860975138684198277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_attack_phase_change_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 80
+        width: 67
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5970149, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ca371a19c6fa760800000000000000
+      internalID: 7471309679565712392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_attack_phase_change_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 80
+        width: 88
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5227273, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298570eb26698e980800000000000000
+      internalID: -8509386145077438318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_attack_phase_change_6
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 80
+        width: 81
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5432099, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0db22a6bcfca64a0800000000000000
+      internalID: -6599233831392068342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_attack_phase_change_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 81
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5432099, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56aa03bfc75ce1fc0800000000000000
+      internalID: -3522160717976262043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X_attack_phase_change_9
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 81
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5432099, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd89424ef05d23df0800000000000000
+      internalID: -201864769049421605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
