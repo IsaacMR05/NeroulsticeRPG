@@ -1,0 +1,452 @@
+fileFormatVersion: 2
+guid: 64b06f147a87fb945b693f202831c1c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -330322431250798969
+    second: Maxwell_Running_SpriteSheet_left_0
+  - first:
+      213: -6293782523990545495
+    second: Maxwell_Running_SpriteSheet_left_1
+  - first:
+      213: -3989350980380221850
+    second: Maxwell_Running_SpriteSheet_left_2
+  - first:
+      213: 8070000281717508636
+    second: Maxwell_Running_SpriteSheet_left_3
+  - first:
+      213: -4996223815116133894
+    second: Maxwell_Running_SpriteSheet_left_4
+  - first:
+      213: 3493060267613775835
+    second: Maxwell_Running_SpriteSheet_left_5
+  - first:
+      213: 3658577161457612668
+    second: Maxwell_Running_SpriteSheet_left_6
+  - first:
+      213: 8687818560244640846
+    second: Maxwell_Running_SpriteSheet_left_7
+  - first:
+      213: 2590987244453181378
+    second: Maxwell_Running_SpriteSheet_left_8
+  - first:
+      213: -7857242095389912627
+    second: Maxwell_Running_SpriteSheet_left_9
+  - first:
+      213: -4813277439304555160
+    second: Maxwell_Running_SpriteSheet_left_10
+  - first:
+      213: 1043657564446987091
+    second: Maxwell_Running_SpriteSheet_left_11
+  - first:
+      213: -6350134378239394835
+    second: Maxwell_Running_SpriteSheet_left_12
+  - first:
+      213: -5999789978884137275
+    second: Maxwell_Running_SpriteSheet_left_13
+  - first:
+      213: 4289588363554379025
+    second: Maxwell_Running_SpriteSheet_left_14
+  - first:
+      213: -952753112342908375
+    second: Maxwell_Running_SpriteSheet_left_15
+  - first:
+      213: -5786644356189393772
+    second: Maxwell_Running_SpriteSheet_left_16
+  - first:
+      213: 2173701790817194958
+    second: Maxwell_Running_SpriteSheet_left_17
+  - first:
+      213: -8983238783382778205
+    second: Maxwell_Running_SpriteSheet_left_18
+  - first:
+      213: 4882071360685679341
+    second: Maxwell_Running_SpriteSheet_left_19
+  - first:
+      213: -5452199954635603664
+    second: Maxwell_Running_SpriteSheet_left_20
+  - first:
+      213: 6066320360186617431
+    second: Maxwell_Running_SpriteSheet_left_21
+  - first:
+      213: -2594623501434440115
+    second: Maxwell_Running_SpriteSheet_left_22
+  - first:
+      213: 3302913329635284782
+    second: Maxwell_Running_SpriteSheet_left_23
+  - first:
+      213: 7100209158517228056
+    second: Maxwell_Running_SpriteSheet_left_0
+  - first:
+      213: 3985460953648067361
+    second: Maxwell_Running_SpriteSheet_left_2
+  - first:
+      213: -4646315447006728197
+    second: Maxwell_Running_SpriteSheet_left_4
+  - first:
+      213: -126560756716171859
+    second: Maxwell_Running_SpriteSheet_left_5
+  - first:
+      213: -8053709742078980857
+    second: Maxwell_Running_SpriteSheet_left_6
+  - first:
+      213: 3755711256193835637
+    second: Maxwell_Running_SpriteSheet_left_8
+  - first:
+      213: -4990007701436739748
+    second: Maxwell_Running_SpriteSheet_left_10
+  - first:
+      213: -7507437972615824132
+    second: Maxwell_Running_SpriteSheet_left_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Maxwell_Running_SpriteSheet_left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81205647c92098260800000000000000
+      internalID: 7100209158517228056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maxwell_Running_SpriteSheet_left_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab6bfbe32ef7a8a0800000000000000
+      internalID: -6293782523990545495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maxwell_Running_SpriteSheet_left_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123f1681f933f4730800000000000000
+      internalID: 3985460953648067361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maxwell_Running_SpriteSheet_left_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a0311ef766eff60800000000000000
+      internalID: 8070000281717508636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maxwell_Running_SpriteSheet_left_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffe0cad7b8f48fb0800000000000000
+      internalID: -4646315447006728197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maxwell_Running_SpriteSheet_left_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad8d6d89ad5e3ef0800000000000000
+      internalID: -126560756716171859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maxwell_Running_SpriteSheet_left_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d8743f8a97b3090800000000000000
+      internalID: -8053709742078980857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maxwell_Running_SpriteSheet_left_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c6d6453f4519870800000000000000
+      internalID: 8687818560244640846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maxwell_Running_SpriteSheet_left_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572ae582d77fe1430800000000000000
+      internalID: 3755711256193835637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maxwell_Running_SpriteSheet_left_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1d90691f775f290800000000000000
+      internalID: -7857242095389912627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maxwell_Running_SpriteSheet_left_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f46690f6eefbab0800000000000000
+      internalID: -4990007701436739748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maxwell_Running_SpriteSheet_left_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc74f4a0f830d790800000000000000
+      internalID: -7507437972615824132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

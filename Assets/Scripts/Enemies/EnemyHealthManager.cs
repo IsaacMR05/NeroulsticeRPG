@@ -28,7 +28,7 @@ public class EnemyHealthManager : MonoBehaviour
             healthBar.SetMaxHealth(maxHealth);
         }
 
-        enemy = EnemyHealthManager.FindObjectOfType<Enemy>();
+        enemy = GetComponent<Enemy>();
     }
     
     
@@ -48,16 +48,19 @@ public class EnemyHealthManager : MonoBehaviour
           healthBar.SetHealth(currentHealth);
 
         }
+        Debug.Log("Klk");
 
-       
 
         if (currentHealth <= 0)
         {
+            Debug.Log(enemy.experience);
+            playerLevel.level.AddExp(enemy.experience); //Call function to give XP for the player
+
             if (myAnimator != null)
             {
                myAnimator.SetBool("dead",true);
             }
-            playerLevel.level.AddExp(enemy.experience); //Call function to give XP for the player
+            
            if(myAnimator == null)
             {
                 Destroy(gameObject);
