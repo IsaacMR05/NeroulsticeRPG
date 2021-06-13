@@ -48,7 +48,7 @@ public class HurtEnemy : MonoBehaviour
         switch (weaponID)
         {
             case 0:
-                if (other.tag == "Enemy" || other.tag == "RangedEnemy") //només te el tag el slime
+                if (other.tag == "Enemy" || other.tag == "RangedEnemy" || other.tag == "Boss") //només te el tag el slime
                 {
 
                     damageToGive = (int)((knifeBaseDamage + Random.Range(0,1))*percentage);
@@ -61,7 +61,7 @@ public class HurtEnemy : MonoBehaviour
 
             case 1:
                 
-                if (other.tag == "Enemy" || other.tag == "RangedEnemy") //només te el tag el slime
+                if (other.tag == "Enemy" || other.tag == "RangedEnemy" || other.tag == "Boss") //només te el tag el slime
                 {
                     damageToGive = (int)((wrenchBaseDamage + Random.Range(0, 1))*percentage); 
                     EnemyHealthManager eHealth;
@@ -71,7 +71,7 @@ public class HurtEnemy : MonoBehaviour
                 break;
 
             case 2:
-                if (other.tag == "Enemy" || other.tag == "RangedEnemy") //només te el tag el slime
+                if (other.tag == "Enemy" || other.tag == "RangedEnemy" || other.tag == "Boss") //només te el tag el slime
                 {
                     damageToGive = (int)((swordBaseDamage + Random.Range(0,3))*percentage);
                     EnemyHealthManager eHealth;

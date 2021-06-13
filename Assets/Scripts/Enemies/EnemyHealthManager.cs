@@ -12,6 +12,7 @@ public class EnemyHealthManager : MonoBehaviour
     private int playerExp;
     public HealthBar healthBar;
     private Animator myAnimator;
+    public bool invencible = false;
 
 
 
@@ -19,17 +20,24 @@ public class EnemyHealthManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        playerLevel = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         myAnimator = GetComponent<Animator>();
         currentHealth = maxHealth;
         if(healthBar != null)
         {
             healthBar.SetMaxHealth(maxHealth);
         }
+
+        enemy = EnemyHealthManager.FindObjectOfType<Enemy>();
     }
     
     
     public void HurtEnemy (int damageToGive)
     {
+        if(enemy.name == "X" && invencible)
+        {
+            return;
+        }
         if (myAnimator != null)
         {
            myAnimator.SetBool("hit", true);

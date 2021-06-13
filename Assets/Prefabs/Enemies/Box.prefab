@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7110395889735203554}
   - component: {fileID: 7110395889735203557}
-  - component: {fileID: 2382317506163837624}
+  - component: {fileID: 1476780285434431361}
   - component: {fileID: 7498451434999323398}
   - component: {fileID: 6412312459366797144}
   - component: {fileID: 7110395889735203556}
@@ -87,7 +87,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2382317506163837624
+--- !u!114 &1476780285434431361
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,7 +118,7 @@ MonoBehaviour:
   currentHealth: 0
   maxHealth: 15
   playerLevel: {fileID: 0}
-  enemy: {fileID: 2382317506163837624}
+  enemy: {fileID: 0}
   healthBar: {fileID: 0}
 --- !u!114 &6412312459366797144
 MonoBehaviour:

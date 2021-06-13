@@ -9,6 +9,7 @@ TagManager:
   - GM
   - RangedEnemy
   - WallCollider
+  - Boss
   layers:
   - Default
   - TransparentFX

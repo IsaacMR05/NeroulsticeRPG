@@ -14,16 +14,17 @@ public class Box : MonoBehaviour
     {
         boxHealth = GetComponent<EnemyHealthManager>();
         rend = GetComponent<SpriteRenderer>();
-        //boxSprite = Resources.Load<Sprite>("Boxes_3");
-        //damagedBoxSprite = Resources.Load<Sprite>("Boxes_4");
-        //tooDamagedBoxSprite = Resources.Load<Sprite>("Boxes_5");
+
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        if(boxHealth.currentHealth <= 5)
+        if (boxHealth.currentHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
+        else if(boxHealth.currentHealth <= 5)
         {
             
             rend.sprite = tooDamagedBoxSprite;

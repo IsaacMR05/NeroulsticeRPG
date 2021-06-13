@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     private SpriteRenderer sprite;
-    public GameObject player;
+    public Transform player;
     public Attribute attributes; 
     public  new string name;
     public   int experience;
@@ -13,10 +13,12 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
+
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
     void Update()
     {
-        if (player != null)
+        if (player != null && name != "Box")
         {
             if (player.transform.position.y > this.transform.position.y)
             {
